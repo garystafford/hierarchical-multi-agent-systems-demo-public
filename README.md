@@ -4,7 +4,7 @@ Code companion for **Beyond a Single Agent: Subagent Delegation with GPT-6.1 Sol
 
 The model decides whether to delegate, what to assign, and how many subagents and delegation levels to use within resource ceilings. There is no prescribed team, minimum count or required depth. The source uses `single` and `native` as internal arm identifiers; `native` means **Subagents enabled** through the API’s hosted collaboration actions.
 
-This repository contains the implementation, twelve demo tasks, scoring and offline tests. Executing the study generates fresh local results. Saved results and figures from the article are not bundled.
+This repository contains the implementation, twelve demo tasks, original scoring, separate post-hoc citation calibration and offline tests. Executing the study generates fresh local results. Saved results and figures from the article are not bundled.
 
 ## Delegation previews
 
@@ -30,6 +30,7 @@ On Windows, activate the environment with `.venv\Scripts\Activate.ps1` in PowerS
 
 ```sh
 python experiments/responses-websocket-suite-12/test_suite.py
+python experiments/responses-websocket-suite-12/test_citation_calibration.py
 ```
 
 The checks replay the references, grade correct and deliberately incorrect reports, enforce source isolation, and test root-report retention and function-result delivery. They make no API calls and require no API key.
@@ -46,6 +47,7 @@ cp .env.example .env
 python experiments/responses-websocket-suite-12/study.py --freeze
 python experiments/responses-websocket-suite-12/study.py --run
 python experiments/responses-websocket-suite-12/analysis/analyze.py
+python experiments/responses-websocket-suite-12/citation_calibration.py
 ```
 
 `--freeze` records the task, scoring, runtime and initial-request hashes without calling the API. `--run` makes paid API calls. It runs the full five-pair schedule, preserves terminal attempts, and stops on unresolved admissions. No automatic model retries, reconnects or replacement trials occur. Each arm gets the same task, source access, model, reasoning effort and output contract; the enabled arm adds the discretionary delegation instruction and uses immediate tool-result injection.
@@ -60,22 +62,26 @@ Quality includes exact facts, finding precision/recall/F1, structural source cov
 
 Task answer keys are distributed for local grading, but the API-facing `read_evidence` tool can only read the indexed source files. It cannot access answer keys, arbitrary paths or this repository’s `.env` file.
 
+The article reports the current scores in `analysis/citation-calibration/comparison.json`, including task passes and recomputed exploratory screening. The original grader and comparison retain their frozen source-ID checklist for audit. `citation_calibration.py` applies claim-specific source dependencies and verified prerequisite facts within the same report, writes only to `analysis/citation-calibration/`, and verifies the original files’ hashes. It never starts API work. These rules were calibrated on the article’s retained reports, not a held-out validation set; they are not a semantic-entailment judge.
+
 ## Source map
 
 All implementation code is under [experiments/responses-websocket-suite-12](experiments/responses-websocket-suite-12).
 
-| File                                                                                | Purpose                                                                                  |
-| ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| [ws_runner.py](experiments/responses-websocket-suite-12/ws_runner.py)               | WebSocket events, immediate injection, ordinary continuations and root-report collection |
-| [protocol.py](experiments/responses-websocket-suite-12/protocol.py)                 | Shared request settings, prompts, evidence tool and token pricing                        |
-| [report.py](experiments/responses-websocket-suite-12/report.py)                     | Local report validation                                                                  |
-| [study.py](experiments/responses-websocket-suite-12/study.py)                       | Freeze and execute the paired schedule                                                   |
-| [grade.py](experiments/responses-websocket-suite-12/grade.py)                       | Deterministic report scoring                                                             |
-| [reference.py](experiments/responses-websocket-suite-12/reference.py)               | Calculate reference answers from sources                                                 |
-| [build_cases.py](experiments/responses-websocket-suite-12/build_cases.py)           | Generate the twelve demo tasks                                                           |
-| [test_suite.py](experiments/responses-websocket-suite-12/test_suite.py)             | Offline reference, scoring, source-isolation and collector checks                        |
-| [analysis/analyze.py](experiments/responses-websocket-suite-12/analysis/analyze.py) | Summarize results generated by your run                                                  |
-| [cases/](experiments/responses-websocket-suite-12/cases)                            | Task inputs, source allowlists and offline answer keys                                   |
+| File | Purpose |
+| --- | --- |
+| [ws_runner.py](experiments/responses-websocket-suite-12/ws_runner.py) | WebSocket events, immediate injection, ordinary continuations and root-report collection |
+| [protocol.py](experiments/responses-websocket-suite-12/protocol.py) | Shared request settings, prompts, evidence tool and token pricing |
+| [report.py](experiments/responses-websocket-suite-12/report.py) | Local report validation |
+| [study.py](experiments/responses-websocket-suite-12/study.py) | Freeze and execute the paired schedule |
+| [grade.py](experiments/responses-websocket-suite-12/grade.py) | Deterministic report scoring |
+| [reference.py](experiments/responses-websocket-suite-12/reference.py) | Calculate reference answers from sources |
+| [build_cases.py](experiments/responses-websocket-suite-12/build_cases.py) | Generate the twelve demo tasks |
+| [citation_calibration.py](experiments/responses-websocket-suite-12/citation_calibration.py) | Separate offline post-hoc source-dependency analysis and preservation checks |
+| [test_citation_calibration.py](experiments/responses-websocket-suite-12/test_citation_calibration.py) | Eleven offline checks for necessary sources, wrong values and broken dependency chains |
+| [test_suite.py](experiments/responses-websocket-suite-12/test_suite.py) | Offline reference, scoring, source-isolation and collector checks |
+| [analysis/analyze.py](experiments/responses-websocket-suite-12/analysis/analyze.py) | Summarize results generated by your run |
+| [cases/](experiments/responses-websocket-suite-12/cases) | Task inputs, source allowlists and offline answer keys |
 
 See [DESIGN.md](experiments/responses-websocket-suite-12/DESIGN.md) for the evaluation controls.
 
