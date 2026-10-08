@@ -1,0 +1,30 @@
+{
+  "id": "XENON-AMENDMENTS",
+  "title": "xenon effective-date amendment register",
+  "vendor": "xenon",
+  "amendments": [
+    {
+      "effective_day": 31,
+      "status": "executed",
+      "fields": {
+        "capacity": 5900
+      }
+    },
+    {
+      "effective_day": 40,
+      "status": "executed",
+      "fields": {
+        "capacity": 6200
+      }
+    },
+    {
+      "effective_day": 45,
+      "status": "executed",
+      "fields": {
+        "eu_only": true,
+        "delivery_weeks": 5,
+        "contractual_rto_minutes": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,968 @@
+{
+  "facts": {
+    "elm.expected_local_minor": 155103,
+    "elm.actual_local_minor": 204393,
+    "elm.overbilled_local_minor": 51154,
+    "elm.underbilled_local_minor": 1864,
+    "elm.overbilled_orders": 7,
+    "elm.underbilled_orders": 1,
+    "elm.cancelled_billed_orders": 2,
+    "elm.duplicate_invoice_orders": 2,
+    "ford.expected_local_minor": 159793,
+    "ford.actual_local_minor": 189351,
+    "ford.overbilled_local_minor": 32253,
+    "ford.underbilled_local_minor": 2695,
+    "ford.overbilled_orders": 6,
+    "ford.underbilled_orders": 2,
+    "ford.cancelled_billed_orders": 2,
+    "ford.duplicate_invoice_orders": 1,
+    "glen.expected_local_minor": 163657,
+    "glen.actual_local_minor": 212379,
+    "glen.overbilled_local_minor": 49659,
+    "glen.underbilled_local_minor": 937,
+    "glen.overbilled_orders": 6,
+    "glen.underbilled_orders": 2,
+    "glen.cancelled_billed_orders": 2,
+    "glen.duplicate_invoice_orders": 2,
+    "haven.expected_local_minor": 128105,
+    "haven.actual_local_minor": 144314,
+    "haven.overbilled_local_minor": 17893,
+    "haven.underbilled_local_minor": 1684,
+    "haven.overbilled_orders": 5,
+    "haven.underbilled_orders": 2,
+    "haven.cancelled_billed_orders": 1,
+    "haven.duplicate_invoice_orders": 2,
+    "all.expected_usd_cents": 689062,
+    "all.actual_usd_cents": 852980,
+    "all.overbilled_usd_cents": 171871,
+    "all.underbilled_usd_cents": 7953,
+    "all.hold_billing": true
+  },
+  "required_sources": {
+    "elm.expected_local_minor": [
+      "OPS-POLICY",
+      "ELM-ORDERS",
+      "ELM-FULFILLMENT"
+    ],
+    "elm.actual_local_minor": [
+      "OPS-POLICY",
+      "ELM-LEDGER"
+    ],
+    "elm.overbilled_local_minor": [
+      "OPS-POLICY",
+      "ELM-ORDERS",
+      "ELM-FULFILLMENT",
+      "ELM-LEDGER"
+    ],
+    "elm.underbilled_local_minor": [
+      "OPS-POLICY",
+      "ELM-ORDERS",
+      "ELM-FULFILLMENT",
+      "ELM-LEDGER"
+    ],
+    "elm.overbilled_orders": [
+      "OPS-POLICY",
+      "ELM-ORDERS",
+      "ELM-FULFILLMENT",
+      "ELM-LEDGER"
+    ],
+    "elm.underbilled_orders": [
+      "OPS-POLICY",
+      "ELM-ORDERS",
+      "ELM-FULFILLMENT",
+      "ELM-LEDGER"
+    ],
+    "elm.cancelled_billed_orders": [
+      "OPS-POLICY",
+      "ELM-ORDERS",
+      "ELM-FULFILLMENT",
+      "ELM-LEDGER"
+    ],
+    "elm.duplicate_invoice_orders": [
+      "OPS-POLICY",
+      "ELM-ORDERS",
+      "ELM-FULFILLMENT",
+      "ELM-LEDGER"
+    ],
+    "ford.expected_local_minor": [
+      "OPS-POLICY",
+      "FORD-ORDERS",
+      "FORD-FULFILLMENT"
+    ],
+    "ford.actual_local_minor": [
+      "OPS-POLICY",
+      "FORD-LEDGER"
+    ],
+    "ford.overbilled_local_minor": [
+      "OPS-POLICY",
+      "FORD-ORDERS",
+      "FORD-FULFILLMENT",
+      "FORD-LEDGER"
+    ],
+    "ford.underbilled_local_minor": [
+      "OPS-POLICY",
+      "FORD-ORDERS",
+      "FORD-FULFILLMENT",
+      "FORD-LEDGER"
+    ],
+    "ford.overbilled_orders": [
+      "OPS-POLICY",
+      "FORD-ORDERS",
+      "FORD-FULFILLMENT",
+      "FORD-LEDGER"
+    ],
+    "ford.underbilled_orders": [
+      "OPS-POLICY",
+      "FORD-ORDERS",
+      "FORD-FULFILLMENT",
+      "FORD-LEDGER"
+    ],
+    "ford.cancelled_billed_orders": [
+      "OPS-POLICY",
+      "FORD-ORDERS",
+      "FORD-FULFILLMENT",
+      "FORD-LEDGER"
+    ],
+    "ford.duplicate_invoice_orders": [
+      "OPS-POLICY",
+      "FORD-ORDERS",
+      "FORD-FULFILLMENT",
+      "FORD-LEDGER"
+    ],
+    "glen.expected_local_minor": [
+      "OPS-POLICY",
+      "GLEN-ORDERS",
+      "GLEN-FULFILLMENT"
+    ],
+    "glen.actual_local_minor": [
+      "OPS-POLICY",
+      "GLEN-LEDGER"
+    ],
+    "glen.overbilled_local_minor": [
+      "OPS-POLICY",
+      "GLEN-ORDERS",
+      "GLEN-FULFILLMENT",
+      "GLEN-LEDGER"
+    ],
+    "glen.underbilled_local_minor": [
+      "OPS-POLICY",
+      "GLEN-ORDERS",
+      "GLEN-FULFILLMENT",
+      "GLEN-LEDGER"
+    ],
+    "glen.overbilled_orders": [
+      "OPS-POLICY",
+      "GLEN-ORDERS",
+      "GLEN-FULFILLMENT",
+      "GLEN-LEDGER"
+    ],
+    "glen.underbilled_orders": [
+      "OPS-POLICY",
+      "GLEN-ORDERS",
+      "GLEN-FULFILLMENT",
+      "GLEN-LEDGER"
+    ],
+    "glen.cancelled_billed_orders": [
+      "OPS-POLICY",
+      "GLEN-ORDERS",
+      "GLEN-FULFILLMENT",
+      "GLEN-LEDGER"
+    ],
+    "glen.duplicate_invoice_orders": [
+      "OPS-POLICY",
+      "GLEN-ORDERS",
+      "GLEN-FULFILLMENT",
+      "GLEN-LEDGER"
+    ],
+    "haven.expected_local_minor": [
+      "OPS-POLICY",
+      "HAVEN-ORDERS",
+      "HAVEN-FULFILLMENT"
+    ],
+    "haven.actual_local_minor": [
+      "OPS-POLICY",
+      "HAVEN-LEDGER"
+    ],
+    "haven.overbilled_local_minor": [
+      "OPS-POLICY",
+      "HAVEN-ORDERS",
+      "HAVEN-FULFILLMENT",
+      "HAVEN-LEDGER"
+    ],
+    "haven.underbilled_local_minor": [
+      "OPS-POLICY",
+      "HAVEN-ORDERS",
+      "HAVEN-FULFILLMENT",
+      "HAVEN-LEDGER"
+    ],
+    "haven.overbilled_orders": [
+      "OPS-POLICY",
+      "HAVEN-ORDERS",
+      "HAVEN-FULFILLMENT",
+      "HAVEN-LEDGER"
+    ],
+    "haven.underbilled_orders": [
+      "OPS-POLICY",
+      "HAVEN-ORDERS",
+      "HAVEN-FULFILLMENT",
+      "HAVEN-LEDGER"
+    ],
+    "haven.cancelled_billed_orders": [
+      "OPS-POLICY",
+      "HAVEN-ORDERS",
+      "HAVEN-FULFILLMENT",
+      "HAVEN-LEDGER"
+    ],
+    "haven.duplicate_invoice_orders": [
+      "OPS-POLICY",
+      "HAVEN-ORDERS",
+      "HAVEN-FULFILLMENT",
+      "HAVEN-LEDGER"
+    ],
+    "all.expected_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.actual_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.overbilled_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.underbilled_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.hold_billing": [
+      "OPS-POLICY"
+    ]
+  },
+  "findings": [
+    "elm.cancelled_billed",
+    "elm.duplicate_invoices",
+    "elm.overbilled",
+    "elm.underbilled",
+    "ford.cancelled_billed",
+    "ford.duplicate_invoices",
+    "ford.overbilled",
+    "ford.underbilled",
+    "glen.cancelled_billed",
+    "glen.duplicate_invoices",
+    "glen.overbilled",
+    "glen.underbilled",
+    "haven.cancelled_billed",
+    "haven.duplicate_invoices",
+    "haven.overbilled",
+    "haven.underbilled"
+  ],
+  "finding_sources": {
+    "elm.overbilled": [
+      "OPS-POLICY",
+      "ELM-ORDERS",
+      "ELM-FULFILLMENT",
+      "ELM-LEDGER"
+    ],
+    "elm.underbilled": [
+      "OPS-POLICY",
+      "ELM-ORDERS",
+      "ELM-FULFILLMENT",
+      "ELM-LEDGER"
+    ],
+    "elm.cancelled_billed": [
+      "OPS-POLICY",
+      "ELM-ORDERS",
+      "ELM-FULFILLMENT",
+      "ELM-LEDGER"
+    ],
+    "elm.duplicate_invoices": [
+      "OPS-POLICY",
+      "ELM-ORDERS",
+      "ELM-FULFILLMENT",
+      "ELM-LEDGER"
+    ],
+    "ford.overbilled": [
+      "OPS-POLICY",
+      "FORD-ORDERS",
+      "FORD-FULFILLMENT",
+      "FORD-LEDGER"
+    ],
+    "ford.underbilled": [
+      "OPS-POLICY",
+      "FORD-ORDERS",
+      "FORD-FULFILLMENT",
+      "FORD-LEDGER"
+    ],
+    "ford.cancelled_billed": [
+      "OPS-POLICY",
+      "FORD-ORDERS",
+      "FORD-FULFILLMENT",
+      "FORD-LEDGER"
+    ],
+    "ford.duplicate_invoices": [
+      "OPS-POLICY",
+      "FORD-ORDERS",
+      "FORD-FULFILLMENT",
+      "FORD-LEDGER"
+    ],
+    "glen.overbilled": [
+      "OPS-POLICY",
+      "GLEN-ORDERS",
+      "GLEN-FULFILLMENT",
+      "GLEN-LEDGER"
+    ],
+    "glen.underbilled": [
+      "OPS-POLICY",
+      "GLEN-ORDERS",
+      "GLEN-FULFILLMENT",
+      "GLEN-LEDGER"
+    ],
+    "glen.cancelled_billed": [
+      "OPS-POLICY",
+      "GLEN-ORDERS",
+      "GLEN-FULFILLMENT",
+      "GLEN-LEDGER"
+    ],
+    "glen.duplicate_invoices": [
+      "OPS-POLICY",
+      "GLEN-ORDERS",
+      "GLEN-FULFILLMENT",
+      "GLEN-LEDGER"
+    ],
+    "haven.overbilled": [
+      "OPS-POLICY",
+      "HAVEN-ORDERS",
+      "HAVEN-FULFILLMENT",
+      "HAVEN-LEDGER"
+    ],
+    "haven.underbilled": [
+      "OPS-POLICY",
+      "HAVEN-ORDERS",
+      "HAVEN-FULFILLMENT",
+      "HAVEN-LEDGER"
+    ],
+    "haven.cancelled_billed": [
+      "OPS-POLICY",
+      "HAVEN-ORDERS",
+      "HAVEN-FULFILLMENT",
+      "HAVEN-LEDGER"
+    ],
+    "haven.duplicate_invoices": [
+      "OPS-POLICY",
+      "HAVEN-ORDERS",
+      "HAVEN-FULFILLMENT",
+      "HAVEN-LEDGER"
+    ]
+  },
+  "diagnostic": {
+    "per_order": [
+      {
+        "order_id": "elm-101",
+        "net_fulfilled_qty": 7,
+        "expected": 9111,
+        "actual": 9111,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-102",
+        "net_fulfilled_qty": 9,
+        "expected": 5150,
+        "actual": 5477,
+        "overbilled": 327,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-103",
+        "net_fulfilled_qty": 7,
+        "expected": 5439,
+        "actual": 5439,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-104",
+        "net_fulfilled_qty": 6,
+        "expected": 9530,
+        "actual": 9530,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-105",
+        "net_fulfilled_qty": 0,
+        "expected": 0,
+        "actual": 3176,
+        "overbilled": 3176,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-106",
+        "net_fulfilled_qty": 6,
+        "expected": 3628,
+        "actual": 3628,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-107",
+        "net_fulfilled_qty": 4,
+        "expected": 6768,
+        "actual": 13536,
+        "overbilled": 6768,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-108",
+        "net_fulfilled_qty": 9,
+        "expected": 16357,
+        "actual": 14493,
+        "overbilled": 0,
+        "underbilled": 1864
+      },
+      {
+        "order_id": "elm-109",
+        "net_fulfilled_qty": 13,
+        "expected": 10695,
+        "actual": 10695,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-110",
+        "net_fulfilled_qty": 5,
+        "expected": 2161,
+        "actual": 2408,
+        "overbilled": 247,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-111",
+        "net_fulfilled_qty": 5,
+        "expected": 8480,
+        "actual": 8480,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-112",
+        "net_fulfilled_qty": 11,
+        "expected": 16409,
+        "actual": 16409,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-113",
+        "net_fulfilled_qty": 5,
+        "expected": 7348,
+        "actual": 7348,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-114",
+        "net_fulfilled_qty": 13,
+        "expected": 21180,
+        "actual": 21180,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-115",
+        "net_fulfilled_qty": 11,
+        "expected": 19019,
+        "actual": 38038,
+        "overbilled": 19019,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-116",
+        "net_fulfilled_qty": -1,
+        "expected": 0,
+        "actual": 21120,
+        "overbilled": 21120,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-117",
+        "net_fulfilled_qty": 6,
+        "expected": 3887,
+        "actual": 3887,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-118",
+        "net_fulfilled_qty": 6,
+        "expected": 5213,
+        "actual": 5710,
+        "overbilled": 497,
+        "underbilled": 0
+      },
+      {
+        "order_id": "elm-119",
+        "net_fulfilled_qty": 8,
+        "expected": 4728,
+        "actual": 4728,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-101",
+        "net_fulfilled_qty": 11,
+        "expected": 16930,
+        "actual": 17810,
+        "overbilled": 880,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-102",
+        "net_fulfilled_qty": 5,
+        "expected": 4655,
+        "actual": 4655,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-103",
+        "net_fulfilled_qty": 0,
+        "expected": 0,
+        "actual": 13400,
+        "overbilled": 13400,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-104",
+        "net_fulfilled_qty": 10,
+        "expected": 14345,
+        "actual": 14345,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-105",
+        "net_fulfilled_qty": 9,
+        "expected": 3378,
+        "actual": 3378,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-106",
+        "net_fulfilled_qty": 5,
+        "expected": 9025,
+        "actual": 18050,
+        "overbilled": 9025,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-107",
+        "net_fulfilled_qty": 8,
+        "expected": 11575,
+        "actual": 10091,
+        "overbilled": 0,
+        "underbilled": 1484
+      },
+      {
+        "order_id": "ford-108",
+        "net_fulfilled_qty": 7,
+        "expected": 8712,
+        "actual": 8712,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-109",
+        "net_fulfilled_qty": 10,
+        "expected": 7420,
+        "actual": 7844,
+        "overbilled": 424,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-110",
+        "net_fulfilled_qty": 9,
+        "expected": 3861,
+        "actual": 3861,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-111",
+        "net_fulfilled_qty": 6,
+        "expected": 10390,
+        "actual": 10390,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-112",
+        "net_fulfilled_qty": 11,
+        "expected": 4452,
+        "actual": 4452,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-113",
+        "net_fulfilled_qty": 6,
+        "expected": 8615,
+        "actual": 8615,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-114",
+        "net_fulfilled_qty": 0,
+        "expected": 0,
+        "actual": 8120,
+        "overbilled": 8120,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-115",
+        "net_fulfilled_qty": 8,
+        "expected": 9446,
+        "actual": 8235,
+        "overbilled": 0,
+        "underbilled": 1211
+      },
+      {
+        "order_id": "ford-116",
+        "net_fulfilled_qty": 9,
+        "expected": 7524,
+        "actual": 7524,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-117",
+        "net_fulfilled_qty": 9,
+        "expected": 6363,
+        "actual": 6767,
+        "overbilled": 404,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-118",
+        "net_fulfilled_qty": 12,
+        "expected": 21240,
+        "actual": 21240,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "ford-119",
+        "net_fulfilled_qty": 7,
+        "expected": 11862,
+        "actual": 11862,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-101",
+        "net_fulfilled_qty": 0,
+        "expected": 0,
+        "actual": 4940,
+        "overbilled": 4940,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-102",
+        "net_fulfilled_qty": 11,
+        "expected": 19402,
+        "actual": 19402,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-103",
+        "net_fulfilled_qty": 13,
+        "expected": 9695,
+        "actual": 9695,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-104",
+        "net_fulfilled_qty": 9,
+        "expected": 4520,
+        "actual": 4520,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-105",
+        "net_fulfilled_qty": 12,
+        "expected": 21876,
+        "actual": 43752,
+        "overbilled": 21876,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-106",
+        "net_fulfilled_qty": 13,
+        "expected": 6211,
+        "actual": 5721,
+        "overbilled": 0,
+        "underbilled": 490
+      },
+      {
+        "order_id": "glen-107",
+        "net_fulfilled_qty": 8,
+        "expected": 10412,
+        "actual": 10412,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-108",
+        "net_fulfilled_qty": 9,
+        "expected": 8592,
+        "actual": 9138,
+        "overbilled": 546,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-109",
+        "net_fulfilled_qty": 6,
+        "expected": 7002,
+        "actual": 7002,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-110",
+        "net_fulfilled_qty": 4,
+        "expected": 5035,
+        "actual": 5035,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-111",
+        "net_fulfilled_qty": 11,
+        "expected": 18047,
+        "actual": 18047,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-112",
+        "net_fulfilled_qty": 0,
+        "expected": 0,
+        "actual": 16392,
+        "overbilled": 16392,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-113",
+        "net_fulfilled_qty": 13,
+        "expected": 5642,
+        "actual": 11284,
+        "overbilled": 5642,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-114",
+        "net_fulfilled_qty": 11,
+        "expected": 4794,
+        "actual": 4347,
+        "overbilled": 0,
+        "underbilled": 447
+      },
+      {
+        "order_id": "glen-115",
+        "net_fulfilled_qty": 2,
+        "expected": 1845,
+        "actual": 1845,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-116",
+        "net_fulfilled_qty": 11,
+        "expected": 5053,
+        "actual": 5316,
+        "overbilled": 263,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-117",
+        "net_fulfilled_qty": 13,
+        "expected": 14092,
+        "actual": 14092,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-118",
+        "net_fulfilled_qty": 12,
+        "expected": 17468,
+        "actual": 17468,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "glen-119",
+        "net_fulfilled_qty": 4,
+        "expected": 3971,
+        "actual": 3971,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-101",
+        "net_fulfilled_qty": 11,
+        "expected": 10671,
+        "actual": 10671,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-102",
+        "net_fulfilled_qty": 6,
+        "expected": 7193,
+        "actual": 7193,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-103",
+        "net_fulfilled_qty": 4,
+        "expected": 6045,
+        "actual": 6045,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-104",
+        "net_fulfilled_qty": 11,
+        "expected": 7117,
+        "actual": 14234,
+        "overbilled": 7117,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-105",
+        "net_fulfilled_qty": 8,
+        "expected": 8338,
+        "actual": 7269,
+        "overbilled": 0,
+        "underbilled": 1069
+      },
+      {
+        "order_id": "haven-106",
+        "net_fulfilled_qty": 8,
+        "expected": 7676,
+        "actual": 7676,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-107",
+        "net_fulfilled_qty": 9,
+        "expected": 3961,
+        "actual": 4213,
+        "overbilled": 252,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-108",
+        "net_fulfilled_qty": 10,
+        "expected": 7390,
+        "actual": 7390,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-109",
+        "net_fulfilled_qty": 5,
+        "expected": 2052,
+        "actual": 2052,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-110",
+        "net_fulfilled_qty": 0,
+        "expected": 0,
+        "actual": 7254,
+        "overbilled": 7254,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-111",
+        "net_fulfilled_qty": 5,
+        "expected": 5259,
+        "actual": 5259,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-112",
+        "net_fulfilled_qty": 6,
+        "expected": 2718,
+        "actual": 5436,
+        "overbilled": 2718,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-113",
+        "net_fulfilled_qty": 11,
+        "expected": 6596,
+        "actual": 5981,
+        "overbilled": 0,
+        "underbilled": 615
+      },
+      {
+        "order_id": "haven-114",
+        "net_fulfilled_qty": 3,
+        "expected": 1248,
+        "actual": 1248,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-115",
+        "net_fulfilled_qty": 6,
+        "expected": 5796,
+        "actual": 6348,
+        "overbilled": 552,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-116",
+        "net_fulfilled_qty": 9,
+        "expected": 10683,
+        "actual": 10683,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-117",
+        "net_fulfilled_qty": 7,
+        "expected": 8019,
+        "actual": 8019,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-118",
+        "net_fulfilled_qty": 13,
+        "expected": 19958,
+        "actual": 19958,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "haven-119",
+        "net_fulfilled_qty": 5,
+        "expected": 7385,
+        "actual": 7385,
+        "overbilled": 0,
+        "underbilled": 0
+      }
+    ],
+    "known_over_usd": 171871,
+    "known_cancel": 7
+  }
+}

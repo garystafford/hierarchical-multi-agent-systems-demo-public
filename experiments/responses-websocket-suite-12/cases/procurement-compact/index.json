@@ -1,0 +1,79 @@
+{
+  "case_id": "procurement-compact",
+  "domain": "procurement",
+  "profile": "compact",
+  "title": "2-vendor contractual selection over 2 years",
+  "task": "Assess vendors lumen, morrow against the buyer's mandatory requirements at cutoff. Apply only effective executed amendments, compute full-horizon costs, and select the cheapest eligible vendor or explicitly decline selection. Distinguish contractual unknowns from marketing claims.",
+  "documents": [
+    {
+      "id": "BUY-POLICY",
+      "title": "Executed buyer requirements and pricing method",
+      "path": "evidence/BUY-POLICY.json"
+    },
+    {
+      "id": "BUY-DEMAND",
+      "title": "Frozen buyer monthly seats and usage",
+      "path": "evidence/BUY-DEMAND.json"
+    },
+    {
+      "id": "LUMEN-ANNEX",
+      "title": "lumen signed operating annex",
+      "path": "evidence/LUMEN-ANNEX.json"
+    },
+    {
+      "id": "LUMEN-FEES",
+      "title": "lumen signed price schedule",
+      "path": "evidence/LUMEN-FEES.json"
+    },
+    {
+      "id": "LUMEN-AMENDMENTS",
+      "title": "lumen effective-date amendment register",
+      "path": "evidence/LUMEN-AMENDMENTS.json"
+    },
+    {
+      "id": "MORROW-ANNEX",
+      "title": "morrow signed operating annex",
+      "path": "evidence/MORROW-ANNEX.json"
+    },
+    {
+      "id": "MORROW-FEES",
+      "title": "morrow signed price schedule",
+      "path": "evidence/MORROW-FEES.json"
+    },
+    {
+      "id": "MORROW-AMENDMENTS",
+      "title": "morrow effective-date amendment register",
+      "path": "evidence/MORROW-AMENDMENTS.json"
+    }
+  ],
+  "requested_fact_names": [
+    "lumen.eu_processing_pass",
+    "lumen.uptime_pass",
+    "lumen.capacity_pass",
+    "lumen.delivery_pass",
+    "lumen.contractual_rto_pass",
+    "lumen.eligibility",
+    "lumen.hardware_cents",
+    "lumen.setup_cents",
+    "lumen.subscription_cents",
+    "lumen.support_cents",
+    "lumen.usage_cents",
+    "lumen.tco_cents",
+    "morrow.eu_processing_pass",
+    "morrow.uptime_pass",
+    "morrow.capacity_pass",
+    "morrow.delivery_pass",
+    "morrow.contractual_rto_pass",
+    "morrow.eligibility",
+    "morrow.hardware_cents",
+    "morrow.setup_cents",
+    "morrow.subscription_cents",
+    "morrow.support_cents",
+    "morrow.usage_cents",
+    "morrow.tco_cents",
+    "all.selected_vendor",
+    "all.selected_tco_cents",
+    "all.eligible_count"
+  ],
+  "finding_key_format": "For each mandatory failure/unknown: <vendor>.<requirement>.fail or .unknown. Requirements eu_processing, uptime, capacity, delivery, contractual_rto. No passing requirements or other keys."
+}

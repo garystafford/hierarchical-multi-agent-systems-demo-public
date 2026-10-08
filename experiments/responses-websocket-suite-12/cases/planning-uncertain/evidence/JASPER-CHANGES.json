@@ -1,0 +1,29 @@
+{
+  "id": "JASPER-CHANGES",
+  "title": "jasper executed and proposed duration register",
+  "hub": "jasper",
+  "entries": [
+    {
+      "effective_day": 4,
+      "status": "executed",
+      "durations": {
+        "install": 4
+      }
+    },
+    {
+      "effective_day": 7,
+      "status": "executed",
+      "durations": {
+        "integration": 2
+      }
+    },
+    {
+      "effective_day": 8,
+      "status": "unsigned draft",
+      "durations": {
+        "install": 1,
+        "integration": 0
+      }
+    }
+  ]
+}

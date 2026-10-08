@@ -1,0 +1,23 @@
+{
+  "id": "YARROW-FEES",
+  "title": "yarrow signed price schedule",
+  "vendor": "yarrow",
+  "status": "signed",
+  "hardware_cents": 1574000,
+  "volume_discount_bps": 700,
+  "promo_discount_bps": 250,
+  "integration_cents": {
+    "ERP": 90000,
+    "WMS": 89500,
+    "analytics": 430000
+  },
+  "implementation_cents": 198000,
+  "seat_monthly_cents_by_year": [
+    381,
+    373,
+    342
+  ],
+  "support_basis_points": 800,
+  "free_units_per_month": 10125,
+  "overage_cents_per_unit": 5
+}

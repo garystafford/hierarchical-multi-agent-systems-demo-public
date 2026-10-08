@@ -1,0 +1,9 @@
+{
+  "id": "INDIGO-ACCESS",
+  "title": "indigo inspector access window",
+  "hub": "indigo",
+  "available_starts": [
+    17,
+    18
+  ]
+}

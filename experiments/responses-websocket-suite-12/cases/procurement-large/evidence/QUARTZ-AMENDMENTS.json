@@ -1,0 +1,30 @@
+{
+  "id": "QUARTZ-AMENDMENTS",
+  "title": "quartz effective-date amendment register",
+  "vendor": "quartz",
+  "amendments": [
+    {
+      "effective_day": 30,
+      "status": "executed",
+      "fields": {
+        "capacity": 5500
+      }
+    },
+    {
+      "effective_day": 39,
+      "status": "executed",
+      "fields": {
+        "capacity": 5800
+      }
+    },
+    {
+      "effective_day": 44,
+      "status": "executed",
+      "fields": {
+        "eu_only": true,
+        "delivery_weeks": 5,
+        "contractual_rto_minutes": 15
+      }
+    }
+  ]
+}

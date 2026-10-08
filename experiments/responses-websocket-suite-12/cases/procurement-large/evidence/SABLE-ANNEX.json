@@ -1,0 +1,11 @@
+{
+  "id": "SABLE-ANNEX",
+  "title": "sable signed operating annex",
+  "vendor": "sable",
+  "status": "signed",
+  "eu_only": true,
+  "uptime_bps": 9997,
+  "capacity": 5700,
+  "delivery_weeks": 7,
+  "contractual_rto_minutes": 35
+}

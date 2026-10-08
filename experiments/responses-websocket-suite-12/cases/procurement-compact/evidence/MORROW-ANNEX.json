@@ -1,0 +1,11 @@
+{
+  "id": "MORROW-ANNEX",
+  "title": "morrow signed operating annex",
+  "vendor": "morrow",
+  "status": "signed",
+  "eu_only": true,
+  "uptime_bps": 9997,
+  "capacity": 4900,
+  "delivery_weeks": 7,
+  "contractual_rto_minutes": 35
+}

@@ -1,0 +1,106 @@
+{
+  "case_id": "operations-uncertain",
+  "domain": "operations",
+  "profile": "uncertain",
+  "title": "3-branch settlement at cutoff 26",
+  "task": "Reconcile settlement for iris, juniper, kestrel at the signed policy cutoff. Compute all requested branch and USD facts, summarize supported branch-level issues, and decide whether billing must be held. Respect incomplete feeds and source authority.",
+  "documents": [
+    {
+      "id": "OPS-POLICY",
+      "title": "Executed settlement policy",
+      "path": "evidence/OPS-POLICY.json"
+    },
+    {
+      "id": "IRIS-ORDERS",
+      "title": "iris signed order ledger",
+      "path": "evidence/IRIS-ORDERS.json"
+    },
+    {
+      "id": "IRIS-FULFILLMENT",
+      "title": "iris raw fulfillment export",
+      "path": "evidence/IRIS-FULFILLMENT.json"
+    },
+    {
+      "id": "IRIS-LEDGER",
+      "title": "iris posted settlement feed",
+      "path": "evidence/IRIS-LEDGER.json"
+    },
+    {
+      "id": "IRIS-SUMMARY",
+      "title": "iris provisional management dashboard",
+      "path": "evidence/IRIS-SUMMARY.json"
+    },
+    {
+      "id": "JUNIPER-ORDERS",
+      "title": "juniper signed order ledger",
+      "path": "evidence/JUNIPER-ORDERS.json"
+    },
+    {
+      "id": "JUNIPER-FULFILLMENT",
+      "title": "juniper raw fulfillment export",
+      "path": "evidence/JUNIPER-FULFILLMENT.json"
+    },
+    {
+      "id": "JUNIPER-LEDGER",
+      "title": "juniper posted settlement feed",
+      "path": "evidence/JUNIPER-LEDGER.json"
+    },
+    {
+      "id": "JUNIPER-SUMMARY",
+      "title": "juniper provisional management dashboard",
+      "path": "evidence/JUNIPER-SUMMARY.json"
+    },
+    {
+      "id": "KESTREL-ORDERS",
+      "title": "kestrel signed order ledger",
+      "path": "evidence/KESTREL-ORDERS.json"
+    },
+    {
+      "id": "KESTREL-FULFILLMENT",
+      "title": "kestrel raw fulfillment export",
+      "path": "evidence/KESTREL-FULFILLMENT.json"
+    },
+    {
+      "id": "KESTREL-LEDGER",
+      "title": "kestrel posted settlement feed",
+      "path": "evidence/KESTREL-LEDGER.json"
+    },
+    {
+      "id": "KESTREL-SUMMARY",
+      "title": "kestrel provisional management dashboard",
+      "path": "evidence/KESTREL-SUMMARY.json"
+    }
+  ],
+  "requested_fact_names": [
+    "iris.expected_local_minor",
+    "iris.actual_local_minor",
+    "iris.overbilled_local_minor",
+    "iris.underbilled_local_minor",
+    "iris.overbilled_orders",
+    "iris.underbilled_orders",
+    "iris.cancelled_billed_orders",
+    "iris.duplicate_invoice_orders",
+    "juniper.expected_local_minor",
+    "juniper.actual_local_minor",
+    "juniper.overbilled_local_minor",
+    "juniper.underbilled_local_minor",
+    "juniper.overbilled_orders",
+    "juniper.underbilled_orders",
+    "juniper.cancelled_billed_orders",
+    "juniper.duplicate_invoice_orders",
+    "kestrel.expected_local_minor",
+    "kestrel.actual_local_minor",
+    "kestrel.overbilled_local_minor",
+    "kestrel.underbilled_local_minor",
+    "kestrel.overbilled_orders",
+    "kestrel.underbilled_orders",
+    "kestrel.cancelled_billed_orders",
+    "kestrel.duplicate_invoice_orders",
+    "all.expected_usd_cents",
+    "all.actual_usd_cents",
+    "all.overbilled_usd_cents",
+    "all.underbilled_usd_cents",
+    "all.hold_billing"
+  ],
+  "finding_key_format": "Branch-level keys only: <branch>.overbilled, <branch>.underbilled, <branch>.cancelled_billed, <branch>.duplicate_invoices, <branch>.incomplete_ledger. No order-level keys or other findings."
+}

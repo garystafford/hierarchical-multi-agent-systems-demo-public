@@ -1,0 +1,15 @@
+{
+  "id": "GRANITE-ACCESS",
+  "title": "granite inspector access window",
+  "hub": "granite",
+  "available_starts": [
+    12,
+    13,
+    15,
+    16,
+    18,
+    19,
+    21,
+    22
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "UMBRA-ANNEX",
+  "title": "umbra signed operating annex",
+  "vendor": "umbra",
+  "status": "signed",
+  "eu_only": true,
+  "uptime_bps": 9997,
+  "capacity": 5700,
+  "delivery_weeks": 7,
+  "contractual_rto_minutes": 35
+}

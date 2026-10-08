@@ -1,0 +1,11 @@
+{
+  "id": "VECTOR-ANNEX",
+  "title": "vector signed operating annex",
+  "vendor": "vector",
+  "status": "signed",
+  "eu_only": true,
+  "uptime_bps": 9997,
+  "capacity": 6100,
+  "delivery_weeks": 11,
+  "contractual_rto_minutes": null
+}

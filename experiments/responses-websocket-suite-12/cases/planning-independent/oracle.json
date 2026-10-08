@@ -1,0 +1,274 @@
+{
+  "facts": {
+    "aurora.earliest_inspection_start": 13,
+    "aurora.unconstrained_completion": 18,
+    "bristol.earliest_inspection_start": 14,
+    "bristol.unconstrained_completion": 19,
+    "cobalt.earliest_inspection_start": 15,
+    "cobalt.unconstrained_completion": 21,
+    "aurora.inspection_start": 14,
+    "aurora.completion_day": 19,
+    "aurora.deadline_slack": -2,
+    "aurora.deadline_met": false,
+    "bristol.inspection_start": 15,
+    "bristol.completion_day": 20,
+    "bristol.deadline_slack": -2,
+    "bristol.deadline_met": false,
+    "cobalt.inspection_start": 16,
+    "cobalt.completion_day": 22,
+    "cobalt.deadline_slack": -5,
+    "cobalt.deadline_met": false,
+    "all.makespan": 22,
+    "all.sum_completion_days": 61,
+    "all.open_all_on_time": false
+  },
+  "required_sources": {
+    "aurora.earliest_inspection_start": [
+      "PLAN-POLICY",
+      "AURORA-TASKS",
+      "AURORA-CHANGES"
+    ],
+    "aurora.unconstrained_completion": [
+      "PLAN-POLICY",
+      "AURORA-TASKS",
+      "AURORA-CHANGES"
+    ],
+    "bristol.earliest_inspection_start": [
+      "PLAN-POLICY",
+      "BRISTOL-TASKS",
+      "BRISTOL-CHANGES"
+    ],
+    "bristol.unconstrained_completion": [
+      "PLAN-POLICY",
+      "BRISTOL-TASKS",
+      "BRISTOL-CHANGES"
+    ],
+    "cobalt.earliest_inspection_start": [
+      "PLAN-POLICY",
+      "COBALT-TASKS",
+      "COBALT-CHANGES"
+    ],
+    "cobalt.unconstrained_completion": [
+      "PLAN-POLICY",
+      "COBALT-TASKS",
+      "COBALT-CHANGES"
+    ],
+    "aurora.inspection_start": [
+      "PLAN-POLICY",
+      "AURORA-TASKS",
+      "AURORA-CHANGES",
+      "PLAN-CALENDAR",
+      "AURORA-ACCESS"
+    ],
+    "aurora.completion_day": [
+      "PLAN-POLICY",
+      "AURORA-TASKS",
+      "AURORA-CHANGES",
+      "PLAN-CALENDAR",
+      "AURORA-ACCESS"
+    ],
+    "aurora.deadline_slack": [
+      "PLAN-POLICY",
+      "AURORA-TASKS",
+      "AURORA-CHANGES",
+      "PLAN-CALENDAR",
+      "AURORA-ACCESS"
+    ],
+    "aurora.deadline_met": [
+      "PLAN-POLICY",
+      "AURORA-TASKS",
+      "AURORA-CHANGES",
+      "PLAN-CALENDAR",
+      "AURORA-ACCESS"
+    ],
+    "bristol.inspection_start": [
+      "PLAN-POLICY",
+      "BRISTOL-TASKS",
+      "BRISTOL-CHANGES",
+      "PLAN-CALENDAR",
+      "BRISTOL-ACCESS"
+    ],
+    "bristol.completion_day": [
+      "PLAN-POLICY",
+      "BRISTOL-TASKS",
+      "BRISTOL-CHANGES",
+      "PLAN-CALENDAR",
+      "BRISTOL-ACCESS"
+    ],
+    "bristol.deadline_slack": [
+      "PLAN-POLICY",
+      "BRISTOL-TASKS",
+      "BRISTOL-CHANGES",
+      "PLAN-CALENDAR",
+      "BRISTOL-ACCESS"
+    ],
+    "bristol.deadline_met": [
+      "PLAN-POLICY",
+      "BRISTOL-TASKS",
+      "BRISTOL-CHANGES",
+      "PLAN-CALENDAR",
+      "BRISTOL-ACCESS"
+    ],
+    "cobalt.inspection_start": [
+      "PLAN-POLICY",
+      "COBALT-TASKS",
+      "COBALT-CHANGES",
+      "PLAN-CALENDAR",
+      "COBALT-ACCESS"
+    ],
+    "cobalt.completion_day": [
+      "PLAN-POLICY",
+      "COBALT-TASKS",
+      "COBALT-CHANGES",
+      "PLAN-CALENDAR",
+      "COBALT-ACCESS"
+    ],
+    "cobalt.deadline_slack": [
+      "PLAN-POLICY",
+      "COBALT-TASKS",
+      "COBALT-CHANGES",
+      "PLAN-CALENDAR",
+      "COBALT-ACCESS"
+    ],
+    "cobalt.deadline_met": [
+      "PLAN-POLICY",
+      "COBALT-TASKS",
+      "COBALT-CHANGES",
+      "PLAN-CALENDAR",
+      "COBALT-ACCESS"
+    ],
+    "all.makespan": [
+      "PLAN-POLICY",
+      "PLAN-CALENDAR"
+    ],
+    "all.sum_completion_days": [
+      "PLAN-POLICY",
+      "PLAN-CALENDAR"
+    ],
+    "all.open_all_on_time": [
+      "PLAN-POLICY",
+      "PLAN-CALENDAR"
+    ]
+  },
+  "findings": [
+    "aurora.baseline_precedence_violation",
+    "aurora.deadline_miss",
+    "aurora.stale_duration",
+    "bristol.baseline_precedence_violation",
+    "bristol.deadline_miss",
+    "bristol.stale_duration",
+    "cobalt.baseline_precedence_violation",
+    "cobalt.deadline_miss",
+    "cobalt.stale_duration",
+    "shared.baseline_inspection_collision"
+  ],
+  "finding_sources": {
+    "aurora.stale_duration": [
+      "PLAN-POLICY",
+      "AURORA-TASKS",
+      "AURORA-CHANGES",
+      "AURORA-BASELINE"
+    ],
+    "aurora.baseline_precedence_violation": [
+      "PLAN-POLICY",
+      "AURORA-TASKS",
+      "AURORA-CHANGES",
+      "AURORA-BASELINE"
+    ],
+    "bristol.stale_duration": [
+      "PLAN-POLICY",
+      "BRISTOL-TASKS",
+      "BRISTOL-CHANGES",
+      "BRISTOL-BASELINE"
+    ],
+    "bristol.baseline_precedence_violation": [
+      "PLAN-POLICY",
+      "BRISTOL-TASKS",
+      "BRISTOL-CHANGES",
+      "BRISTOL-BASELINE"
+    ],
+    "cobalt.stale_duration": [
+      "PLAN-POLICY",
+      "COBALT-TASKS",
+      "COBALT-CHANGES",
+      "COBALT-BASELINE"
+    ],
+    "cobalt.baseline_precedence_violation": [
+      "PLAN-POLICY",
+      "COBALT-TASKS",
+      "COBALT-CHANGES",
+      "COBALT-BASELINE"
+    ],
+    "aurora.deadline_miss": [
+      "PLAN-POLICY",
+      "AURORA-TASKS",
+      "AURORA-CHANGES",
+      "PLAN-CALENDAR",
+      "AURORA-ACCESS"
+    ],
+    "bristol.deadline_miss": [
+      "PLAN-POLICY",
+      "BRISTOL-TASKS",
+      "BRISTOL-CHANGES",
+      "PLAN-CALENDAR",
+      "BRISTOL-ACCESS"
+    ],
+    "cobalt.deadline_miss": [
+      "PLAN-POLICY",
+      "COBALT-TASKS",
+      "COBALT-CHANGES",
+      "PLAN-CALENDAR",
+      "COBALT-ACCESS"
+    ],
+    "shared.baseline_inspection_collision": [
+      "PLAN-POLICY",
+      "AURORA-BASELINE",
+      "BRISTOL-BASELINE",
+      "COBALT-BASELINE"
+    ]
+  },
+  "diagnostic": {
+    "feasible_schedule_count": 195,
+    "best": [
+      22,
+      61,
+      [
+        14,
+        15,
+        16
+      ],
+      [
+        19,
+        20,
+        22
+      ]
+    ],
+    "choices": {
+      "aurora": [
+        14,
+        15,
+        17,
+        18,
+        20,
+        21,
+        23
+      ],
+      "bristol": [
+        15,
+        16,
+        18,
+        19,
+        21,
+        22
+      ],
+      "cobalt": [
+        16,
+        17,
+        19,
+        20,
+        22,
+        23
+      ]
+    }
+  }
+}

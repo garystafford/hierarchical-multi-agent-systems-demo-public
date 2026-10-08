@@ -1,0 +1,143 @@
+{
+  "id": "DELTA-FULFILLMENT",
+  "title": "delta raw fulfillment export",
+  "branch": "delta",
+  "shipments": [
+    {
+      "shipment_id": "delta-102-a",
+      "order_id": "delta-102",
+      "day": 20,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "delta-102-b",
+      "order_id": "delta-102",
+      "day": 26,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "delta-103-a",
+      "order_id": "delta-103",
+      "day": 20,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "delta-103-b",
+      "order_id": "delta-103",
+      "day": 26,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "delta-104-a",
+      "order_id": "delta-104",
+      "day": 20,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "delta-104-b",
+      "order_id": "delta-104",
+      "day": 26,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "delta-105-a",
+      "order_id": "delta-105",
+      "day": 20,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "delta-105-b",
+      "order_id": "delta-105",
+      "day": 26,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "delta-106-a",
+      "order_id": "delta-106",
+      "day": 20,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "delta-106-b",
+      "order_id": "delta-106",
+      "day": 26,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "delta-107-a",
+      "order_id": "delta-107",
+      "day": 20,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "delta-107-b",
+      "order_id": "delta-107",
+      "day": 26,
+      "quantity": 7
+    },
+    {
+      "shipment_id": "delta-108-a",
+      "order_id": "delta-108",
+      "day": 20,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "delta-108-b",
+      "order_id": "delta-108",
+      "day": 26,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "delta-109-a",
+      "order_id": "delta-109",
+      "day": 20,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "delta-109-b",
+      "order_id": "delta-109",
+      "day": 26,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "delta-110-a",
+      "order_id": "delta-110",
+      "day": 20,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "delta-110-b",
+      "order_id": "delta-110",
+      "day": 26,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "delta-111-a",
+      "order_id": "delta-111",
+      "day": 20,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "delta-111-b",
+      "order_id": "delta-111",
+      "day": 26,
+      "quantity": 5
+    }
+  ],
+  "returns": [
+    {
+      "return_id": "delta-104-r1",
+      "order_id": "delta-104",
+      "day": 27,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "delta-110-r1",
+      "order_id": "delta-110",
+      "day": 27,
+      "quantity": 1,
+      "status": "accepted"
+    }
+  ]
+}

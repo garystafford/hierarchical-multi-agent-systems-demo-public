@@ -1,0 +1,11 @@
+{
+  "id": "QUARTZ-PROPOSAL",
+  "title": "quartz draft price and recovery simulation",
+  "status": "unsigned draft",
+  "eu_only": true,
+  "uptime_bps": 9999,
+  "indicative_tco_cents": 2000000,
+  "contractual_rto_minutes": 15,
+  "recovery_test_minutes": 12,
+  "promo_discount_bps": 2500
+}

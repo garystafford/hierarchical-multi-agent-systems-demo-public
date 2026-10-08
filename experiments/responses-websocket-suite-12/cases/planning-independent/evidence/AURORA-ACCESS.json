@@ -1,0 +1,16 @@
+{
+  "id": "AURORA-ACCESS",
+  "title": "aurora inspector access window",
+  "hub": "aurora",
+  "available_starts": [
+    11,
+    12,
+    14,
+    15,
+    17,
+    18,
+    20,
+    21,
+    23
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "id": "ELM-FULFILLMENT",
+  "title": "elm raw fulfillment export",
+  "branch": "elm",
+  "shipments": [
+    {
+      "shipment_id": "elm-101-a",
+      "order_id": "elm-101",
+      "day": 27,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "elm-101-b",
+      "order_id": "elm-101",
+      "day": 33,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "elm-102-a",
+      "order_id": "elm-102",
+      "day": 27,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "elm-102-b",
+      "order_id": "elm-102",
+      "day": 33,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "elm-103-a",
+      "order_id": "elm-103",
+      "day": 27,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "elm-103-b",
+      "order_id": "elm-103",
+      "day": 33,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "elm-104-a",
+      "order_id": "elm-104",
+      "day": 27,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "elm-104-b",
+      "order_id": "elm-104",
+      "day": 33,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "elm-106-a",
+      "order_id": "elm-106",
+      "day": 27,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "elm-106-b",
+      "order_id": "elm-106",
+      "day": 33,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "elm-107-a",
+      "order_id": "elm-107",
+      "day": 27,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "elm-107-b",
+      "order_id": "elm-107",
+      "day": 33,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "elm-108-a",
+      "order_id": "elm-108",
+      "day": 27,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "elm-108-b",
+      "order_id": "elm-108",
+      "day": 33,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "elm-109-a",
+      "order_id": "elm-109",
+      "day": 27,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "elm-109-b",
+      "order_id": "elm-109",
+      "day": 33,
+      "quantity": 7
+    },
+    {
+      "shipment_id": "elm-110-a",
+      "order_id": "elm-110",
+      "day": 27,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "elm-110-b",
+      "order_id": "elm-110",
+      "day": 33,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "elm-111-a",
+      "order_id": "elm-111",
+      "day": 27,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "elm-111-b",
+      "order_id": "elm-111",
+      "day": 33,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "elm-112-a",
+      "order_id": "elm-112",
+      "day": 27,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "elm-112-b",
+      "order_id": "elm-112",
+      "day": 33,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "elm-113-a",
+      "order_id": "elm-113",
+      "day": 27,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "elm-113-b",
+      "order_id": "elm-113",
+      "day": 33,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "elm-114-a",
+      "order_id": "elm-114",
+      "day": 27,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "elm-114-b",
+      "order_id": "elm-114",
+      "day": 33,
+      "quantity": 7
+    },
+    {
+      "shipment_id": "elm-115-a",
+      "order_id": "elm-115",
+      "day": 27,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "elm-115-b",
+      "order_id": "elm-115",
+      "day": 33,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "elm-117-a",
+      "order_id": "elm-117",
+      "day": 27,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "elm-117-b",
+      "order_id": "elm-117",
+      "day": 33,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "elm-118-a",
+      "order_id": "elm-118",
+      "day": 27,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "elm-118-b",
+      "order_id": "elm-118",
+      "day": 33,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "elm-119-a",
+      "order_id": "elm-119",
+      "day": 27,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "elm-119-b",
+      "order_id": "elm-119",
+      "day": 33,
+      "quantity": 4
+    }
+  ],
+  "returns": [
+    {
+      "return_id": "elm-101-r2",
+      "order_id": "elm-101",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-101-r3",
+      "order_id": "elm-101",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-102-r2",
+      "order_id": "elm-102",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-102-r3",
+      "order_id": "elm-102",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-103-r2",
+      "order_id": "elm-103",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-103-r3",
+      "order_id": "elm-103",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-104-r1",
+      "order_id": "elm-104",
+      "day": 34,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-104-r2",
+      "order_id": "elm-104",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-104-r3",
+      "order_id": "elm-104",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-105-r2",
+      "order_id": "elm-105",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-105-r3",
+      "order_id": "elm-105",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-106-r2",
+      "order_id": "elm-106",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-106-r3",
+      "order_id": "elm-106",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-107-r2",
+      "order_id": "elm-107",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-107-r3",
+      "order_id": "elm-107",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-108-r2",
+      "order_id": "elm-108",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-108-r3",
+      "order_id": "elm-108",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-109-r2",
+      "order_id": "elm-109",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-109-r3",
+      "order_id": "elm-109",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-110-r1",
+      "order_id": "elm-110",
+      "day": 34,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-110-r2",
+      "order_id": "elm-110",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-110-r3",
+      "order_id": "elm-110",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-111-r2",
+      "order_id": "elm-111",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-111-r3",
+      "order_id": "elm-111",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-112-r2",
+      "order_id": "elm-112",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-112-r3",
+      "order_id": "elm-112",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-113-r2",
+      "order_id": "elm-113",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-113-r3",
+      "order_id": "elm-113",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-114-r2",
+      "order_id": "elm-114",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-114-r3",
+      "order_id": "elm-114",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-115-r2",
+      "order_id": "elm-115",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-115-r3",
+      "order_id": "elm-115",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-116-r1",
+      "order_id": "elm-116",
+      "day": 34,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-116-r2",
+      "order_id": "elm-116",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-116-r3",
+      "order_id": "elm-116",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-117-r2",
+      "order_id": "elm-117",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-117-r3",
+      "order_id": "elm-117",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-118-r2",
+      "order_id": "elm-118",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-118-r3",
+      "order_id": "elm-118",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "elm-119-r2",
+      "order_id": "elm-119",
+      "day": 37,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "elm-119-r3",
+      "order_id": "elm-119",
+      "day": 34,
+      "quantity": 1,
+      "status": "rejected"
+    }
+  ]
+}

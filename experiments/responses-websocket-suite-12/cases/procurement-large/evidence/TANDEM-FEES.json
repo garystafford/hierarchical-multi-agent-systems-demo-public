@@ -1,0 +1,24 @@
+{
+  "id": "TANDEM-FEES",
+  "title": "tandem signed price schedule",
+  "vendor": "tandem",
+  "status": "signed",
+  "hardware_cents": 1541000,
+  "volume_discount_bps": 700,
+  "promo_discount_bps": 500,
+  "integration_cents": {
+    "ERP": 90000,
+    "WMS": 89500,
+    "analytics": 430000
+  },
+  "implementation_cents": 198000,
+  "seat_monthly_cents_by_year": [
+    255,
+    342,
+    281,
+    339
+  ],
+  "support_basis_points": 800,
+  "free_units_per_month": 10125,
+  "overage_cents_per_unit": 5
+}

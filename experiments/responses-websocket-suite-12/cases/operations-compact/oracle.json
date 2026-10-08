@@ -1,0 +1,127 @@
+{
+  "facts": {
+    "aspen.expected_local_minor": 47624,
+    "aspen.actual_local_minor": 47624,
+    "aspen.overbilled_local_minor": 0,
+    "aspen.underbilled_local_minor": 0,
+    "aspen.overbilled_orders": 0,
+    "aspen.underbilled_orders": 0,
+    "aspen.cancelled_billed_orders": 0,
+    "aspen.duplicate_invoice_orders": 0,
+    "all.expected_usd_cents": 47624,
+    "all.actual_usd_cents": 47624,
+    "all.overbilled_usd_cents": 0,
+    "all.underbilled_usd_cents": 0,
+    "all.hold_billing": false
+  },
+  "required_sources": {
+    "aspen.expected_local_minor": [
+      "OPS-POLICY",
+      "ASPEN-ORDERS",
+      "ASPEN-FULFILLMENT"
+    ],
+    "aspen.actual_local_minor": [
+      "OPS-POLICY",
+      "ASPEN-LEDGER"
+    ],
+    "aspen.overbilled_local_minor": [
+      "OPS-POLICY",
+      "ASPEN-ORDERS",
+      "ASPEN-FULFILLMENT",
+      "ASPEN-LEDGER"
+    ],
+    "aspen.underbilled_local_minor": [
+      "OPS-POLICY",
+      "ASPEN-ORDERS",
+      "ASPEN-FULFILLMENT",
+      "ASPEN-LEDGER"
+    ],
+    "aspen.overbilled_orders": [
+      "OPS-POLICY",
+      "ASPEN-ORDERS",
+      "ASPEN-FULFILLMENT",
+      "ASPEN-LEDGER"
+    ],
+    "aspen.underbilled_orders": [
+      "OPS-POLICY",
+      "ASPEN-ORDERS",
+      "ASPEN-FULFILLMENT",
+      "ASPEN-LEDGER"
+    ],
+    "aspen.cancelled_billed_orders": [
+      "OPS-POLICY",
+      "ASPEN-ORDERS",
+      "ASPEN-FULFILLMENT",
+      "ASPEN-LEDGER"
+    ],
+    "aspen.duplicate_invoice_orders": [
+      "OPS-POLICY",
+      "ASPEN-ORDERS",
+      "ASPEN-FULFILLMENT",
+      "ASPEN-LEDGER"
+    ],
+    "all.expected_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.actual_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.overbilled_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.underbilled_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.hold_billing": [
+      "OPS-POLICY"
+    ]
+  },
+  "findings": [],
+  "finding_sources": {},
+  "diagnostic": {
+    "per_order": [
+      {
+        "order_id": "aspen-101",
+        "net_fulfilled_qty": 10,
+        "expected": 15810,
+        "actual": 15810,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "aspen-102",
+        "net_fulfilled_qty": 4,
+        "expected": 2106,
+        "actual": 2106,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "aspen-103",
+        "net_fulfilled_qty": 8,
+        "expected": 10154,
+        "actual": 10154,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "aspen-104",
+        "net_fulfilled_qty": 9,
+        "expected": 10308,
+        "actual": 10308,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "aspen-105",
+        "net_fulfilled_qty": 6,
+        "expected": 9246,
+        "actual": 9246,
+        "overbilled": 0,
+        "underbilled": 0
+      }
+    ],
+    "known_over_usd": 0,
+    "known_cancel": 0
+  }
+}

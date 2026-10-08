@@ -1,0 +1,212 @@
+{
+  "id": "BAYSIDE-LEDGER",
+  "title": "bayside posted settlement feed",
+  "branch": "bayside",
+  "complete": true,
+  "invoices": [
+    {
+      "invoice_id": "bayside-101-i1",
+      "order_id": "bayside-101",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 2972
+    },
+    {
+      "invoice_id": "bayside-102-p1",
+      "order_id": "bayside-102",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 8632
+    },
+    {
+      "invoice_id": "bayside-102-p2",
+      "order_id": "bayside-102",
+      "day": 28,
+      "status": "posted",
+      "amount_minor": 8633
+    },
+    {
+      "invoice_id": "bayside-103-i1",
+      "order_id": "bayside-103",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 11079
+    },
+    {
+      "invoice_id": "bayside-104-i1",
+      "order_id": "bayside-104",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 5358
+    },
+    {
+      "invoice_id": "bayside-105-i1",
+      "order_id": "bayside-105",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 23309
+    },
+    {
+      "invoice_id": "bayside-106-i1",
+      "order_id": "bayside-106",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 12352
+    },
+    {
+      "invoice_id": "bayside-107-i1",
+      "order_id": "bayside-107",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 13157
+    },
+    {
+      "invoice_id": "bayside-108-i1",
+      "order_id": "bayside-108",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 11682
+    },
+    {
+      "invoice_id": "bayside-108-i2",
+      "order_id": "bayside-108",
+      "day": 28,
+      "status": "posted",
+      "amount_minor": 11682
+    },
+    {
+      "invoice_id": "bayside-109-i1",
+      "order_id": "bayside-109",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 4903
+    },
+    {
+      "invoice_id": "bayside-110-p1",
+      "order_id": "bayside-110",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 619
+    },
+    {
+      "invoice_id": "bayside-110-p2",
+      "order_id": "bayside-110",
+      "day": 28,
+      "status": "posted",
+      "amount_minor": 620
+    },
+    {
+      "invoice_id": "bayside-111-i1",
+      "order_id": "bayside-111",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 3564
+    }
+  ],
+  "credits": [
+    {
+      "credit_id": "bayside-101-unapproved",
+      "order_id": "bayside-101",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 437
+    },
+    {
+      "credit_id": "bayside-102-unapproved",
+      "order_id": "bayside-102",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1398
+    },
+    {
+      "credit_id": "bayside-103-unapproved",
+      "order_id": "bayside-103",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1555
+    },
+    {
+      "credit_id": "bayside-103-approved",
+      "order_id": "bayside-103",
+      "day": 28,
+      "status": "posted",
+      "approved": true,
+      "amount_minor": 777
+    },
+    {
+      "credit_id": "bayside-104-unapproved",
+      "order_id": "bayside-104",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1786
+    },
+    {
+      "credit_id": "bayside-105-unapproved",
+      "order_id": "bayside-105",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1793
+    },
+    {
+      "credit_id": "bayside-106-unapproved",
+      "order_id": "bayside-106",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1182
+    },
+    {
+      "credit_id": "bayside-107-unapproved",
+      "order_id": "bayside-107",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1253
+    },
+    {
+      "credit_id": "bayside-108-unapproved",
+      "order_id": "bayside-108",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1062
+    },
+    {
+      "credit_id": "bayside-109-unapproved",
+      "order_id": "bayside-109",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 721
+    },
+    {
+      "credit_id": "bayside-110-unapproved",
+      "order_id": "bayside-110",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1304
+    },
+    {
+      "credit_id": "bayside-111-unapproved",
+      "order_id": "bayside-111",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 792
+    },
+    {
+      "credit_id": "bayside-111-approved",
+      "order_id": "bayside-111",
+      "day": 28,
+      "status": "posted",
+      "approved": true,
+      "amount_minor": 396
+    }
+  ]
+}

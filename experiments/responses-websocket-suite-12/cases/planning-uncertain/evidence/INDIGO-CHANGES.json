@@ -1,0 +1,29 @@
+{
+  "id": "INDIGO-CHANGES",
+  "title": "indigo executed and proposed duration register",
+  "hub": "indigo",
+  "entries": [
+    {
+      "effective_day": 4,
+      "status": "executed",
+      "durations": {
+        "install": 5
+      }
+    },
+    {
+      "effective_day": 7,
+      "status": "executed",
+      "durations": {
+        "integration": 1
+      }
+    },
+    {
+      "effective_day": 8,
+      "status": "unsigned draft",
+      "durations": {
+        "install": 1,
+        "integration": 0
+      }
+    }
+  ]
+}

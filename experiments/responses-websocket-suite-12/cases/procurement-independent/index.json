@@ -1,0 +1,121 @@
+{
+  "case_id": "procurement-independent",
+  "domain": "procurement",
+  "profile": "independent",
+  "title": "3-vendor contractual selection over 3 years",
+  "task": "Assess vendors nimbus, orion, praxis against the buyer's mandatory requirements at cutoff. Apply only effective executed amendments, compute full-horizon costs, and select the cheapest eligible vendor or explicitly decline selection. Distinguish contractual unknowns from marketing claims.",
+  "documents": [
+    {
+      "id": "BUY-POLICY",
+      "title": "Executed buyer requirements and pricing method",
+      "path": "evidence/BUY-POLICY.json"
+    },
+    {
+      "id": "BUY-DEMAND",
+      "title": "Frozen buyer monthly seats and usage",
+      "path": "evidence/BUY-DEMAND.json"
+    },
+    {
+      "id": "NIMBUS-ANNEX",
+      "title": "nimbus signed operating annex",
+      "path": "evidence/NIMBUS-ANNEX.json"
+    },
+    {
+      "id": "NIMBUS-FEES",
+      "title": "nimbus signed price schedule",
+      "path": "evidence/NIMBUS-FEES.json"
+    },
+    {
+      "id": "NIMBUS-AMENDMENTS",
+      "title": "nimbus effective-date amendment register",
+      "path": "evidence/NIMBUS-AMENDMENTS.json"
+    },
+    {
+      "id": "NIMBUS-PROPOSAL",
+      "title": "nimbus draft price and recovery simulation",
+      "path": "evidence/NIMBUS-PROPOSAL.json"
+    },
+    {
+      "id": "ORION-ANNEX",
+      "title": "orion signed operating annex",
+      "path": "evidence/ORION-ANNEX.json"
+    },
+    {
+      "id": "ORION-FEES",
+      "title": "orion signed price schedule",
+      "path": "evidence/ORION-FEES.json"
+    },
+    {
+      "id": "ORION-AMENDMENTS",
+      "title": "orion effective-date amendment register",
+      "path": "evidence/ORION-AMENDMENTS.json"
+    },
+    {
+      "id": "ORION-PROPOSAL",
+      "title": "orion draft price and recovery simulation",
+      "path": "evidence/ORION-PROPOSAL.json"
+    },
+    {
+      "id": "PRAXIS-ANNEX",
+      "title": "praxis signed operating annex",
+      "path": "evidence/PRAXIS-ANNEX.json"
+    },
+    {
+      "id": "PRAXIS-FEES",
+      "title": "praxis signed price schedule",
+      "path": "evidence/PRAXIS-FEES.json"
+    },
+    {
+      "id": "PRAXIS-AMENDMENTS",
+      "title": "praxis effective-date amendment register",
+      "path": "evidence/PRAXIS-AMENDMENTS.json"
+    },
+    {
+      "id": "PRAXIS-PROPOSAL",
+      "title": "praxis draft price and recovery simulation",
+      "path": "evidence/PRAXIS-PROPOSAL.json"
+    }
+  ],
+  "requested_fact_names": [
+    "nimbus.eu_processing_pass",
+    "nimbus.uptime_pass",
+    "nimbus.capacity_pass",
+    "nimbus.delivery_pass",
+    "nimbus.contractual_rto_pass",
+    "nimbus.eligibility",
+    "nimbus.hardware_cents",
+    "nimbus.setup_cents",
+    "nimbus.subscription_cents",
+    "nimbus.support_cents",
+    "nimbus.usage_cents",
+    "nimbus.tco_cents",
+    "orion.eu_processing_pass",
+    "orion.uptime_pass",
+    "orion.capacity_pass",
+    "orion.delivery_pass",
+    "orion.contractual_rto_pass",
+    "orion.eligibility",
+    "orion.hardware_cents",
+    "orion.setup_cents",
+    "orion.subscription_cents",
+    "orion.support_cents",
+    "orion.usage_cents",
+    "orion.tco_cents",
+    "praxis.eu_processing_pass",
+    "praxis.uptime_pass",
+    "praxis.capacity_pass",
+    "praxis.delivery_pass",
+    "praxis.contractual_rto_pass",
+    "praxis.eligibility",
+    "praxis.hardware_cents",
+    "praxis.setup_cents",
+    "praxis.subscription_cents",
+    "praxis.support_cents",
+    "praxis.usage_cents",
+    "praxis.tco_cents",
+    "all.selected_vendor",
+    "all.selected_tco_cents",
+    "all.eligible_count"
+  ],
+  "finding_key_format": "For each mandatory failure/unknown: <vendor>.<requirement>.fail or .unknown. Requirements eu_processing, uptime, capacity, delivery, contractual_rto. No passing requirements or other keys."
+}

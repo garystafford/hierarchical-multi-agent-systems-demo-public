@@ -1,0 +1,9 @@
+{
+  "id": "JASPER-ACCESS",
+  "title": "jasper inspector access window",
+  "hub": "jasper",
+  "available_starts": [
+    17,
+    18
+  ]
+}

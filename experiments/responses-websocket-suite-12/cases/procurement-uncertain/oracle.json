@@ -1,0 +1,396 @@
+{
+  "facts": {
+    "vector.eu_processing_pass": true,
+    "vector.uptime_pass": true,
+    "vector.capacity_pass": true,
+    "vector.delivery_pass": false,
+    "vector.contractual_rto_pass": null,
+    "vector.eligibility": "ineligible",
+    "vector.hardware_cents": 951181,
+    "vector.setup_cents": 289000,
+    "vector.subscription_cents": 2926248,
+    "vector.support_cents": 185481,
+    "vector.usage_cents": 181480,
+    "vector.tco_cents": 4533390,
+    "willow.eu_processing_pass": true,
+    "willow.uptime_pass": true,
+    "willow.capacity_pass": true,
+    "willow.delivery_pass": true,
+    "willow.contractual_rto_pass": null,
+    "willow.eligibility": "unknown",
+    "willow.hardware_cents": 1083852,
+    "willow.setup_cents": 318500,
+    "willow.subscription_cents": 3099816,
+    "willow.support_cents": 227610,
+    "willow.usage_cents": 238035,
+    "willow.tco_cents": 4967813,
+    "xenon.eu_processing_pass": true,
+    "xenon.uptime_pass": true,
+    "xenon.capacity_pass": true,
+    "xenon.delivery_pass": true,
+    "xenon.contractual_rto_pass": null,
+    "xenon.eligibility": "unknown",
+    "xenon.hardware_cents": 1209436,
+    "xenon.setup_cents": 348000,
+    "xenon.subscription_cents": 2817768,
+    "xenon.support_cents": 272124,
+    "xenon.usage_cents": 273880,
+    "xenon.tco_cents": 4921208,
+    "yarrow.eu_processing_pass": true,
+    "yarrow.uptime_pass": true,
+    "yarrow.capacity_pass": true,
+    "yarrow.delivery_pass": true,
+    "yarrow.contractual_rto_pass": null,
+    "yarrow.eligibility": "unknown",
+    "yarrow.hardware_cents": 1427225,
+    "yarrow.setup_cents": 377500,
+    "yarrow.subscription_cents": 2972352,
+    "yarrow.support_cents": 342534,
+    "yarrow.usage_cents": 293000,
+    "yarrow.tco_cents": 5412611,
+    "all.selected_vendor": null,
+    "all.selected_tco_cents": null,
+    "all.eligible_count": 0
+  },
+  "required_sources": {
+    "vector.eu_processing_pass": [
+      "BUY-POLICY",
+      "VECTOR-ANNEX",
+      "VECTOR-AMENDMENTS"
+    ],
+    "vector.uptime_pass": [
+      "BUY-POLICY",
+      "VECTOR-ANNEX",
+      "VECTOR-AMENDMENTS"
+    ],
+    "vector.capacity_pass": [
+      "BUY-POLICY",
+      "VECTOR-ANNEX",
+      "VECTOR-AMENDMENTS"
+    ],
+    "vector.delivery_pass": [
+      "BUY-POLICY",
+      "VECTOR-ANNEX",
+      "VECTOR-AMENDMENTS"
+    ],
+    "vector.contractual_rto_pass": [
+      "BUY-POLICY",
+      "VECTOR-ANNEX",
+      "VECTOR-AMENDMENTS"
+    ],
+    "vector.eligibility": [
+      "BUY-POLICY",
+      "VECTOR-ANNEX",
+      "VECTOR-AMENDMENTS"
+    ],
+    "vector.hardware_cents": [
+      "BUY-POLICY",
+      "VECTOR-FEES"
+    ],
+    "vector.setup_cents": [
+      "BUY-POLICY",
+      "VECTOR-FEES"
+    ],
+    "vector.subscription_cents": [
+      "BUY-POLICY",
+      "VECTOR-FEES",
+      "BUY-DEMAND"
+    ],
+    "vector.support_cents": [
+      "BUY-POLICY",
+      "VECTOR-FEES"
+    ],
+    "vector.usage_cents": [
+      "BUY-POLICY",
+      "VECTOR-FEES",
+      "BUY-DEMAND"
+    ],
+    "vector.tco_cents": [
+      "BUY-POLICY",
+      "VECTOR-FEES",
+      "BUY-DEMAND"
+    ],
+    "willow.eu_processing_pass": [
+      "BUY-POLICY",
+      "WILLOW-ANNEX",
+      "WILLOW-AMENDMENTS"
+    ],
+    "willow.uptime_pass": [
+      "BUY-POLICY",
+      "WILLOW-ANNEX",
+      "WILLOW-AMENDMENTS"
+    ],
+    "willow.capacity_pass": [
+      "BUY-POLICY",
+      "WILLOW-ANNEX",
+      "WILLOW-AMENDMENTS"
+    ],
+    "willow.delivery_pass": [
+      "BUY-POLICY",
+      "WILLOW-ANNEX",
+      "WILLOW-AMENDMENTS"
+    ],
+    "willow.contractual_rto_pass": [
+      "BUY-POLICY",
+      "WILLOW-ANNEX",
+      "WILLOW-AMENDMENTS"
+    ],
+    "willow.eligibility": [
+      "BUY-POLICY",
+      "WILLOW-ANNEX",
+      "WILLOW-AMENDMENTS"
+    ],
+    "willow.hardware_cents": [
+      "BUY-POLICY",
+      "WILLOW-FEES"
+    ],
+    "willow.setup_cents": [
+      "BUY-POLICY",
+      "WILLOW-FEES"
+    ],
+    "willow.subscription_cents": [
+      "BUY-POLICY",
+      "WILLOW-FEES",
+      "BUY-DEMAND"
+    ],
+    "willow.support_cents": [
+      "BUY-POLICY",
+      "WILLOW-FEES"
+    ],
+    "willow.usage_cents": [
+      "BUY-POLICY",
+      "WILLOW-FEES",
+      "BUY-DEMAND"
+    ],
+    "willow.tco_cents": [
+      "BUY-POLICY",
+      "WILLOW-FEES",
+      "BUY-DEMAND"
+    ],
+    "xenon.eu_processing_pass": [
+      "BUY-POLICY",
+      "XENON-ANNEX",
+      "XENON-AMENDMENTS"
+    ],
+    "xenon.uptime_pass": [
+      "BUY-POLICY",
+      "XENON-ANNEX",
+      "XENON-AMENDMENTS"
+    ],
+    "xenon.capacity_pass": [
+      "BUY-POLICY",
+      "XENON-ANNEX",
+      "XENON-AMENDMENTS"
+    ],
+    "xenon.delivery_pass": [
+      "BUY-POLICY",
+      "XENON-ANNEX",
+      "XENON-AMENDMENTS"
+    ],
+    "xenon.contractual_rto_pass": [
+      "BUY-POLICY",
+      "XENON-ANNEX",
+      "XENON-AMENDMENTS"
+    ],
+    "xenon.eligibility": [
+      "BUY-POLICY",
+      "XENON-ANNEX",
+      "XENON-AMENDMENTS"
+    ],
+    "xenon.hardware_cents": [
+      "BUY-POLICY",
+      "XENON-FEES"
+    ],
+    "xenon.setup_cents": [
+      "BUY-POLICY",
+      "XENON-FEES"
+    ],
+    "xenon.subscription_cents": [
+      "BUY-POLICY",
+      "XENON-FEES",
+      "BUY-DEMAND"
+    ],
+    "xenon.support_cents": [
+      "BUY-POLICY",
+      "XENON-FEES"
+    ],
+    "xenon.usage_cents": [
+      "BUY-POLICY",
+      "XENON-FEES",
+      "BUY-DEMAND"
+    ],
+    "xenon.tco_cents": [
+      "BUY-POLICY",
+      "XENON-FEES",
+      "BUY-DEMAND"
+    ],
+    "yarrow.eu_processing_pass": [
+      "BUY-POLICY",
+      "YARROW-ANNEX",
+      "YARROW-AMENDMENTS"
+    ],
+    "yarrow.uptime_pass": [
+      "BUY-POLICY",
+      "YARROW-ANNEX",
+      "YARROW-AMENDMENTS"
+    ],
+    "yarrow.capacity_pass": [
+      "BUY-POLICY",
+      "YARROW-ANNEX",
+      "YARROW-AMENDMENTS"
+    ],
+    "yarrow.delivery_pass": [
+      "BUY-POLICY",
+      "YARROW-ANNEX",
+      "YARROW-AMENDMENTS"
+    ],
+    "yarrow.contractual_rto_pass": [
+      "BUY-POLICY",
+      "YARROW-ANNEX",
+      "YARROW-AMENDMENTS"
+    ],
+    "yarrow.eligibility": [
+      "BUY-POLICY",
+      "YARROW-ANNEX",
+      "YARROW-AMENDMENTS"
+    ],
+    "yarrow.hardware_cents": [
+      "BUY-POLICY",
+      "YARROW-FEES"
+    ],
+    "yarrow.setup_cents": [
+      "BUY-POLICY",
+      "YARROW-FEES"
+    ],
+    "yarrow.subscription_cents": [
+      "BUY-POLICY",
+      "YARROW-FEES",
+      "BUY-DEMAND"
+    ],
+    "yarrow.support_cents": [
+      "BUY-POLICY",
+      "YARROW-FEES"
+    ],
+    "yarrow.usage_cents": [
+      "BUY-POLICY",
+      "YARROW-FEES",
+      "BUY-DEMAND"
+    ],
+    "yarrow.tco_cents": [
+      "BUY-POLICY",
+      "YARROW-FEES",
+      "BUY-DEMAND"
+    ],
+    "all.selected_vendor": [
+      "BUY-POLICY"
+    ],
+    "all.selected_tco_cents": [
+      "BUY-POLICY"
+    ],
+    "all.eligible_count": [
+      "BUY-POLICY"
+    ]
+  },
+  "findings": [
+    "vector.contractual_rto.unknown",
+    "vector.delivery.fail",
+    "willow.contractual_rto.unknown",
+    "xenon.contractual_rto.unknown",
+    "yarrow.contractual_rto.unknown"
+  ],
+  "finding_sources": {
+    "vector.delivery.fail": [
+      "BUY-POLICY",
+      "VECTOR-ANNEX",
+      "VECTOR-AMENDMENTS"
+    ],
+    "vector.contractual_rto.unknown": [
+      "BUY-POLICY",
+      "VECTOR-ANNEX",
+      "VECTOR-AMENDMENTS"
+    ],
+    "willow.contractual_rto.unknown": [
+      "BUY-POLICY",
+      "WILLOW-ANNEX",
+      "WILLOW-AMENDMENTS"
+    ],
+    "xenon.contractual_rto.unknown": [
+      "BUY-POLICY",
+      "XENON-ANNEX",
+      "XENON-AMENDMENTS"
+    ],
+    "yarrow.contractual_rto.unknown": [
+      "BUY-POLICY",
+      "YARROW-ANNEX",
+      "YARROW-AMENDMENTS"
+    ]
+  },
+  "diagnostic": {
+    "effective_annexes": {
+      "vector": [
+        {
+          "effective_day": 31,
+          "status": "executed",
+          "fields": {
+            "capacity": 5900
+          }
+        },
+        {
+          "effective_day": 40,
+          "status": "executed",
+          "fields": {
+            "capacity": 6200
+          }
+        }
+      ],
+      "willow": [
+        {
+          "effective_day": 31,
+          "status": "executed",
+          "fields": {
+            "capacity": 5900
+          }
+        },
+        {
+          "effective_day": 40,
+          "status": "executed",
+          "fields": {
+            "capacity": 6200
+          }
+        }
+      ],
+      "xenon": [
+        {
+          "effective_day": 31,
+          "status": "executed",
+          "fields": {
+            "capacity": 5900
+          }
+        },
+        {
+          "effective_day": 40,
+          "status": "executed",
+          "fields": {
+            "capacity": 6200
+          }
+        }
+      ],
+      "yarrow": [
+        {
+          "effective_day": 31,
+          "status": "executed",
+          "fields": {
+            "capacity": 5900
+          }
+        },
+        {
+          "effective_day": 40,
+          "status": "executed",
+          "fields": {
+            "capacity": 6200
+          }
+        }
+      ]
+    }
+  }
+}

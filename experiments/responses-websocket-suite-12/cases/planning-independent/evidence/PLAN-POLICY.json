@@ -1,0 +1,14 @@
+{
+  "id": "PLAN-POLICY",
+  "title": "Executed calendar and optimization contract",
+  "rules": [
+    "Integer working days only. Finish = start+duration; earliest start=max(release_day, all predecessor finishes). Hub crews are independent; non-inspection tasks can run concurrently.",
+    "One shared inspector; each inspection lasts one day. Inspection starts must be in BOTH global calendar and the hub access window, and at/after current predecessor readiness. No two inspections may use the same start.",
+    "Only executed change entries apply; process ascending effective_day and apply fields named. Unsigned proposals do not change durations. Task dependency graph remains as signed.",
+    "Unconstrained completion uses current durations and first predecessor-ready inspection start, ignoring inspection calendars and shared-resource competition.",
+    "Among feasible complete schedules minimize latest opening first, then sum of openings, then lexicographically smallest inspection-start tuple in the hub order listed in PLAN-CALENDAR.",
+    "If no complete schedule exists, inspection_start/completion_day/deadline_slack/deadline_met for EVERY hub are null; all.makespan/all.sum_completion_days null, all.open_all_on_time false, emit shared.no_feasible_schedule. Do not invent a partial optimal plan.",
+    "Otherwise deadline_slack=deadline-completion; deadline_met is slack>=0; all.open_all_on_time true only if every deadline met.",
+    "Emit <hub>.stale_duration if an obsolete baseline differs from an executed current duration; <hub>.baseline_precedence_violation if its baseline inspection starts before current readiness; <hub>.deadline_miss only if a feasible optimized plan misses its deadline. Emit shared.baseline_inspection_collision for duplicate baseline inspection starts."
+  ]
+}

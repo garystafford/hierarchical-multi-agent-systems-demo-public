@@ -1,0 +1,42 @@
+{
+  "agent_visible_files": [
+    "index.json",
+    "evidence/OPS-POLICY.json",
+    "evidence/ELM-ORDERS.json",
+    "evidence/ELM-FULFILLMENT.json",
+    "evidence/ELM-LEDGER.json",
+    "evidence/ELM-SUMMARY.json",
+    "evidence/FORD-ORDERS.json",
+    "evidence/FORD-FULFILLMENT.json",
+    "evidence/FORD-LEDGER.json",
+    "evidence/FORD-SUMMARY.json",
+    "evidence/GLEN-ORDERS.json",
+    "evidence/GLEN-FULFILLMENT.json",
+    "evidence/GLEN-LEDGER.json",
+    "evidence/GLEN-SUMMARY.json",
+    "evidence/HAVEN-ORDERS.json",
+    "evidence/HAVEN-FULFILLMENT.json",
+    "evidence/HAVEN-LEDGER.json",
+    "evidence/HAVEN-SUMMARY.json"
+  ],
+  "agent_visible_sha256": {
+    "index.json": "6b6a19842c7c98a784116893e955decda59f2335b5034f4633ec6194b03fc7fd",
+    "evidence/OPS-POLICY.json": "4c2b99472849b2e40b26c5e77f198f5d78cf8426861f02b9ed3766c5980e3cc9",
+    "evidence/ELM-ORDERS.json": "b101bebf8a9fd217c0001b185a30d6b7ae5f1beba719aa2abde3a68d9c5f3662",
+    "evidence/ELM-FULFILLMENT.json": "0b8ffda4848f5e10fe1fb97bea52ee73676f789d8b25dda38762e7926af04d42",
+    "evidence/ELM-LEDGER.json": "d1230629454331a818ed0d8caeeabf7fff1ac8a9a874d66ccfe26894113e57c8",
+    "evidence/ELM-SUMMARY.json": "6b090e776d276fafb9e5a8bd906f821eebc5ddb96fd6842f4f4b779fff5402ad",
+    "evidence/FORD-ORDERS.json": "e71944a31f9e41aab897c7840fc561a6ac6f71c8050b458672c40f29807895c5",
+    "evidence/FORD-FULFILLMENT.json": "feba9cd162b19e91eb6992e740ee3973b3014e8be5bd5cdff91cbaa91d073c32",
+    "evidence/FORD-LEDGER.json": "ad2cc08c2015134c184357389e62d09f8fd95099d70329e1baa5ee43387de2fc",
+    "evidence/FORD-SUMMARY.json": "0bee41ea2e65afee55091032f9816399b3881d55e4ec43c33826724d69d0704d",
+    "evidence/GLEN-ORDERS.json": "2a54db5aa83ccc4895eb13033526f8d931789c4aa476692030cd66ab007331a2",
+    "evidence/GLEN-FULFILLMENT.json": "fc8cf40691fdcd8df1b78e017805f19323e04e76a5716b2d39f697e4b9d414b8",
+    "evidence/GLEN-LEDGER.json": "20f00531235a3204410c6adb9c1288ed7410e1d0a6bba774d73ce0d5f5eafb3d",
+    "evidence/GLEN-SUMMARY.json": "4d9bbe62aa6923fde12de8822c6ed85a163154c61a0b75c0cefd4f6a18a1d8b4",
+    "evidence/HAVEN-ORDERS.json": "1a70f12ad034eb7de03d2fa4f90180acf40f1357ec1c0c3be1403e1b801afe89",
+    "evidence/HAVEN-FULFILLMENT.json": "33d88eeaca7f89a9f24bffc49c1571a68c4fb69760c401e9b27cf23fc723c0d2",
+    "evidence/HAVEN-LEDGER.json": "5337e4d24280b75e66a5a9843a49822589f8d6e740c1c61d163de0b507166a42",
+    "evidence/HAVEN-SUMMARY.json": "7d8717c68447f6fa2a14c334e0670d8592a7adc00f0ede9897954f940ac3f438"
+  }
+}

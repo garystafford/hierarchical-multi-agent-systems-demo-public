@@ -1,0 +1,323 @@
+{
+  "id": "JUNIPER-FULFILLMENT",
+  "title": "juniper raw fulfillment export",
+  "branch": "juniper",
+  "shipments": [
+    {
+      "shipment_id": "juniper-101-a",
+      "order_id": "juniper-101",
+      "day": 18,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "juniper-101-b",
+      "order_id": "juniper-101",
+      "day": 24,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "juniper-102-a",
+      "order_id": "juniper-102",
+      "day": 18,
+      "quantity": 1
+    },
+    {
+      "shipment_id": "juniper-102-b",
+      "order_id": "juniper-102",
+      "day": 24,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "juniper-104-a",
+      "order_id": "juniper-104",
+      "day": 18,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "juniper-104-b",
+      "order_id": "juniper-104",
+      "day": 24,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "juniper-105-a",
+      "order_id": "juniper-105",
+      "day": 18,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "juniper-105-b",
+      "order_id": "juniper-105",
+      "day": 24,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "juniper-106-a",
+      "order_id": "juniper-106",
+      "day": 18,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "juniper-106-b",
+      "order_id": "juniper-106",
+      "day": 24,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "juniper-107-a",
+      "order_id": "juniper-107",
+      "day": 18,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "juniper-107-b",
+      "order_id": "juniper-107",
+      "day": 24,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "juniper-108-a",
+      "order_id": "juniper-108",
+      "day": 18,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "juniper-108-b",
+      "order_id": "juniper-108",
+      "day": 24,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "juniper-109-a",
+      "order_id": "juniper-109",
+      "day": 18,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "juniper-109-b",
+      "order_id": "juniper-109",
+      "day": 24,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "juniper-110-a",
+      "order_id": "juniper-110",
+      "day": 18,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "juniper-110-b",
+      "order_id": "juniper-110",
+      "day": 24,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "juniper-111-a",
+      "order_id": "juniper-111",
+      "day": 18,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "juniper-111-b",
+      "order_id": "juniper-111",
+      "day": 24,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "juniper-112-a",
+      "order_id": "juniper-112",
+      "day": 18,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "juniper-112-b",
+      "order_id": "juniper-112",
+      "day": 24,
+      "quantity": 7
+    }
+  ],
+  "returns": [
+    {
+      "return_id": "juniper-101-r1",
+      "order_id": "juniper-101",
+      "day": 25,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-101-r2",
+      "order_id": "juniper-101",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-101-r3",
+      "order_id": "juniper-101",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "juniper-102-r2",
+      "order_id": "juniper-102",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-102-r3",
+      "order_id": "juniper-102",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "juniper-103-r2",
+      "order_id": "juniper-103",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-103-r3",
+      "order_id": "juniper-103",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "juniper-104-r2",
+      "order_id": "juniper-104",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-104-r3",
+      "order_id": "juniper-104",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "juniper-105-r2",
+      "order_id": "juniper-105",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-105-r3",
+      "order_id": "juniper-105",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "juniper-106-r2",
+      "order_id": "juniper-106",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-106-r3",
+      "order_id": "juniper-106",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "juniper-107-r1",
+      "order_id": "juniper-107",
+      "day": 25,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-107-r2",
+      "order_id": "juniper-107",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-107-r3",
+      "order_id": "juniper-107",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "juniper-108-r2",
+      "order_id": "juniper-108",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-108-r3",
+      "order_id": "juniper-108",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "juniper-109-r2",
+      "order_id": "juniper-109",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-109-r3",
+      "order_id": "juniper-109",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "juniper-110-r2",
+      "order_id": "juniper-110",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-110-r3",
+      "order_id": "juniper-110",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "juniper-111-r2",
+      "order_id": "juniper-111",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-111-r3",
+      "order_id": "juniper-111",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "juniper-112-r2",
+      "order_id": "juniper-112",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "juniper-112-r3",
+      "order_id": "juniper-112",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    }
+  ]
+}

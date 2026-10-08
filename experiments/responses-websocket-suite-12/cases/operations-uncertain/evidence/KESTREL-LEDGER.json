@@ -1,0 +1,380 @@
+{
+  "id": "KESTREL-LEDGER",
+  "title": "kestrel posted settlement feed",
+  "branch": "kestrel",
+  "complete": true,
+  "invoices": [
+    {
+      "invoice_id": "kestrel-101-i1",
+      "order_id": "kestrel-101",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 3656
+    },
+    {
+      "invoice_id": "kestrel-101-future",
+      "order_id": "kestrel-101",
+      "day": 29,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-101-draft",
+      "order_id": "kestrel-101",
+      "day": 25,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-102-i1",
+      "order_id": "kestrel-102",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 11955
+    },
+    {
+      "invoice_id": "kestrel-102-future",
+      "order_id": "kestrel-102",
+      "day": 29,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-102-draft",
+      "order_id": "kestrel-102",
+      "day": 25,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-103-i1",
+      "order_id": "kestrel-103",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 10150
+    },
+    {
+      "invoice_id": "kestrel-103-future",
+      "order_id": "kestrel-103",
+      "day": 29,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-103-draft",
+      "order_id": "kestrel-103",
+      "day": 25,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-104-i1",
+      "order_id": "kestrel-104",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 16083
+    },
+    {
+      "invoice_id": "kestrel-104-i2",
+      "order_id": "kestrel-104",
+      "day": 26,
+      "status": "posted",
+      "amount_minor": 16083
+    },
+    {
+      "invoice_id": "kestrel-104-future",
+      "order_id": "kestrel-104",
+      "day": 29,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-104-draft",
+      "order_id": "kestrel-104",
+      "day": 25,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-105-i1",
+      "order_id": "kestrel-105",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 13536
+    },
+    {
+      "invoice_id": "kestrel-105-future",
+      "order_id": "kestrel-105",
+      "day": 29,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-105-draft",
+      "order_id": "kestrel-105",
+      "day": 25,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-106-p1",
+      "order_id": "kestrel-106",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 6968
+    },
+    {
+      "invoice_id": "kestrel-106-p2",
+      "order_id": "kestrel-106",
+      "day": 26,
+      "status": "posted",
+      "amount_minor": 6969
+    },
+    {
+      "invoice_id": "kestrel-106-future",
+      "order_id": "kestrel-106",
+      "day": 29,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-106-draft",
+      "order_id": "kestrel-106",
+      "day": 25,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-107-i1",
+      "order_id": "kestrel-107",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 8931
+    },
+    {
+      "invoice_id": "kestrel-107-future",
+      "order_id": "kestrel-107",
+      "day": 29,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-107-draft",
+      "order_id": "kestrel-107",
+      "day": 25,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-108-i1",
+      "order_id": "kestrel-108",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 6579
+    },
+    {
+      "invoice_id": "kestrel-108-future",
+      "order_id": "kestrel-108",
+      "day": 29,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-108-draft",
+      "order_id": "kestrel-108",
+      "day": 25,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-109-i1",
+      "order_id": "kestrel-109",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 8054
+    },
+    {
+      "invoice_id": "kestrel-109-future",
+      "order_id": "kestrel-109",
+      "day": 29,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-109-draft",
+      "order_id": "kestrel-109",
+      "day": 25,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-110-i1",
+      "order_id": "kestrel-110",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 8009
+    },
+    {
+      "invoice_id": "kestrel-110-future",
+      "order_id": "kestrel-110",
+      "day": 29,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-110-draft",
+      "order_id": "kestrel-110",
+      "day": 25,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-111-i1",
+      "order_id": "kestrel-111",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 6080
+    },
+    {
+      "invoice_id": "kestrel-111-future",
+      "order_id": "kestrel-111",
+      "day": 29,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-111-draft",
+      "order_id": "kestrel-111",
+      "day": 25,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-112-i1",
+      "order_id": "kestrel-112",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 5992
+    },
+    {
+      "invoice_id": "kestrel-112-future",
+      "order_id": "kestrel-112",
+      "day": 29,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "kestrel-112-draft",
+      "order_id": "kestrel-112",
+      "day": 25,
+      "status": "draft",
+      "amount_minor": 99999
+    }
+  ],
+  "credits": [
+    {
+      "credit_id": "kestrel-101-unapproved",
+      "order_id": "kestrel-101",
+      "day": 26,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 914
+    },
+    {
+      "credit_id": "kestrel-102-unapproved",
+      "order_id": "kestrel-102",
+      "day": 26,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 968
+    },
+    {
+      "credit_id": "kestrel-103-unapproved",
+      "order_id": "kestrel-103",
+      "day": 26,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1450
+    },
+    {
+      "credit_id": "kestrel-104-unapproved",
+      "order_id": "kestrel-104",
+      "day": 26,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1787
+    },
+    {
+      "credit_id": "kestrel-105-unapproved",
+      "order_id": "kestrel-105",
+      "day": 26,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1741
+    },
+    {
+      "credit_id": "kestrel-106-unapproved",
+      "order_id": "kestrel-106",
+      "day": 26,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1630
+    },
+    {
+      "credit_id": "kestrel-107-unapproved",
+      "order_id": "kestrel-107",
+      "day": 26,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 916
+    },
+    {
+      "credit_id": "kestrel-107-approved",
+      "order_id": "kestrel-107",
+      "day": 26,
+      "status": "posted",
+      "approved": true,
+      "amount_minor": 458
+    },
+    {
+      "credit_id": "kestrel-108-unapproved",
+      "order_id": "kestrel-108",
+      "day": 26,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 731
+    },
+    {
+      "credit_id": "kestrel-109-unapproved",
+      "order_id": "kestrel-109",
+      "day": 26,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 751
+    },
+    {
+      "credit_id": "kestrel-110-unapproved",
+      "order_id": "kestrel-110",
+      "day": 26,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 843
+    },
+    {
+      "credit_id": "kestrel-111-unapproved",
+      "order_id": "kestrel-111",
+      "day": 26,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 772
+    },
+    {
+      "credit_id": "kestrel-112-unapproved",
+      "order_id": "kestrel-112",
+      "day": 26,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1498
+    }
+  ]
+}

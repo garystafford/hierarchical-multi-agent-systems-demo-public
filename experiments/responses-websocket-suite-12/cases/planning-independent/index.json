@@ -1,0 +1,103 @@
+{
+  "case_id": "planning-independent",
+  "domain": "planning",
+  "profile": "independent",
+  "title": "3-hub inspection and opening plan",
+  "task": "Plan maintenance and opening for aurora, bristol, cobalt using signed dependencies, current executed duration changes, and one shared inspector. Compute the stated lexicographic optimum or determine that no complete schedule is feasible. Return all requested facts and supported baseline/deadline findings.",
+  "documents": [
+    {
+      "id": "PLAN-POLICY",
+      "title": "Executed calendar and optimization contract",
+      "path": "evidence/PLAN-POLICY.json"
+    },
+    {
+      "id": "PLAN-CALENDAR",
+      "title": "Global inspector calendar and tie-break hub order",
+      "path": "evidence/PLAN-CALENDAR.json"
+    },
+    {
+      "id": "AURORA-TASKS",
+      "title": "aurora signed dependency and deadline register",
+      "path": "evidence/AURORA-TASKS.json"
+    },
+    {
+      "id": "AURORA-CHANGES",
+      "title": "aurora executed and proposed duration register",
+      "path": "evidence/AURORA-CHANGES.json"
+    },
+    {
+      "id": "AURORA-ACCESS",
+      "title": "aurora inspector access window",
+      "path": "evidence/AURORA-ACCESS.json"
+    },
+    {
+      "id": "AURORA-BASELINE",
+      "title": "aurora obsolete planning estimate",
+      "path": "evidence/AURORA-BASELINE.json"
+    },
+    {
+      "id": "BRISTOL-TASKS",
+      "title": "bristol signed dependency and deadline register",
+      "path": "evidence/BRISTOL-TASKS.json"
+    },
+    {
+      "id": "BRISTOL-CHANGES",
+      "title": "bristol executed and proposed duration register",
+      "path": "evidence/BRISTOL-CHANGES.json"
+    },
+    {
+      "id": "BRISTOL-ACCESS",
+      "title": "bristol inspector access window",
+      "path": "evidence/BRISTOL-ACCESS.json"
+    },
+    {
+      "id": "BRISTOL-BASELINE",
+      "title": "bristol obsolete planning estimate",
+      "path": "evidence/BRISTOL-BASELINE.json"
+    },
+    {
+      "id": "COBALT-TASKS",
+      "title": "cobalt signed dependency and deadline register",
+      "path": "evidence/COBALT-TASKS.json"
+    },
+    {
+      "id": "COBALT-CHANGES",
+      "title": "cobalt executed and proposed duration register",
+      "path": "evidence/COBALT-CHANGES.json"
+    },
+    {
+      "id": "COBALT-ACCESS",
+      "title": "cobalt inspector access window",
+      "path": "evidence/COBALT-ACCESS.json"
+    },
+    {
+      "id": "COBALT-BASELINE",
+      "title": "cobalt obsolete planning estimate",
+      "path": "evidence/COBALT-BASELINE.json"
+    }
+  ],
+  "requested_fact_names": [
+    "aurora.earliest_inspection_start",
+    "aurora.unconstrained_completion",
+    "aurora.inspection_start",
+    "aurora.completion_day",
+    "aurora.deadline_slack",
+    "aurora.deadline_met",
+    "bristol.earliest_inspection_start",
+    "bristol.unconstrained_completion",
+    "bristol.inspection_start",
+    "bristol.completion_day",
+    "bristol.deadline_slack",
+    "bristol.deadline_met",
+    "cobalt.earliest_inspection_start",
+    "cobalt.unconstrained_completion",
+    "cobalt.inspection_start",
+    "cobalt.completion_day",
+    "cobalt.deadline_slack",
+    "cobalt.deadline_met",
+    "all.makespan",
+    "all.sum_completion_days",
+    "all.open_all_on_time"
+  ],
+  "finding_key_format": "Allowed keys <hub>.stale_duration, <hub>.baseline_precedence_violation, <hub>.deadline_miss, shared.baseline_inspection_collision, shared.no_feasible_schedule. No other keys."
+}

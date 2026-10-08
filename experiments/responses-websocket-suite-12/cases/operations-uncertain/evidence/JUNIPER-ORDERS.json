@@ -1,0 +1,103 @@
+{
+  "id": "JUNIPER-ORDERS",
+  "title": "juniper signed order ledger",
+  "branch": "juniper",
+  "orders": [
+    {
+      "order_id": "juniper-101",
+      "ordered_qty": 9,
+      "unit_minor": 509,
+      "discount_basis_points": 0,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "order_id": "juniper-102",
+      "ordered_qty": 5,
+      "unit_minor": 497,
+      "discount_basis_points": 250,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "order_id": "juniper-103",
+      "ordered_qty": 11,
+      "unit_minor": 1165,
+      "discount_basis_points": 500,
+      "currency": "EUR",
+      "status": "cancelled"
+    },
+    {
+      "order_id": "juniper-104",
+      "ordered_qty": 10,
+      "unit_minor": 1326,
+      "discount_basis_points": 1250,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "order_id": "juniper-105",
+      "ordered_qty": 8,
+      "unit_minor": 1691,
+      "discount_basis_points": 0,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "order_id": "juniper-106",
+      "ordered_qty": 7,
+      "unit_minor": 1341,
+      "discount_basis_points": 250,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "order_id": "juniper-107",
+      "ordered_qty": 5,
+      "unit_minor": 1436,
+      "discount_basis_points": 500,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "order_id": "juniper-108",
+      "ordered_qty": 10,
+      "unit_minor": 1314,
+      "discount_basis_points": 1250,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "order_id": "juniper-109",
+      "ordered_qty": 12,
+      "unit_minor": 777,
+      "discount_basis_points": 0,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "order_id": "juniper-110",
+      "ordered_qty": 6,
+      "unit_minor": 1408,
+      "discount_basis_points": 250,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "order_id": "juniper-111",
+      "ordered_qty": 4,
+      "unit_minor": 510,
+      "discount_basis_points": 500,
+      "currency": "EUR",
+      "status": "active"
+    },
+    {
+      "order_id": "juniper-112",
+      "ordered_qty": 13,
+      "unit_minor": 746,
+      "discount_basis_points": 1250,
+      "currency": "EUR",
+      "status": "active"
+    }
+  ]
+}

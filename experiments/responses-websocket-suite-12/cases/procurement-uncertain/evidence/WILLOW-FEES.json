@@ -1,0 +1,23 @@
+{
+  "id": "WILLOW-FEES",
+  "title": "willow signed price schedule",
+  "vendor": "willow",
+  "status": "signed",
+  "hardware_cents": 1224000,
+  "volume_discount_bps": 800,
+  "promo_discount_bps": 375,
+  "integration_cents": {
+    "ERP": 80000,
+    "WMS": 72500,
+    "analytics": 430000
+  },
+  "implementation_cents": 166000,
+  "seat_monthly_cents_by_year": [
+    366,
+    396,
+    381
+  ],
+  "support_basis_points": 700,
+  "free_units_per_month": 9375,
+  "overage_cents_per_unit": 3
+}

@@ -1,0 +1,11 @@
+{
+  "id": "YARROW-ANNEX",
+  "title": "yarrow signed operating annex",
+  "vendor": "yarrow",
+  "status": "signed",
+  "eu_only": true,
+  "uptime_bps": 9997,
+  "capacity": 6100,
+  "delivery_weeks": 7,
+  "contractual_rto_minutes": null
+}

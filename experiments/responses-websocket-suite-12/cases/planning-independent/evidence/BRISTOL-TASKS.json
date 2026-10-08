@@ -1,0 +1,105 @@
+{
+  "id": "BRISTOL-TASKS",
+  "title": "bristol signed dependency and deadline register",
+  "hub": "bristol",
+  "tasks": [
+    {
+      "id": "survey",
+      "duration": 2,
+      "predecessors": [],
+      "release_day": 0
+    },
+    {
+      "id": "permits",
+      "duration": 4,
+      "predecessors": [
+        "survey"
+      ],
+      "release_day": 0
+    },
+    {
+      "id": "supplies",
+      "duration": 5,
+      "predecessors": [
+        "survey"
+      ],
+      "release_day": 0
+    },
+    {
+      "id": "electrical",
+      "duration": 2,
+      "predecessors": [
+        "permits"
+      ],
+      "release_day": 0
+    },
+    {
+      "id": "network",
+      "duration": 2,
+      "predecessors": [
+        "permits"
+      ],
+      "release_day": 0
+    },
+    {
+      "id": "delivery",
+      "duration": 1,
+      "predecessors": [
+        "supplies"
+      ],
+      "release_day": 6
+    },
+    {
+      "id": "install",
+      "duration": 3,
+      "predecessors": [
+        "delivery",
+        "electrical"
+      ],
+      "release_day": 0
+    },
+    {
+      "id": "integration",
+      "duration": 1,
+      "predecessors": [
+        "install",
+        "network"
+      ],
+      "release_day": 0
+    },
+    {
+      "id": "inspection",
+      "duration": 1,
+      "predecessors": [
+        "integration"
+      ],
+      "release_day": 0
+    },
+    {
+      "id": "remediation",
+      "duration": 2,
+      "predecessors": [
+        "inspection"
+      ],
+      "release_day": 0
+    },
+    {
+      "id": "training",
+      "duration": 2,
+      "predecessors": [
+        "inspection"
+      ],
+      "release_day": 0
+    },
+    {
+      "id": "open",
+      "duration": 2,
+      "predecessors": [
+        "remediation",
+        "training"
+      ],
+      "release_day": 0
+    }
+  ],
+  "deadline": 18
+}

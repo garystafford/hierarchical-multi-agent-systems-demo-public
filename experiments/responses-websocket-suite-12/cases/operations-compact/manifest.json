@@ -1,0 +1,16 @@
+{
+  "agent_visible_files": [
+    "index.json",
+    "evidence/OPS-POLICY.json",
+    "evidence/ASPEN-ORDERS.json",
+    "evidence/ASPEN-FULFILLMENT.json",
+    "evidence/ASPEN-LEDGER.json"
+  ],
+  "agent_visible_sha256": {
+    "index.json": "58ab17bd35ba41129c0e6ac06f6d9303e4001a0201ef88c6263e41f076bda8b6",
+    "evidence/OPS-POLICY.json": "256dfa998e62f1fc9c3e7ba0075b936096fe6abe100a557ded4e18107382a849",
+    "evidence/ASPEN-ORDERS.json": "42c693ccaefa95540760e1f51679fa5e92c5ef0c9f78477c72c4f10ca0806ac4",
+    "evidence/ASPEN-FULFILLMENT.json": "f8142698902674616fa898a8ac4735568c98d23fa015dcb2df90e3b0fe0c5403",
+    "evidence/ASPEN-LEDGER.json": "502393f11fa216748a8b2b0a1da8ff4eb4619421fda3b6a1e269080a9aa7f83b"
+  }
+}

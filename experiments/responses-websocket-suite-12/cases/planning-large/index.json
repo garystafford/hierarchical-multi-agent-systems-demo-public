@@ -1,0 +1,129 @@
+{
+  "case_id": "planning-large",
+  "domain": "planning",
+  "profile": "large",
+  "title": "4-hub inspection and opening plan",
+  "task": "Plan maintenance and opening for drift, ember, fable, granite using signed dependencies, current executed duration changes, and one shared inspector. Compute the stated lexicographic optimum or determine that no complete schedule is feasible. Return all requested facts and supported baseline/deadline findings.",
+  "documents": [
+    {
+      "id": "PLAN-POLICY",
+      "title": "Executed calendar and optimization contract",
+      "path": "evidence/PLAN-POLICY.json"
+    },
+    {
+      "id": "PLAN-CALENDAR",
+      "title": "Global inspector calendar and tie-break hub order",
+      "path": "evidence/PLAN-CALENDAR.json"
+    },
+    {
+      "id": "DRIFT-TASKS",
+      "title": "drift signed dependency and deadline register",
+      "path": "evidence/DRIFT-TASKS.json"
+    },
+    {
+      "id": "DRIFT-CHANGES",
+      "title": "drift executed and proposed duration register",
+      "path": "evidence/DRIFT-CHANGES.json"
+    },
+    {
+      "id": "DRIFT-ACCESS",
+      "title": "drift inspector access window",
+      "path": "evidence/DRIFT-ACCESS.json"
+    },
+    {
+      "id": "DRIFT-BASELINE",
+      "title": "drift obsolete planning estimate",
+      "path": "evidence/DRIFT-BASELINE.json"
+    },
+    {
+      "id": "EMBER-TASKS",
+      "title": "ember signed dependency and deadline register",
+      "path": "evidence/EMBER-TASKS.json"
+    },
+    {
+      "id": "EMBER-CHANGES",
+      "title": "ember executed and proposed duration register",
+      "path": "evidence/EMBER-CHANGES.json"
+    },
+    {
+      "id": "EMBER-ACCESS",
+      "title": "ember inspector access window",
+      "path": "evidence/EMBER-ACCESS.json"
+    },
+    {
+      "id": "EMBER-BASELINE",
+      "title": "ember obsolete planning estimate",
+      "path": "evidence/EMBER-BASELINE.json"
+    },
+    {
+      "id": "FABLE-TASKS",
+      "title": "fable signed dependency and deadline register",
+      "path": "evidence/FABLE-TASKS.json"
+    },
+    {
+      "id": "FABLE-CHANGES",
+      "title": "fable executed and proposed duration register",
+      "path": "evidence/FABLE-CHANGES.json"
+    },
+    {
+      "id": "FABLE-ACCESS",
+      "title": "fable inspector access window",
+      "path": "evidence/FABLE-ACCESS.json"
+    },
+    {
+      "id": "FABLE-BASELINE",
+      "title": "fable obsolete planning estimate",
+      "path": "evidence/FABLE-BASELINE.json"
+    },
+    {
+      "id": "GRANITE-TASKS",
+      "title": "granite signed dependency and deadline register",
+      "path": "evidence/GRANITE-TASKS.json"
+    },
+    {
+      "id": "GRANITE-CHANGES",
+      "title": "granite executed and proposed duration register",
+      "path": "evidence/GRANITE-CHANGES.json"
+    },
+    {
+      "id": "GRANITE-ACCESS",
+      "title": "granite inspector access window",
+      "path": "evidence/GRANITE-ACCESS.json"
+    },
+    {
+      "id": "GRANITE-BASELINE",
+      "title": "granite obsolete planning estimate",
+      "path": "evidence/GRANITE-BASELINE.json"
+    }
+  ],
+  "requested_fact_names": [
+    "drift.earliest_inspection_start",
+    "drift.unconstrained_completion",
+    "drift.inspection_start",
+    "drift.completion_day",
+    "drift.deadline_slack",
+    "drift.deadline_met",
+    "ember.earliest_inspection_start",
+    "ember.unconstrained_completion",
+    "ember.inspection_start",
+    "ember.completion_day",
+    "ember.deadline_slack",
+    "ember.deadline_met",
+    "fable.earliest_inspection_start",
+    "fable.unconstrained_completion",
+    "fable.inspection_start",
+    "fable.completion_day",
+    "fable.deadline_slack",
+    "fable.deadline_met",
+    "granite.earliest_inspection_start",
+    "granite.unconstrained_completion",
+    "granite.inspection_start",
+    "granite.completion_day",
+    "granite.deadline_slack",
+    "granite.deadline_met",
+    "all.makespan",
+    "all.sum_completion_days",
+    "all.open_all_on_time"
+  ],
+  "finding_key_format": "Allowed keys <hub>.stale_duration, <hub>.baseline_precedence_violation, <hub>.deadline_miss, shared.baseline_inspection_collision, shared.no_feasible_schedule. No other keys."
+}

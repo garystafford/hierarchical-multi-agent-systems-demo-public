@@ -1,0 +1,212 @@
+{
+  "id": "CANYON-LEDGER",
+  "title": "canyon posted settlement feed",
+  "branch": "canyon",
+  "complete": true,
+  "invoices": [
+    {
+      "invoice_id": "canyon-101-p1",
+      "order_id": "canyon-101",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 2468
+    },
+    {
+      "invoice_id": "canyon-101-p2",
+      "order_id": "canyon-101",
+      "day": 28,
+      "status": "posted",
+      "amount_minor": 2468
+    },
+    {
+      "invoice_id": "canyon-102-i1",
+      "order_id": "canyon-102",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 4714
+    },
+    {
+      "invoice_id": "canyon-103-i1",
+      "order_id": "canyon-103",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 7296
+    },
+    {
+      "invoice_id": "canyon-104-i1",
+      "order_id": "canyon-104",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 10406
+    },
+    {
+      "invoice_id": "canyon-105-i1",
+      "order_id": "canyon-105",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 14725
+    },
+    {
+      "invoice_id": "canyon-106-i1",
+      "order_id": "canyon-106",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 5145
+    },
+    {
+      "invoice_id": "canyon-107-i1",
+      "order_id": "canyon-107",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 6836
+    },
+    {
+      "invoice_id": "canyon-107-i2",
+      "order_id": "canyon-107",
+      "day": 28,
+      "status": "posted",
+      "amount_minor": 6836
+    },
+    {
+      "invoice_id": "canyon-108-i1",
+      "order_id": "canyon-108",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 3441
+    },
+    {
+      "invoice_id": "canyon-109-p1",
+      "order_id": "canyon-109",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 1795
+    },
+    {
+      "invoice_id": "canyon-109-p2",
+      "order_id": "canyon-109",
+      "day": 28,
+      "status": "posted",
+      "amount_minor": 1796
+    },
+    {
+      "invoice_id": "canyon-110-i1",
+      "order_id": "canyon-110",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 8663
+    },
+    {
+      "invoice_id": "canyon-111-i1",
+      "order_id": "canyon-111",
+      "day": 27,
+      "status": "posted",
+      "amount_minor": 14570
+    }
+  ],
+  "credits": [
+    {
+      "credit_id": "canyon-101-unapproved",
+      "order_id": "canyon-101",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1732
+    },
+    {
+      "credit_id": "canyon-102-unapproved",
+      "order_id": "canyon-102",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1714
+    },
+    {
+      "credit_id": "canyon-102-approved",
+      "order_id": "canyon-102",
+      "day": 28,
+      "status": "posted",
+      "approved": true,
+      "amount_minor": 857
+    },
+    {
+      "credit_id": "canyon-103-unapproved",
+      "order_id": "canyon-103",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1824
+    },
+    {
+      "credit_id": "canyon-104-unapproved",
+      "order_id": "canyon-104",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 821
+    },
+    {
+      "credit_id": "canyon-105-unapproved",
+      "order_id": "canyon-105",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1550
+    },
+    {
+      "credit_id": "canyon-106-unapproved",
+      "order_id": "canyon-106",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 980
+    },
+    {
+      "credit_id": "canyon-107-unapproved",
+      "order_id": "canyon-107",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1709
+    },
+    {
+      "credit_id": "canyon-108-unapproved",
+      "order_id": "canyon-108",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 506
+    },
+    {
+      "credit_id": "canyon-109-unapproved",
+      "order_id": "canyon-109",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1260
+    },
+    {
+      "credit_id": "canyon-110-unapproved",
+      "order_id": "canyon-110",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 700
+    },
+    {
+      "credit_id": "canyon-110-approved",
+      "order_id": "canyon-110",
+      "day": 28,
+      "status": "posted",
+      "approved": true,
+      "amount_minor": 350
+    },
+    {
+      "credit_id": "canyon-111-unapproved",
+      "order_id": "canyon-111",
+      "day": 28,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1457
+    }
+  ]
+}

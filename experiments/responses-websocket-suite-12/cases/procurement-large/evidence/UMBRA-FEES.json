@@ -1,0 +1,24 @@
+{
+  "id": "UMBRA-FEES",
+  "title": "umbra signed price schedule",
+  "vendor": "umbra",
+  "status": "signed",
+  "hardware_cents": 1716000,
+  "volume_discount_bps": 800,
+  "promo_discount_bps": 250,
+  "integration_cents": {
+    "ERP": 95000,
+    "WMS": 98000,
+    "analytics": 430000
+  },
+  "implementation_cents": 214000,
+  "seat_monthly_cents_by_year": [
+    310,
+    309,
+    350,
+    384
+  ],
+  "support_basis_points": 850,
+  "free_units_per_month": 10500,
+  "overage_cents_per_unit": 6
+}

@@ -1,0 +1,194 @@
+{
+  "facts": {
+    "lumen.eu_processing_pass": true,
+    "lumen.uptime_pass": true,
+    "lumen.capacity_pass": true,
+    "lumen.delivery_pass": true,
+    "lumen.contractual_rto_pass": true,
+    "lumen.eligibility": "eligible",
+    "lumen.hardware_cents": 861413,
+    "lumen.setup_cents": 289000,
+    "lumen.subscription_cents": 657900,
+    "lumen.support_cents": 111984,
+    "lumen.usage_cents": 124880,
+    "lumen.tco_cents": 2045177,
+    "morrow.eu_processing_pass": true,
+    "morrow.uptime_pass": true,
+    "morrow.capacity_pass": true,
+    "morrow.delivery_pass": true,
+    "morrow.contractual_rto_pass": true,
+    "morrow.eligibility": "eligible",
+    "morrow.hardware_cents": 996188,
+    "morrow.setup_cents": 318500,
+    "morrow.subscription_cents": 545700,
+    "morrow.support_cents": 139466,
+    "morrow.usage_cents": 165165,
+    "morrow.tco_cents": 2165019,
+    "all.selected_vendor": "lumen",
+    "all.selected_tco_cents": 2045177,
+    "all.eligible_count": 2
+  },
+  "required_sources": {
+    "lumen.eu_processing_pass": [
+      "BUY-POLICY",
+      "LUMEN-ANNEX",
+      "LUMEN-AMENDMENTS"
+    ],
+    "lumen.uptime_pass": [
+      "BUY-POLICY",
+      "LUMEN-ANNEX",
+      "LUMEN-AMENDMENTS"
+    ],
+    "lumen.capacity_pass": [
+      "BUY-POLICY",
+      "LUMEN-ANNEX",
+      "LUMEN-AMENDMENTS"
+    ],
+    "lumen.delivery_pass": [
+      "BUY-POLICY",
+      "LUMEN-ANNEX",
+      "LUMEN-AMENDMENTS"
+    ],
+    "lumen.contractual_rto_pass": [
+      "BUY-POLICY",
+      "LUMEN-ANNEX",
+      "LUMEN-AMENDMENTS"
+    ],
+    "lumen.eligibility": [
+      "BUY-POLICY",
+      "LUMEN-ANNEX",
+      "LUMEN-AMENDMENTS"
+    ],
+    "lumen.hardware_cents": [
+      "BUY-POLICY",
+      "LUMEN-FEES"
+    ],
+    "lumen.setup_cents": [
+      "BUY-POLICY",
+      "LUMEN-FEES"
+    ],
+    "lumen.subscription_cents": [
+      "BUY-POLICY",
+      "LUMEN-FEES",
+      "BUY-DEMAND"
+    ],
+    "lumen.support_cents": [
+      "BUY-POLICY",
+      "LUMEN-FEES"
+    ],
+    "lumen.usage_cents": [
+      "BUY-POLICY",
+      "LUMEN-FEES",
+      "BUY-DEMAND"
+    ],
+    "lumen.tco_cents": [
+      "BUY-POLICY",
+      "LUMEN-FEES",
+      "BUY-DEMAND"
+    ],
+    "morrow.eu_processing_pass": [
+      "BUY-POLICY",
+      "MORROW-ANNEX",
+      "MORROW-AMENDMENTS"
+    ],
+    "morrow.uptime_pass": [
+      "BUY-POLICY",
+      "MORROW-ANNEX",
+      "MORROW-AMENDMENTS"
+    ],
+    "morrow.capacity_pass": [
+      "BUY-POLICY",
+      "MORROW-ANNEX",
+      "MORROW-AMENDMENTS"
+    ],
+    "morrow.delivery_pass": [
+      "BUY-POLICY",
+      "MORROW-ANNEX",
+      "MORROW-AMENDMENTS"
+    ],
+    "morrow.contractual_rto_pass": [
+      "BUY-POLICY",
+      "MORROW-ANNEX",
+      "MORROW-AMENDMENTS"
+    ],
+    "morrow.eligibility": [
+      "BUY-POLICY",
+      "MORROW-ANNEX",
+      "MORROW-AMENDMENTS"
+    ],
+    "morrow.hardware_cents": [
+      "BUY-POLICY",
+      "MORROW-FEES"
+    ],
+    "morrow.setup_cents": [
+      "BUY-POLICY",
+      "MORROW-FEES"
+    ],
+    "morrow.subscription_cents": [
+      "BUY-POLICY",
+      "MORROW-FEES",
+      "BUY-DEMAND"
+    ],
+    "morrow.support_cents": [
+      "BUY-POLICY",
+      "MORROW-FEES"
+    ],
+    "morrow.usage_cents": [
+      "BUY-POLICY",
+      "MORROW-FEES",
+      "BUY-DEMAND"
+    ],
+    "morrow.tco_cents": [
+      "BUY-POLICY",
+      "MORROW-FEES",
+      "BUY-DEMAND"
+    ],
+    "all.selected_vendor": [
+      "BUY-POLICY"
+    ],
+    "all.selected_tco_cents": [
+      "BUY-POLICY"
+    ],
+    "all.eligible_count": [
+      "BUY-POLICY"
+    ]
+  },
+  "findings": [],
+  "finding_sources": {},
+  "diagnostic": {
+    "effective_annexes": {
+      "lumen": [
+        {
+          "effective_day": 28,
+          "status": "executed",
+          "fields": {
+            "capacity": 4700
+          }
+        },
+        {
+          "effective_day": 37,
+          "status": "executed",
+          "fields": {
+            "capacity": 5000
+          }
+        }
+      ],
+      "morrow": [
+        {
+          "effective_day": 28,
+          "status": "executed",
+          "fields": {
+            "capacity": 4700
+          }
+        },
+        {
+          "effective_day": 37,
+          "status": "executed",
+          "fields": {
+            "capacity": 5000
+          }
+        }
+      ]
+    }
+  }
+}

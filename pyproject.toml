@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hierarchical-multi-agent-systems-demo"
+version = "1.0.0"
+description = "GPT-6.1 Sol subagents through the Responses API over WebSocket"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic==2.13.5",
+    "python-dotenv==1.2.3",
+    "websockets==16.1.1",
+]
+
+[tool.setuptools]
+packages = []

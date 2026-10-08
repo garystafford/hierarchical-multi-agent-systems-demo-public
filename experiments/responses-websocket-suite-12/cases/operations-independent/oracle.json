@@ -1,0 +1,543 @@
+{
+  "facts": {
+    "bayside.expected_local_minor": 82382,
+    "bayside.actual_local_minor": 117389,
+    "bayside.overbilled_local_minor": 36165,
+    "bayside.underbilled_local_minor": 1158,
+    "bayside.overbilled_orders": 4,
+    "bayside.underbilled_orders": 2,
+    "bayside.cancelled_billed_orders": 1,
+    "bayside.duplicate_invoice_orders": 1,
+    "canyon.expected_local_minor": 75119,
+    "canyon.actual_local_minor": 89952,
+    "canyon.overbilled_local_minor": 15339,
+    "canyon.underbilled_local_minor": 506,
+    "canyon.overbilled_orders": 4,
+    "canyon.underbilled_orders": 1,
+    "canyon.cancelled_billed_orders": 1,
+    "canyon.duplicate_invoice_orders": 1,
+    "delta.expected_local_minor": 87356,
+    "delta.actual_local_minor": 100355,
+    "delta.overbilled_local_minor": 14182,
+    "delta.underbilled_local_minor": 1183,
+    "delta.overbilled_orders": 3,
+    "delta.underbilled_orders": 1,
+    "delta.cancelled_billed_orders": 1,
+    "delta.duplicate_invoice_orders": 1,
+    "all.expected_usd_cents": 277705,
+    "all.actual_usd_cents": 345796,
+    "all.overbilled_usd_cents": 71334,
+    "all.underbilled_usd_cents": 3241,
+    "all.hold_billing": true
+  },
+  "required_sources": {
+    "bayside.expected_local_minor": [
+      "OPS-POLICY",
+      "BAYSIDE-ORDERS",
+      "BAYSIDE-FULFILLMENT"
+    ],
+    "bayside.actual_local_minor": [
+      "OPS-POLICY",
+      "BAYSIDE-LEDGER"
+    ],
+    "bayside.overbilled_local_minor": [
+      "OPS-POLICY",
+      "BAYSIDE-ORDERS",
+      "BAYSIDE-FULFILLMENT",
+      "BAYSIDE-LEDGER"
+    ],
+    "bayside.underbilled_local_minor": [
+      "OPS-POLICY",
+      "BAYSIDE-ORDERS",
+      "BAYSIDE-FULFILLMENT",
+      "BAYSIDE-LEDGER"
+    ],
+    "bayside.overbilled_orders": [
+      "OPS-POLICY",
+      "BAYSIDE-ORDERS",
+      "BAYSIDE-FULFILLMENT",
+      "BAYSIDE-LEDGER"
+    ],
+    "bayside.underbilled_orders": [
+      "OPS-POLICY",
+      "BAYSIDE-ORDERS",
+      "BAYSIDE-FULFILLMENT",
+      "BAYSIDE-LEDGER"
+    ],
+    "bayside.cancelled_billed_orders": [
+      "OPS-POLICY",
+      "BAYSIDE-ORDERS",
+      "BAYSIDE-FULFILLMENT",
+      "BAYSIDE-LEDGER"
+    ],
+    "bayside.duplicate_invoice_orders": [
+      "OPS-POLICY",
+      "BAYSIDE-ORDERS",
+      "BAYSIDE-FULFILLMENT",
+      "BAYSIDE-LEDGER"
+    ],
+    "canyon.expected_local_minor": [
+      "OPS-POLICY",
+      "CANYON-ORDERS",
+      "CANYON-FULFILLMENT"
+    ],
+    "canyon.actual_local_minor": [
+      "OPS-POLICY",
+      "CANYON-LEDGER"
+    ],
+    "canyon.overbilled_local_minor": [
+      "OPS-POLICY",
+      "CANYON-ORDERS",
+      "CANYON-FULFILLMENT",
+      "CANYON-LEDGER"
+    ],
+    "canyon.underbilled_local_minor": [
+      "OPS-POLICY",
+      "CANYON-ORDERS",
+      "CANYON-FULFILLMENT",
+      "CANYON-LEDGER"
+    ],
+    "canyon.overbilled_orders": [
+      "OPS-POLICY",
+      "CANYON-ORDERS",
+      "CANYON-FULFILLMENT",
+      "CANYON-LEDGER"
+    ],
+    "canyon.underbilled_orders": [
+      "OPS-POLICY",
+      "CANYON-ORDERS",
+      "CANYON-FULFILLMENT",
+      "CANYON-LEDGER"
+    ],
+    "canyon.cancelled_billed_orders": [
+      "OPS-POLICY",
+      "CANYON-ORDERS",
+      "CANYON-FULFILLMENT",
+      "CANYON-LEDGER"
+    ],
+    "canyon.duplicate_invoice_orders": [
+      "OPS-POLICY",
+      "CANYON-ORDERS",
+      "CANYON-FULFILLMENT",
+      "CANYON-LEDGER"
+    ],
+    "delta.expected_local_minor": [
+      "OPS-POLICY",
+      "DELTA-ORDERS",
+      "DELTA-FULFILLMENT"
+    ],
+    "delta.actual_local_minor": [
+      "OPS-POLICY",
+      "DELTA-LEDGER"
+    ],
+    "delta.overbilled_local_minor": [
+      "OPS-POLICY",
+      "DELTA-ORDERS",
+      "DELTA-FULFILLMENT",
+      "DELTA-LEDGER"
+    ],
+    "delta.underbilled_local_minor": [
+      "OPS-POLICY",
+      "DELTA-ORDERS",
+      "DELTA-FULFILLMENT",
+      "DELTA-LEDGER"
+    ],
+    "delta.overbilled_orders": [
+      "OPS-POLICY",
+      "DELTA-ORDERS",
+      "DELTA-FULFILLMENT",
+      "DELTA-LEDGER"
+    ],
+    "delta.underbilled_orders": [
+      "OPS-POLICY",
+      "DELTA-ORDERS",
+      "DELTA-FULFILLMENT",
+      "DELTA-LEDGER"
+    ],
+    "delta.cancelled_billed_orders": [
+      "OPS-POLICY",
+      "DELTA-ORDERS",
+      "DELTA-FULFILLMENT",
+      "DELTA-LEDGER"
+    ],
+    "delta.duplicate_invoice_orders": [
+      "OPS-POLICY",
+      "DELTA-ORDERS",
+      "DELTA-FULFILLMENT",
+      "DELTA-LEDGER"
+    ],
+    "all.expected_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.actual_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.overbilled_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.underbilled_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.hold_billing": [
+      "OPS-POLICY"
+    ]
+  },
+  "findings": [
+    "bayside.cancelled_billed",
+    "bayside.duplicate_invoices",
+    "bayside.overbilled",
+    "bayside.underbilled",
+    "canyon.cancelled_billed",
+    "canyon.duplicate_invoices",
+    "canyon.overbilled",
+    "canyon.underbilled",
+    "delta.cancelled_billed",
+    "delta.duplicate_invoices",
+    "delta.overbilled",
+    "delta.underbilled"
+  ],
+  "finding_sources": {
+    "bayside.overbilled": [
+      "OPS-POLICY",
+      "BAYSIDE-ORDERS",
+      "BAYSIDE-FULFILLMENT",
+      "BAYSIDE-LEDGER"
+    ],
+    "bayside.underbilled": [
+      "OPS-POLICY",
+      "BAYSIDE-ORDERS",
+      "BAYSIDE-FULFILLMENT",
+      "BAYSIDE-LEDGER"
+    ],
+    "bayside.cancelled_billed": [
+      "OPS-POLICY",
+      "BAYSIDE-ORDERS",
+      "BAYSIDE-FULFILLMENT",
+      "BAYSIDE-LEDGER"
+    ],
+    "bayside.duplicate_invoices": [
+      "OPS-POLICY",
+      "BAYSIDE-ORDERS",
+      "BAYSIDE-FULFILLMENT",
+      "BAYSIDE-LEDGER"
+    ],
+    "canyon.overbilled": [
+      "OPS-POLICY",
+      "CANYON-ORDERS",
+      "CANYON-FULFILLMENT",
+      "CANYON-LEDGER"
+    ],
+    "canyon.underbilled": [
+      "OPS-POLICY",
+      "CANYON-ORDERS",
+      "CANYON-FULFILLMENT",
+      "CANYON-LEDGER"
+    ],
+    "canyon.cancelled_billed": [
+      "OPS-POLICY",
+      "CANYON-ORDERS",
+      "CANYON-FULFILLMENT",
+      "CANYON-LEDGER"
+    ],
+    "canyon.duplicate_invoices": [
+      "OPS-POLICY",
+      "CANYON-ORDERS",
+      "CANYON-FULFILLMENT",
+      "CANYON-LEDGER"
+    ],
+    "delta.overbilled": [
+      "OPS-POLICY",
+      "DELTA-ORDERS",
+      "DELTA-FULFILLMENT",
+      "DELTA-LEDGER"
+    ],
+    "delta.underbilled": [
+      "OPS-POLICY",
+      "DELTA-ORDERS",
+      "DELTA-FULFILLMENT",
+      "DELTA-LEDGER"
+    ],
+    "delta.cancelled_billed": [
+      "OPS-POLICY",
+      "DELTA-ORDERS",
+      "DELTA-FULFILLMENT",
+      "DELTA-LEDGER"
+    ],
+    "delta.duplicate_invoices": [
+      "OPS-POLICY",
+      "DELTA-ORDERS",
+      "DELTA-FULFILLMENT",
+      "DELTA-LEDGER"
+    ]
+  },
+  "diagnostic": {
+    "per_order": [
+      {
+        "order_id": "bayside-101",
+        "net_fulfilled_qty": 8,
+        "expected": 3409,
+        "actual": 2972,
+        "overbilled": 0,
+        "underbilled": 437
+      },
+      {
+        "order_id": "bayside-102",
+        "net_fulfilled_qty": 13,
+        "expected": 17265,
+        "actual": 17265,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "bayside-103",
+        "net_fulfilled_qty": 7,
+        "expected": 9524,
+        "actual": 10302,
+        "overbilled": 778,
+        "underbilled": 0
+      },
+      {
+        "order_id": "bayside-104",
+        "net_fulfilled_qty": 3,
+        "expected": 5358,
+        "actual": 5358,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "bayside-105",
+        "net_fulfilled_qty": 0,
+        "expected": 0,
+        "actual": 23309,
+        "overbilled": 23309,
+        "underbilled": 0
+      },
+      {
+        "order_id": "bayside-106",
+        "net_fulfilled_qty": 11,
+        "expected": 12352,
+        "actual": 12352,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "bayside-107",
+        "net_fulfilled_qty": 12,
+        "expected": 13157,
+        "actual": 13157,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "bayside-108",
+        "net_fulfilled_qty": 11,
+        "expected": 11682,
+        "actual": 23364,
+        "overbilled": 11682,
+        "underbilled": 0
+      },
+      {
+        "order_id": "bayside-109",
+        "net_fulfilled_qty": 8,
+        "expected": 5624,
+        "actual": 4903,
+        "overbilled": 0,
+        "underbilled": 721
+      },
+      {
+        "order_id": "bayside-110",
+        "net_fulfilled_qty": 1,
+        "expected": 1239,
+        "actual": 1239,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "bayside-111",
+        "net_fulfilled_qty": 4,
+        "expected": 2772,
+        "actual": 3168,
+        "overbilled": 396,
+        "underbilled": 0
+      },
+      {
+        "order_id": "canyon-101",
+        "net_fulfilled_qty": 3,
+        "expected": 4936,
+        "actual": 4936,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "canyon-102",
+        "net_fulfilled_qty": 2,
+        "expected": 3000,
+        "actual": 3857,
+        "overbilled": 857,
+        "underbilled": 0
+      },
+      {
+        "order_id": "canyon-103",
+        "net_fulfilled_qty": 0,
+        "expected": 0,
+        "actual": 7296,
+        "overbilled": 7296,
+        "underbilled": 0
+      },
+      {
+        "order_id": "canyon-104",
+        "net_fulfilled_qty": 13,
+        "expected": 10406,
+        "actual": 10406,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "canyon-105",
+        "net_fulfilled_qty": 10,
+        "expected": 14725,
+        "actual": 14725,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "canyon-106",
+        "net_fulfilled_qty": 6,
+        "expected": 5145,
+        "actual": 5145,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "canyon-107",
+        "net_fulfilled_qty": 4,
+        "expected": 6836,
+        "actual": 13672,
+        "overbilled": 6836,
+        "underbilled": 0
+      },
+      {
+        "order_id": "canyon-108",
+        "net_fulfilled_qty": 8,
+        "expected": 3947,
+        "actual": 3441,
+        "overbilled": 0,
+        "underbilled": 506
+      },
+      {
+        "order_id": "canyon-109",
+        "net_fulfilled_qty": 3,
+        "expected": 3591,
+        "actual": 3591,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "canyon-110",
+        "net_fulfilled_qty": 13,
+        "expected": 7963,
+        "actual": 8313,
+        "overbilled": 350,
+        "underbilled": 0
+      },
+      {
+        "order_id": "canyon-111",
+        "net_fulfilled_qty": 10,
+        "expected": 14570,
+        "actual": 14570,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "delta-101",
+        "net_fulfilled_qty": 0,
+        "expected": 0,
+        "actual": 7140,
+        "overbilled": 7140,
+        "underbilled": 0
+      },
+      {
+        "order_id": "delta-102",
+        "net_fulfilled_qty": 11,
+        "expected": 13915,
+        "actual": 13915,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "delta-103",
+        "net_fulfilled_qty": 7,
+        "expected": 7064,
+        "actual": 7064,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "delta-104",
+        "net_fulfilled_qty": 11,
+        "expected": 14421,
+        "actual": 14421,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "delta-105",
+        "net_fulfilled_qty": 4,
+        "expected": 4319,
+        "actual": 4319,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "delta-106",
+        "net_fulfilled_qty": 8,
+        "expected": 6512,
+        "actual": 13024,
+        "overbilled": 6512,
+        "underbilled": 0
+      },
+      {
+        "order_id": "delta-107",
+        "net_fulfilled_qty": 13,
+        "expected": 14995,
+        "actual": 13812,
+        "overbilled": 0,
+        "underbilled": 1183
+      },
+      {
+        "order_id": "delta-108",
+        "net_fulfilled_qty": 4,
+        "expected": 5677,
+        "actual": 5677,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "delta-109",
+        "net_fulfilled_qty": 10,
+        "expected": 9275,
+        "actual": 9805,
+        "overbilled": 530,
+        "underbilled": 0
+      },
+      {
+        "order_id": "delta-110",
+        "net_fulfilled_qty": 10,
+        "expected": 5430,
+        "actual": 5430,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "delta-111",
+        "net_fulfilled_qty": 9,
+        "expected": 5748,
+        "actual": 5748,
+        "overbilled": 0,
+        "underbilled": 0
+      }
+    ],
+    "known_over_usd": 71334,
+    "known_cancel": 3
+  }
+}

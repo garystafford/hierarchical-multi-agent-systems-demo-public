@@ -1,0 +1,294 @@
+{
+  "facts": {
+    "nimbus.eu_processing_pass": false,
+    "nimbus.uptime_pass": false,
+    "nimbus.capacity_pass": true,
+    "nimbus.delivery_pass": true,
+    "nimbus.contractual_rto_pass": true,
+    "nimbus.eligibility": "ineligible",
+    "nimbus.hardware_cents": 879908,
+    "nimbus.setup_cents": 289000,
+    "nimbus.subscription_cents": 1566576,
+    "nimbus.support_cents": 171582,
+    "nimbus.usage_cents": 174600,
+    "nimbus.tco_cents": 3081666,
+    "orion.eu_processing_pass": true,
+    "orion.uptime_pass": true,
+    "orion.capacity_pass": true,
+    "orion.delivery_pass": true,
+    "orion.contractual_rto_pass": true,
+    "orion.eligibility": "eligible",
+    "orion.hardware_cents": 1012092,
+    "orion.setup_cents": 318500,
+    "orion.subscription_cents": 1560240,
+    "orion.support_cents": 212538,
+    "orion.usage_cents": 229185,
+    "orion.tco_cents": 3332555,
+    "praxis.eu_processing_pass": true,
+    "praxis.uptime_pass": true,
+    "praxis.capacity_pass": true,
+    "praxis.delivery_pass": true,
+    "praxis.contractual_rto_pass": true,
+    "praxis.eligibility": "eligible",
+    "praxis.hardware_cents": 1182704,
+    "praxis.setup_cents": 348000,
+    "praxis.subscription_cents": 1482624,
+    "praxis.support_cents": 266109,
+    "praxis.usage_cents": 265080,
+    "praxis.tco_cents": 3544517,
+    "all.selected_vendor": "orion",
+    "all.selected_tco_cents": 3332555,
+    "all.eligible_count": 2
+  },
+  "required_sources": {
+    "nimbus.eu_processing_pass": [
+      "BUY-POLICY",
+      "NIMBUS-ANNEX",
+      "NIMBUS-AMENDMENTS"
+    ],
+    "nimbus.uptime_pass": [
+      "BUY-POLICY",
+      "NIMBUS-ANNEX",
+      "NIMBUS-AMENDMENTS"
+    ],
+    "nimbus.capacity_pass": [
+      "BUY-POLICY",
+      "NIMBUS-ANNEX",
+      "NIMBUS-AMENDMENTS"
+    ],
+    "nimbus.delivery_pass": [
+      "BUY-POLICY",
+      "NIMBUS-ANNEX",
+      "NIMBUS-AMENDMENTS"
+    ],
+    "nimbus.contractual_rto_pass": [
+      "BUY-POLICY",
+      "NIMBUS-ANNEX",
+      "NIMBUS-AMENDMENTS"
+    ],
+    "nimbus.eligibility": [
+      "BUY-POLICY",
+      "NIMBUS-ANNEX",
+      "NIMBUS-AMENDMENTS"
+    ],
+    "nimbus.hardware_cents": [
+      "BUY-POLICY",
+      "NIMBUS-FEES"
+    ],
+    "nimbus.setup_cents": [
+      "BUY-POLICY",
+      "NIMBUS-FEES"
+    ],
+    "nimbus.subscription_cents": [
+      "BUY-POLICY",
+      "NIMBUS-FEES",
+      "BUY-DEMAND"
+    ],
+    "nimbus.support_cents": [
+      "BUY-POLICY",
+      "NIMBUS-FEES"
+    ],
+    "nimbus.usage_cents": [
+      "BUY-POLICY",
+      "NIMBUS-FEES",
+      "BUY-DEMAND"
+    ],
+    "nimbus.tco_cents": [
+      "BUY-POLICY",
+      "NIMBUS-FEES",
+      "BUY-DEMAND"
+    ],
+    "orion.eu_processing_pass": [
+      "BUY-POLICY",
+      "ORION-ANNEX",
+      "ORION-AMENDMENTS"
+    ],
+    "orion.uptime_pass": [
+      "BUY-POLICY",
+      "ORION-ANNEX",
+      "ORION-AMENDMENTS"
+    ],
+    "orion.capacity_pass": [
+      "BUY-POLICY",
+      "ORION-ANNEX",
+      "ORION-AMENDMENTS"
+    ],
+    "orion.delivery_pass": [
+      "BUY-POLICY",
+      "ORION-ANNEX",
+      "ORION-AMENDMENTS"
+    ],
+    "orion.contractual_rto_pass": [
+      "BUY-POLICY",
+      "ORION-ANNEX",
+      "ORION-AMENDMENTS"
+    ],
+    "orion.eligibility": [
+      "BUY-POLICY",
+      "ORION-ANNEX",
+      "ORION-AMENDMENTS"
+    ],
+    "orion.hardware_cents": [
+      "BUY-POLICY",
+      "ORION-FEES"
+    ],
+    "orion.setup_cents": [
+      "BUY-POLICY",
+      "ORION-FEES"
+    ],
+    "orion.subscription_cents": [
+      "BUY-POLICY",
+      "ORION-FEES",
+      "BUY-DEMAND"
+    ],
+    "orion.support_cents": [
+      "BUY-POLICY",
+      "ORION-FEES"
+    ],
+    "orion.usage_cents": [
+      "BUY-POLICY",
+      "ORION-FEES",
+      "BUY-DEMAND"
+    ],
+    "orion.tco_cents": [
+      "BUY-POLICY",
+      "ORION-FEES",
+      "BUY-DEMAND"
+    ],
+    "praxis.eu_processing_pass": [
+      "BUY-POLICY",
+      "PRAXIS-ANNEX",
+      "PRAXIS-AMENDMENTS"
+    ],
+    "praxis.uptime_pass": [
+      "BUY-POLICY",
+      "PRAXIS-ANNEX",
+      "PRAXIS-AMENDMENTS"
+    ],
+    "praxis.capacity_pass": [
+      "BUY-POLICY",
+      "PRAXIS-ANNEX",
+      "PRAXIS-AMENDMENTS"
+    ],
+    "praxis.delivery_pass": [
+      "BUY-POLICY",
+      "PRAXIS-ANNEX",
+      "PRAXIS-AMENDMENTS"
+    ],
+    "praxis.contractual_rto_pass": [
+      "BUY-POLICY",
+      "PRAXIS-ANNEX",
+      "PRAXIS-AMENDMENTS"
+    ],
+    "praxis.eligibility": [
+      "BUY-POLICY",
+      "PRAXIS-ANNEX",
+      "PRAXIS-AMENDMENTS"
+    ],
+    "praxis.hardware_cents": [
+      "BUY-POLICY",
+      "PRAXIS-FEES"
+    ],
+    "praxis.setup_cents": [
+      "BUY-POLICY",
+      "PRAXIS-FEES"
+    ],
+    "praxis.subscription_cents": [
+      "BUY-POLICY",
+      "PRAXIS-FEES",
+      "BUY-DEMAND"
+    ],
+    "praxis.support_cents": [
+      "BUY-POLICY",
+      "PRAXIS-FEES"
+    ],
+    "praxis.usage_cents": [
+      "BUY-POLICY",
+      "PRAXIS-FEES",
+      "BUY-DEMAND"
+    ],
+    "praxis.tco_cents": [
+      "BUY-POLICY",
+      "PRAXIS-FEES",
+      "BUY-DEMAND"
+    ],
+    "all.selected_vendor": [
+      "BUY-POLICY"
+    ],
+    "all.selected_tco_cents": [
+      "BUY-POLICY"
+    ],
+    "all.eligible_count": [
+      "BUY-POLICY"
+    ]
+  },
+  "findings": [
+    "nimbus.eu_processing.fail",
+    "nimbus.uptime.fail"
+  ],
+  "finding_sources": {
+    "nimbus.eu_processing.fail": [
+      "BUY-POLICY",
+      "NIMBUS-ANNEX",
+      "NIMBUS-AMENDMENTS"
+    ],
+    "nimbus.uptime.fail": [
+      "BUY-POLICY",
+      "NIMBUS-ANNEX",
+      "NIMBUS-AMENDMENTS"
+    ]
+  },
+  "diagnostic": {
+    "effective_annexes": {
+      "nimbus": [
+        {
+          "effective_day": 29,
+          "status": "executed",
+          "fields": {
+            "capacity": 5100
+          }
+        },
+        {
+          "effective_day": 38,
+          "status": "executed",
+          "fields": {
+            "capacity": 5400
+          }
+        }
+      ],
+      "orion": [
+        {
+          "effective_day": 29,
+          "status": "executed",
+          "fields": {
+            "capacity": 5100
+          }
+        },
+        {
+          "effective_day": 38,
+          "status": "executed",
+          "fields": {
+            "capacity": 5400,
+            "delivery_weeks": 8
+          }
+        }
+      ],
+      "praxis": [
+        {
+          "effective_day": 29,
+          "status": "executed",
+          "fields": {
+            "capacity": 5100
+          }
+        },
+        {
+          "effective_day": 38,
+          "status": "executed",
+          "fields": {
+            "capacity": 5400
+          }
+        }
+      ]
+    }
+  }
+}

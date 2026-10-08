@@ -1,0 +1,481 @@
+{
+  "facts": {
+    "quartz.eu_processing_pass": false,
+    "quartz.uptime_pass": false,
+    "quartz.capacity_pass": true,
+    "quartz.delivery_pass": true,
+    "quartz.contractual_rto_pass": true,
+    "quartz.eligibility": "ineligible",
+    "quartz.hardware_cents": 897636,
+    "quartz.setup_cents": 289000,
+    "quartz.subscription_cents": 2817528,
+    "quartz.support_cents": 233384,
+    "quartz.usage_cents": 229080,
+    "quartz.tco_cents": 4466628,
+    "radian.eu_processing_pass": true,
+    "radian.uptime_pass": true,
+    "radian.capacity_pass": true,
+    "radian.delivery_pass": true,
+    "radian.contractual_rto_pass": true,
+    "radian.eligibility": "eligible",
+    "radian.hardware_cents": 1068327,
+    "radian.setup_cents": 318500,
+    "radian.subscription_cents": 3130194,
+    "radian.support_cents": 299132,
+    "radian.usage_cents": 298875,
+    "radian.tco_cents": 5115028,
+    "sable.eu_processing_pass": true,
+    "sable.uptime_pass": true,
+    "sable.capacity_pass": true,
+    "sable.delivery_pass": true,
+    "sable.contractual_rto_pass": true,
+    "sable.eligibility": "eligible",
+    "sable.hardware_cents": 1196445,
+    "sable.setup_cents": 348000,
+    "sable.subscription_cents": 2945700,
+    "sable.support_cents": 358932,
+    "sable.usage_cents": 343000,
+    "sable.tco_cents": 5192077,
+    "tandem.eu_processing_pass": false,
+    "tandem.uptime_pass": false,
+    "tandem.capacity_pass": true,
+    "tandem.delivery_pass": true,
+    "tandem.contractual_rto_pass": null,
+    "tandem.eligibility": "ineligible",
+    "tandem.hardware_cents": 1361474,
+    "tandem.setup_cents": 377500,
+    "tandem.subscription_cents": 2774334,
+    "tandem.support_cents": 435672,
+    "tandem.usage_cents": 366075,
+    "tandem.tco_cents": 5315055,
+    "umbra.eu_processing_pass": true,
+    "umbra.uptime_pass": true,
+    "umbra.capacity_pass": true,
+    "umbra.delivery_pass": true,
+    "umbra.contractual_rto_pass": true,
+    "umbra.eligibility": "eligible",
+    "umbra.hardware_cents": 1539252,
+    "umbra.setup_cents": 407000,
+    "umbra.subscription_cents": 3086190,
+    "umbra.support_cents": 523344,
+    "umbra.usage_cents": 369360,
+    "umbra.tco_cents": 5925146,
+    "all.selected_vendor": "radian",
+    "all.selected_tco_cents": 5115028,
+    "all.eligible_count": 3
+  },
+  "required_sources": {
+    "quartz.eu_processing_pass": [
+      "BUY-POLICY",
+      "QUARTZ-ANNEX",
+      "QUARTZ-AMENDMENTS"
+    ],
+    "quartz.uptime_pass": [
+      "BUY-POLICY",
+      "QUARTZ-ANNEX",
+      "QUARTZ-AMENDMENTS"
+    ],
+    "quartz.capacity_pass": [
+      "BUY-POLICY",
+      "QUARTZ-ANNEX",
+      "QUARTZ-AMENDMENTS"
+    ],
+    "quartz.delivery_pass": [
+      "BUY-POLICY",
+      "QUARTZ-ANNEX",
+      "QUARTZ-AMENDMENTS"
+    ],
+    "quartz.contractual_rto_pass": [
+      "BUY-POLICY",
+      "QUARTZ-ANNEX",
+      "QUARTZ-AMENDMENTS"
+    ],
+    "quartz.eligibility": [
+      "BUY-POLICY",
+      "QUARTZ-ANNEX",
+      "QUARTZ-AMENDMENTS"
+    ],
+    "quartz.hardware_cents": [
+      "BUY-POLICY",
+      "QUARTZ-FEES"
+    ],
+    "quartz.setup_cents": [
+      "BUY-POLICY",
+      "QUARTZ-FEES"
+    ],
+    "quartz.subscription_cents": [
+      "BUY-POLICY",
+      "QUARTZ-FEES",
+      "BUY-DEMAND"
+    ],
+    "quartz.support_cents": [
+      "BUY-POLICY",
+      "QUARTZ-FEES"
+    ],
+    "quartz.usage_cents": [
+      "BUY-POLICY",
+      "QUARTZ-FEES",
+      "BUY-DEMAND"
+    ],
+    "quartz.tco_cents": [
+      "BUY-POLICY",
+      "QUARTZ-FEES",
+      "BUY-DEMAND"
+    ],
+    "radian.eu_processing_pass": [
+      "BUY-POLICY",
+      "RADIAN-ANNEX",
+      "RADIAN-AMENDMENTS"
+    ],
+    "radian.uptime_pass": [
+      "BUY-POLICY",
+      "RADIAN-ANNEX",
+      "RADIAN-AMENDMENTS"
+    ],
+    "radian.capacity_pass": [
+      "BUY-POLICY",
+      "RADIAN-ANNEX",
+      "RADIAN-AMENDMENTS"
+    ],
+    "radian.delivery_pass": [
+      "BUY-POLICY",
+      "RADIAN-ANNEX",
+      "RADIAN-AMENDMENTS"
+    ],
+    "radian.contractual_rto_pass": [
+      "BUY-POLICY",
+      "RADIAN-ANNEX",
+      "RADIAN-AMENDMENTS"
+    ],
+    "radian.eligibility": [
+      "BUY-POLICY",
+      "RADIAN-ANNEX",
+      "RADIAN-AMENDMENTS"
+    ],
+    "radian.hardware_cents": [
+      "BUY-POLICY",
+      "RADIAN-FEES"
+    ],
+    "radian.setup_cents": [
+      "BUY-POLICY",
+      "RADIAN-FEES"
+    ],
+    "radian.subscription_cents": [
+      "BUY-POLICY",
+      "RADIAN-FEES",
+      "BUY-DEMAND"
+    ],
+    "radian.support_cents": [
+      "BUY-POLICY",
+      "RADIAN-FEES"
+    ],
+    "radian.usage_cents": [
+      "BUY-POLICY",
+      "RADIAN-FEES",
+      "BUY-DEMAND"
+    ],
+    "radian.tco_cents": [
+      "BUY-POLICY",
+      "RADIAN-FEES",
+      "BUY-DEMAND"
+    ],
+    "sable.eu_processing_pass": [
+      "BUY-POLICY",
+      "SABLE-ANNEX",
+      "SABLE-AMENDMENTS"
+    ],
+    "sable.uptime_pass": [
+      "BUY-POLICY",
+      "SABLE-ANNEX",
+      "SABLE-AMENDMENTS"
+    ],
+    "sable.capacity_pass": [
+      "BUY-POLICY",
+      "SABLE-ANNEX",
+      "SABLE-AMENDMENTS"
+    ],
+    "sable.delivery_pass": [
+      "BUY-POLICY",
+      "SABLE-ANNEX",
+      "SABLE-AMENDMENTS"
+    ],
+    "sable.contractual_rto_pass": [
+      "BUY-POLICY",
+      "SABLE-ANNEX",
+      "SABLE-AMENDMENTS"
+    ],
+    "sable.eligibility": [
+      "BUY-POLICY",
+      "SABLE-ANNEX",
+      "SABLE-AMENDMENTS"
+    ],
+    "sable.hardware_cents": [
+      "BUY-POLICY",
+      "SABLE-FEES"
+    ],
+    "sable.setup_cents": [
+      "BUY-POLICY",
+      "SABLE-FEES"
+    ],
+    "sable.subscription_cents": [
+      "BUY-POLICY",
+      "SABLE-FEES",
+      "BUY-DEMAND"
+    ],
+    "sable.support_cents": [
+      "BUY-POLICY",
+      "SABLE-FEES"
+    ],
+    "sable.usage_cents": [
+      "BUY-POLICY",
+      "SABLE-FEES",
+      "BUY-DEMAND"
+    ],
+    "sable.tco_cents": [
+      "BUY-POLICY",
+      "SABLE-FEES",
+      "BUY-DEMAND"
+    ],
+    "tandem.eu_processing_pass": [
+      "BUY-POLICY",
+      "TANDEM-ANNEX",
+      "TANDEM-AMENDMENTS"
+    ],
+    "tandem.uptime_pass": [
+      "BUY-POLICY",
+      "TANDEM-ANNEX",
+      "TANDEM-AMENDMENTS"
+    ],
+    "tandem.capacity_pass": [
+      "BUY-POLICY",
+      "TANDEM-ANNEX",
+      "TANDEM-AMENDMENTS"
+    ],
+    "tandem.delivery_pass": [
+      "BUY-POLICY",
+      "TANDEM-ANNEX",
+      "TANDEM-AMENDMENTS"
+    ],
+    "tandem.contractual_rto_pass": [
+      "BUY-POLICY",
+      "TANDEM-ANNEX",
+      "TANDEM-AMENDMENTS"
+    ],
+    "tandem.eligibility": [
+      "BUY-POLICY",
+      "TANDEM-ANNEX",
+      "TANDEM-AMENDMENTS"
+    ],
+    "tandem.hardware_cents": [
+      "BUY-POLICY",
+      "TANDEM-FEES"
+    ],
+    "tandem.setup_cents": [
+      "BUY-POLICY",
+      "TANDEM-FEES"
+    ],
+    "tandem.subscription_cents": [
+      "BUY-POLICY",
+      "TANDEM-FEES",
+      "BUY-DEMAND"
+    ],
+    "tandem.support_cents": [
+      "BUY-POLICY",
+      "TANDEM-FEES"
+    ],
+    "tandem.usage_cents": [
+      "BUY-POLICY",
+      "TANDEM-FEES",
+      "BUY-DEMAND"
+    ],
+    "tandem.tco_cents": [
+      "BUY-POLICY",
+      "TANDEM-FEES",
+      "BUY-DEMAND"
+    ],
+    "umbra.eu_processing_pass": [
+      "BUY-POLICY",
+      "UMBRA-ANNEX",
+      "UMBRA-AMENDMENTS"
+    ],
+    "umbra.uptime_pass": [
+      "BUY-POLICY",
+      "UMBRA-ANNEX",
+      "UMBRA-AMENDMENTS"
+    ],
+    "umbra.capacity_pass": [
+      "BUY-POLICY",
+      "UMBRA-ANNEX",
+      "UMBRA-AMENDMENTS"
+    ],
+    "umbra.delivery_pass": [
+      "BUY-POLICY",
+      "UMBRA-ANNEX",
+      "UMBRA-AMENDMENTS"
+    ],
+    "umbra.contractual_rto_pass": [
+      "BUY-POLICY",
+      "UMBRA-ANNEX",
+      "UMBRA-AMENDMENTS"
+    ],
+    "umbra.eligibility": [
+      "BUY-POLICY",
+      "UMBRA-ANNEX",
+      "UMBRA-AMENDMENTS"
+    ],
+    "umbra.hardware_cents": [
+      "BUY-POLICY",
+      "UMBRA-FEES"
+    ],
+    "umbra.setup_cents": [
+      "BUY-POLICY",
+      "UMBRA-FEES"
+    ],
+    "umbra.subscription_cents": [
+      "BUY-POLICY",
+      "UMBRA-FEES",
+      "BUY-DEMAND"
+    ],
+    "umbra.support_cents": [
+      "BUY-POLICY",
+      "UMBRA-FEES"
+    ],
+    "umbra.usage_cents": [
+      "BUY-POLICY",
+      "UMBRA-FEES",
+      "BUY-DEMAND"
+    ],
+    "umbra.tco_cents": [
+      "BUY-POLICY",
+      "UMBRA-FEES",
+      "BUY-DEMAND"
+    ],
+    "all.selected_vendor": [
+      "BUY-POLICY"
+    ],
+    "all.selected_tco_cents": [
+      "BUY-POLICY"
+    ],
+    "all.eligible_count": [
+      "BUY-POLICY"
+    ]
+  },
+  "findings": [
+    "quartz.eu_processing.fail",
+    "quartz.uptime.fail",
+    "tandem.contractual_rto.unknown",
+    "tandem.eu_processing.fail",
+    "tandem.uptime.fail"
+  ],
+  "finding_sources": {
+    "quartz.eu_processing.fail": [
+      "BUY-POLICY",
+      "QUARTZ-ANNEX",
+      "QUARTZ-AMENDMENTS"
+    ],
+    "quartz.uptime.fail": [
+      "BUY-POLICY",
+      "QUARTZ-ANNEX",
+      "QUARTZ-AMENDMENTS"
+    ],
+    "tandem.eu_processing.fail": [
+      "BUY-POLICY",
+      "TANDEM-ANNEX",
+      "TANDEM-AMENDMENTS"
+    ],
+    "tandem.uptime.fail": [
+      "BUY-POLICY",
+      "TANDEM-ANNEX",
+      "TANDEM-AMENDMENTS"
+    ],
+    "tandem.contractual_rto.unknown": [
+      "BUY-POLICY",
+      "TANDEM-ANNEX",
+      "TANDEM-AMENDMENTS"
+    ]
+  },
+  "diagnostic": {
+    "effective_annexes": {
+      "quartz": [
+        {
+          "effective_day": 30,
+          "status": "executed",
+          "fields": {
+            "capacity": 5500
+          }
+        },
+        {
+          "effective_day": 39,
+          "status": "executed",
+          "fields": {
+            "capacity": 5800
+          }
+        }
+      ],
+      "radian": [
+        {
+          "effective_day": 30,
+          "status": "executed",
+          "fields": {
+            "capacity": 5500
+          }
+        },
+        {
+          "effective_day": 39,
+          "status": "executed",
+          "fields": {
+            "capacity": 5800
+          }
+        }
+      ],
+      "sable": [
+        {
+          "effective_day": 30,
+          "status": "executed",
+          "fields": {
+            "capacity": 5500
+          }
+        },
+        {
+          "effective_day": 39,
+          "status": "executed",
+          "fields": {
+            "capacity": 5800
+          }
+        }
+      ],
+      "tandem": [
+        {
+          "effective_day": 30,
+          "status": "executed",
+          "fields": {
+            "capacity": 5500
+          }
+        },
+        {
+          "effective_day": 39,
+          "status": "executed",
+          "fields": {
+            "capacity": 5800
+          }
+        }
+      ],
+      "umbra": [
+        {
+          "effective_day": 30,
+          "status": "executed",
+          "fields": {
+            "capacity": 5500
+          }
+        },
+        {
+          "effective_day": 39,
+          "status": "executed",
+          "fields": {
+            "capacity": 5800
+          }
+        }
+      ]
+    }
+  }
+}

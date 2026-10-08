@@ -1,0 +1,45 @@
+{
+  "case_id": "operations-compact",
+  "domain": "operations",
+  "profile": "compact",
+  "title": "1-branch settlement at cutoff 21",
+  "task": "Reconcile settlement for aspen at the signed policy cutoff. Compute all requested branch and USD facts, summarize supported branch-level issues, and decide whether billing must be held. Respect incomplete feeds and source authority.",
+  "documents": [
+    {
+      "id": "OPS-POLICY",
+      "title": "Executed settlement policy",
+      "path": "evidence/OPS-POLICY.json"
+    },
+    {
+      "id": "ASPEN-ORDERS",
+      "title": "aspen signed order ledger",
+      "path": "evidence/ASPEN-ORDERS.json"
+    },
+    {
+      "id": "ASPEN-FULFILLMENT",
+      "title": "aspen raw fulfillment export",
+      "path": "evidence/ASPEN-FULFILLMENT.json"
+    },
+    {
+      "id": "ASPEN-LEDGER",
+      "title": "aspen posted settlement feed",
+      "path": "evidence/ASPEN-LEDGER.json"
+    }
+  ],
+  "requested_fact_names": [
+    "aspen.expected_local_minor",
+    "aspen.actual_local_minor",
+    "aspen.overbilled_local_minor",
+    "aspen.underbilled_local_minor",
+    "aspen.overbilled_orders",
+    "aspen.underbilled_orders",
+    "aspen.cancelled_billed_orders",
+    "aspen.duplicate_invoice_orders",
+    "all.expected_usd_cents",
+    "all.actual_usd_cents",
+    "all.overbilled_usd_cents",
+    "all.underbilled_usd_cents",
+    "all.hold_billing"
+  ],
+  "finding_key_format": "Branch-level keys only: <branch>.overbilled, <branch>.underbilled, <branch>.cancelled_billed, <branch>.duplicate_invoices, <branch>.incomplete_ledger. No order-level keys or other findings."
+}

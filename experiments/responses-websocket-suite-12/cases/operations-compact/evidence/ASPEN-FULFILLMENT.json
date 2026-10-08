@@ -1,0 +1,68 @@
+{
+  "id": "ASPEN-FULFILLMENT",
+  "title": "aspen raw fulfillment export",
+  "branch": "aspen",
+  "shipments": [
+    {
+      "shipment_id": "aspen-101-a",
+      "order_id": "aspen-101",
+      "day": 13,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "aspen-101-b",
+      "order_id": "aspen-101",
+      "day": 19,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "aspen-102-a",
+      "order_id": "aspen-102",
+      "day": 13,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "aspen-102-b",
+      "order_id": "aspen-102",
+      "day": 19,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "aspen-103-a",
+      "order_id": "aspen-103",
+      "day": 13,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "aspen-103-b",
+      "order_id": "aspen-103",
+      "day": 19,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "aspen-104-a",
+      "order_id": "aspen-104",
+      "day": 13,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "aspen-104-b",
+      "order_id": "aspen-104",
+      "day": 19,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "aspen-105-a",
+      "order_id": "aspen-105",
+      "day": 13,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "aspen-105-b",
+      "order_id": "aspen-105",
+      "day": 19,
+      "quantity": 3
+    }
+  ],
+  "returns": []
+}

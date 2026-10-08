@@ -1,0 +1,20 @@
+{
+  "agent_visible_files": [
+    "index.json",
+    "evidence/PLAN-POLICY.json",
+    "evidence/PLAN-CALENDAR.json",
+    "evidence/ZEPHYR-TASKS.json",
+    "evidence/ZEPHYR-CHANGES.json",
+    "evidence/ZEPHYR-ACCESS.json",
+    "evidence/ZEPHYR-BASELINE.json"
+  ],
+  "agent_visible_sha256": {
+    "index.json": "053cd2843f0458682a12fc743e33c2ccab24df168d4a8d55e81f3b415d9b7b28",
+    "evidence/PLAN-POLICY.json": "771f19cc0c3fb7ff371b49f0fdf12539a00948047452c4cc2a65bbbb8d490c9a",
+    "evidence/PLAN-CALENDAR.json": "136f6677db2f44bfbabff544fbdbde606921d5cf77c165f973926466f5871ce9",
+    "evidence/ZEPHYR-TASKS.json": "1e182ce994012e70b546dc19a455d877e04b5d1037bede1e3d7f282970835fbc",
+    "evidence/ZEPHYR-CHANGES.json": "39eefd41a127aa797b64289caa42aa9abaf70c9a68d419247ff70b62abdea25f",
+    "evidence/ZEPHYR-ACCESS.json": "a64a4c42a3c8f0bf3a991005ea708475d1389278a0327e43b70b9f36dbf54064",
+    "evidence/ZEPHYR-BASELINE.json": "0c39c37ad5a9f90294d730c74d981a446553e9dd9ef0533d8c020fd375018cec"
+  }
+}

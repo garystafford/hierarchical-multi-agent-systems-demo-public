@@ -1,0 +1,338 @@
+{
+  "facts": {
+    "drift.earliest_inspection_start": 12,
+    "drift.unconstrained_completion": 16,
+    "ember.earliest_inspection_start": 14,
+    "ember.unconstrained_completion": 18,
+    "fable.earliest_inspection_start": 13,
+    "fable.unconstrained_completion": 18,
+    "granite.earliest_inspection_start": 15,
+    "granite.unconstrained_completion": 19,
+    "drift.inspection_start": 12,
+    "drift.completion_day": 16,
+    "drift.deadline_slack": 1,
+    "drift.deadline_met": true,
+    "ember.inspection_start": 14,
+    "ember.completion_day": 18,
+    "ember.deadline_slack": 0,
+    "ember.deadline_met": true,
+    "fable.inspection_start": 15,
+    "fable.completion_day": 20,
+    "fable.deadline_slack": -3,
+    "fable.deadline_met": false,
+    "granite.inspection_start": 16,
+    "granite.completion_day": 20,
+    "granite.deadline_slack": -2,
+    "granite.deadline_met": false,
+    "all.makespan": 20,
+    "all.sum_completion_days": 74,
+    "all.open_all_on_time": false
+  },
+  "required_sources": {
+    "drift.earliest_inspection_start": [
+      "PLAN-POLICY",
+      "DRIFT-TASKS",
+      "DRIFT-CHANGES"
+    ],
+    "drift.unconstrained_completion": [
+      "PLAN-POLICY",
+      "DRIFT-TASKS",
+      "DRIFT-CHANGES"
+    ],
+    "ember.earliest_inspection_start": [
+      "PLAN-POLICY",
+      "EMBER-TASKS",
+      "EMBER-CHANGES"
+    ],
+    "ember.unconstrained_completion": [
+      "PLAN-POLICY",
+      "EMBER-TASKS",
+      "EMBER-CHANGES"
+    ],
+    "fable.earliest_inspection_start": [
+      "PLAN-POLICY",
+      "FABLE-TASKS",
+      "FABLE-CHANGES"
+    ],
+    "fable.unconstrained_completion": [
+      "PLAN-POLICY",
+      "FABLE-TASKS",
+      "FABLE-CHANGES"
+    ],
+    "granite.earliest_inspection_start": [
+      "PLAN-POLICY",
+      "GRANITE-TASKS",
+      "GRANITE-CHANGES"
+    ],
+    "granite.unconstrained_completion": [
+      "PLAN-POLICY",
+      "GRANITE-TASKS",
+      "GRANITE-CHANGES"
+    ],
+    "drift.inspection_start": [
+      "PLAN-POLICY",
+      "DRIFT-TASKS",
+      "DRIFT-CHANGES",
+      "PLAN-CALENDAR",
+      "DRIFT-ACCESS"
+    ],
+    "drift.completion_day": [
+      "PLAN-POLICY",
+      "DRIFT-TASKS",
+      "DRIFT-CHANGES",
+      "PLAN-CALENDAR",
+      "DRIFT-ACCESS"
+    ],
+    "drift.deadline_slack": [
+      "PLAN-POLICY",
+      "DRIFT-TASKS",
+      "DRIFT-CHANGES",
+      "PLAN-CALENDAR",
+      "DRIFT-ACCESS"
+    ],
+    "drift.deadline_met": [
+      "PLAN-POLICY",
+      "DRIFT-TASKS",
+      "DRIFT-CHANGES",
+      "PLAN-CALENDAR",
+      "DRIFT-ACCESS"
+    ],
+    "ember.inspection_start": [
+      "PLAN-POLICY",
+      "EMBER-TASKS",
+      "EMBER-CHANGES",
+      "PLAN-CALENDAR",
+      "EMBER-ACCESS"
+    ],
+    "ember.completion_day": [
+      "PLAN-POLICY",
+      "EMBER-TASKS",
+      "EMBER-CHANGES",
+      "PLAN-CALENDAR",
+      "EMBER-ACCESS"
+    ],
+    "ember.deadline_slack": [
+      "PLAN-POLICY",
+      "EMBER-TASKS",
+      "EMBER-CHANGES",
+      "PLAN-CALENDAR",
+      "EMBER-ACCESS"
+    ],
+    "ember.deadline_met": [
+      "PLAN-POLICY",
+      "EMBER-TASKS",
+      "EMBER-CHANGES",
+      "PLAN-CALENDAR",
+      "EMBER-ACCESS"
+    ],
+    "fable.inspection_start": [
+      "PLAN-POLICY",
+      "FABLE-TASKS",
+      "FABLE-CHANGES",
+      "PLAN-CALENDAR",
+      "FABLE-ACCESS"
+    ],
+    "fable.completion_day": [
+      "PLAN-POLICY",
+      "FABLE-TASKS",
+      "FABLE-CHANGES",
+      "PLAN-CALENDAR",
+      "FABLE-ACCESS"
+    ],
+    "fable.deadline_slack": [
+      "PLAN-POLICY",
+      "FABLE-TASKS",
+      "FABLE-CHANGES",
+      "PLAN-CALENDAR",
+      "FABLE-ACCESS"
+    ],
+    "fable.deadline_met": [
+      "PLAN-POLICY",
+      "FABLE-TASKS",
+      "FABLE-CHANGES",
+      "PLAN-CALENDAR",
+      "FABLE-ACCESS"
+    ],
+    "granite.inspection_start": [
+      "PLAN-POLICY",
+      "GRANITE-TASKS",
+      "GRANITE-CHANGES",
+      "PLAN-CALENDAR",
+      "GRANITE-ACCESS"
+    ],
+    "granite.completion_day": [
+      "PLAN-POLICY",
+      "GRANITE-TASKS",
+      "GRANITE-CHANGES",
+      "PLAN-CALENDAR",
+      "GRANITE-ACCESS"
+    ],
+    "granite.deadline_slack": [
+      "PLAN-POLICY",
+      "GRANITE-TASKS",
+      "GRANITE-CHANGES",
+      "PLAN-CALENDAR",
+      "GRANITE-ACCESS"
+    ],
+    "granite.deadline_met": [
+      "PLAN-POLICY",
+      "GRANITE-TASKS",
+      "GRANITE-CHANGES",
+      "PLAN-CALENDAR",
+      "GRANITE-ACCESS"
+    ],
+    "all.makespan": [
+      "PLAN-POLICY",
+      "PLAN-CALENDAR"
+    ],
+    "all.sum_completion_days": [
+      "PLAN-POLICY",
+      "PLAN-CALENDAR"
+    ],
+    "all.open_all_on_time": [
+      "PLAN-POLICY",
+      "PLAN-CALENDAR"
+    ]
+  },
+  "findings": [
+    "drift.baseline_precedence_violation",
+    "drift.stale_duration",
+    "ember.baseline_precedence_violation",
+    "ember.stale_duration",
+    "fable.baseline_precedence_violation",
+    "fable.deadline_miss",
+    "fable.stale_duration",
+    "granite.baseline_precedence_violation",
+    "granite.deadline_miss",
+    "granite.stale_duration",
+    "shared.baseline_inspection_collision"
+  ],
+  "finding_sources": {
+    "drift.stale_duration": [
+      "PLAN-POLICY",
+      "DRIFT-TASKS",
+      "DRIFT-CHANGES",
+      "DRIFT-BASELINE"
+    ],
+    "drift.baseline_precedence_violation": [
+      "PLAN-POLICY",
+      "DRIFT-TASKS",
+      "DRIFT-CHANGES",
+      "DRIFT-BASELINE"
+    ],
+    "ember.stale_duration": [
+      "PLAN-POLICY",
+      "EMBER-TASKS",
+      "EMBER-CHANGES",
+      "EMBER-BASELINE"
+    ],
+    "ember.baseline_precedence_violation": [
+      "PLAN-POLICY",
+      "EMBER-TASKS",
+      "EMBER-CHANGES",
+      "EMBER-BASELINE"
+    ],
+    "fable.stale_duration": [
+      "PLAN-POLICY",
+      "FABLE-TASKS",
+      "FABLE-CHANGES",
+      "FABLE-BASELINE"
+    ],
+    "fable.baseline_precedence_violation": [
+      "PLAN-POLICY",
+      "FABLE-TASKS",
+      "FABLE-CHANGES",
+      "FABLE-BASELINE"
+    ],
+    "granite.stale_duration": [
+      "PLAN-POLICY",
+      "GRANITE-TASKS",
+      "GRANITE-CHANGES",
+      "GRANITE-BASELINE"
+    ],
+    "granite.baseline_precedence_violation": [
+      "PLAN-POLICY",
+      "GRANITE-TASKS",
+      "GRANITE-CHANGES",
+      "GRANITE-BASELINE"
+    ],
+    "fable.deadline_miss": [
+      "PLAN-POLICY",
+      "FABLE-TASKS",
+      "FABLE-CHANGES",
+      "PLAN-CALENDAR",
+      "FABLE-ACCESS"
+    ],
+    "granite.deadline_miss": [
+      "PLAN-POLICY",
+      "GRANITE-TASKS",
+      "GRANITE-CHANGES",
+      "PLAN-CALENDAR",
+      "GRANITE-ACCESS"
+    ],
+    "shared.baseline_inspection_collision": [
+      "PLAN-POLICY",
+      "DRIFT-BASELINE",
+      "EMBER-BASELINE",
+      "FABLE-BASELINE",
+      "GRANITE-BASELINE"
+    ]
+  },
+  "diagnostic": {
+    "feasible_schedule_count": 1404,
+    "best": [
+      20,
+      74,
+      [
+        12,
+        14,
+        15,
+        16
+      ],
+      [
+        16,
+        18,
+        20,
+        20
+      ]
+    ],
+    "choices": {
+      "drift": [
+        12,
+        13,
+        15,
+        16,
+        18,
+        19,
+        21,
+        22
+      ],
+      "ember": [
+        14,
+        16,
+        17,
+        19,
+        20,
+        22,
+        23
+      ],
+      "fable": [
+        14,
+        15,
+        17,
+        18,
+        20,
+        21,
+        23
+      ],
+      "granite": [
+        15,
+        16,
+        18,
+        19,
+        21,
+        22
+      ]
+    }
+  }
+}

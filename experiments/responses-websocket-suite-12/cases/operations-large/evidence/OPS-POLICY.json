@@ -1,0 +1,30 @@
+{
+  "id": "OPS-POLICY",
+  "title": "Executed settlement policy",
+  "cutoff_day": 35,
+  "hold_threshold_usd_cents": 45000,
+  "currency_to_usd": {
+    "USD": [
+      1,
+      1
+    ],
+    "EUR": [
+      111,
+      100
+    ],
+    "GBP": [
+      131,
+      100
+    ]
+  },
+  "rules": [
+    "All amounts are integer minor units. Include shipments and accepted returns dated on or before cutoff; future and rejected returns do not count.",
+    "Expected per order = shipped quantity minus accepted returned quantity, times signed unit price, times (10000-discount_basis_points)/10000, rounded half up. Cancelled orders have expected zero. Tax zero.",
+    "Actual = sum distinct posted invoice IDs minus distinct approved posted credit IDs by cutoff. Duplicate ledger rows with the SAME ID count once; distinct invoices for one order all count. Draft and future entries are excluded.",
+    "Overbilling and underbilling are positive differences per order; do not net them. A duplicate invoice order has more than one DISTINCT posted invoice equal to its full expected amount AND net actual exceeds expected. Legitimate partial invoices are not duplicates.",
+    "Branch fact values aggregate its orders. Convert each order expected/actual/over/under independently using the rational FX rate and half-up rounding, then sum USD values.",
+    "If a branch ledger is incomplete, all actual/over/under totals and discrepancy counts for that branch are unknown (null), even when partial rows look suspicious. Its expected amount remains calculable; emit only <branch>.incomplete_ledger for that branch.",
+    "Any all-branch actual/over/under total is null if any ledger is incomplete. Hold billing = true if ANY complete branch has a billed cancelled order OR known complete-branch overbilling exceeds the threshold; otherwise null with an incomplete ledger; otherwise false.",
+    "Supported branch findings are overbilled, underbilled, cancelled_billed, duplicate_invoices when their count is positive; incomplete_ledger for incomplete feeds. Do not list order-level finding keys. Non-authoritative summaries and proposed contract changes never override signed/raw records."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ZEPHYR-ACCESS",
+  "title": "zephyr inspector access window",
+  "hub": "zephyr",
+  "available_starts": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ]
+}

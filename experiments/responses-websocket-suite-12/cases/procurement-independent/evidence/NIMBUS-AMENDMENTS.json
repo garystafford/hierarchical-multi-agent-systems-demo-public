@@ -1,0 +1,30 @@
+{
+  "id": "NIMBUS-AMENDMENTS",
+  "title": "nimbus effective-date amendment register",
+  "vendor": "nimbus",
+  "amendments": [
+    {
+      "effective_day": 29,
+      "status": "executed",
+      "fields": {
+        "capacity": 5100
+      }
+    },
+    {
+      "effective_day": 38,
+      "status": "executed",
+      "fields": {
+        "capacity": 5400
+      }
+    },
+    {
+      "effective_day": 43,
+      "status": "executed",
+      "fields": {
+        "eu_only": true,
+        "delivery_weeks": 5,
+        "contractual_rto_minutes": 15
+      }
+    }
+  ]
+}

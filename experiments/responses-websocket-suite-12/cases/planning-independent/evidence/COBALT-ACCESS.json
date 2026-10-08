@@ -1,0 +1,16 @@
+{
+  "id": "COBALT-ACCESS",
+  "title": "cobalt inspector access window",
+  "hub": "cobalt",
+  "available_starts": [
+    11,
+    13,
+    14,
+    16,
+    17,
+    19,
+    20,
+    22,
+    23
+  ]
+}

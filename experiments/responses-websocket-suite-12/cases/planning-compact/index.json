@@ -1,0 +1,51 @@
+{
+  "case_id": "planning-compact",
+  "domain": "planning",
+  "profile": "compact",
+  "title": "1-hub inspection and opening plan",
+  "task": "Plan maintenance and opening for zephyr using signed dependencies, current executed duration changes, and one shared inspector. Compute the stated lexicographic optimum or determine that no complete schedule is feasible. Return all requested facts and supported baseline/deadline findings.",
+  "documents": [
+    {
+      "id": "PLAN-POLICY",
+      "title": "Executed calendar and optimization contract",
+      "path": "evidence/PLAN-POLICY.json"
+    },
+    {
+      "id": "PLAN-CALENDAR",
+      "title": "Global inspector calendar and tie-break hub order",
+      "path": "evidence/PLAN-CALENDAR.json"
+    },
+    {
+      "id": "ZEPHYR-TASKS",
+      "title": "zephyr signed dependency and deadline register",
+      "path": "evidence/ZEPHYR-TASKS.json"
+    },
+    {
+      "id": "ZEPHYR-CHANGES",
+      "title": "zephyr executed and proposed duration register",
+      "path": "evidence/ZEPHYR-CHANGES.json"
+    },
+    {
+      "id": "ZEPHYR-ACCESS",
+      "title": "zephyr inspector access window",
+      "path": "evidence/ZEPHYR-ACCESS.json"
+    },
+    {
+      "id": "ZEPHYR-BASELINE",
+      "title": "zephyr obsolete planning estimate",
+      "path": "evidence/ZEPHYR-BASELINE.json"
+    }
+  ],
+  "requested_fact_names": [
+    "zephyr.earliest_inspection_start",
+    "zephyr.unconstrained_completion",
+    "zephyr.inspection_start",
+    "zephyr.completion_day",
+    "zephyr.deadline_slack",
+    "zephyr.deadline_met",
+    "all.makespan",
+    "all.sum_completion_days",
+    "all.open_all_on_time"
+  ],
+  "finding_key_format": "Allowed keys <hub>.stale_duration, <hub>.baseline_precedence_violation, <hub>.deadline_miss, shared.baseline_inspection_collision, shared.no_feasible_schedule. No other keys."
+}

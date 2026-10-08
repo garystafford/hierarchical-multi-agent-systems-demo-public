@@ -1,0 +1,25 @@
+{
+  "id": "BUY-POLICY",
+  "title": "Executed buyer requirements and pricing method",
+  "cutoff_day": 43,
+  "years": 3,
+  "required_integrations": [
+    "ERP",
+    "WMS"
+  ],
+  "mandatory": {
+    "eu_only": true,
+    "uptime_bps": 9995,
+    "capacity": 5150,
+    "delivery_max": 9,
+    "rto_max": 50
+  },
+  "rules": [
+    "Only signed annex and price schedules plus executed amendments effective by cutoff count. Later executed amendments override earlier ones only for named fields. Future executed amendments, proposals, draft prices and fast recovery simulations cannot establish current contractual requirements.",
+    "Requirements pass when eu_only is true, uptime >= minimum, capacity >= minimum, delivery <= maximum, contractual_rto <= maximum. Missing contractual_rto gives null. Eligibility: ineligible if any mandatory requirement fails; otherwise unknown if any is null; otherwise eligible.",
+    "Hardware discounts apply successively: volume then promo, rounding half up after EACH step. Setup = mandatory ERP+WMS integration fees + implementation; optional analytics excluded.",
+    "Subscription = sum of each month seat count times the signed unit price for that month's year. Support = annual support_basis_points of final discounted hardware, rounded half up per year, times horizon years.",
+    "Usage = sum monthly max(0,units-free_units)*overage_cents. TCO = final hardware + setup + subscription + support + usage. All costs integer USD cents, tax zero.",
+    "Choose cheapest eligible vendor; ties alphabetical. If no vendor eligible, selected_vendor and selected_tco are null. Never choose an unknown vendor. Findings for failed or unknown mandatory requirements only."
+  ]
+}

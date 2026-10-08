@@ -1,0 +1,103 @@
+{
+  "case_id": "planning-uncertain",
+  "domain": "planning",
+  "profile": "uncertain",
+  "title": "3-hub inspection and opening plan",
+  "task": "Plan maintenance and opening for harbor, indigo, jasper using signed dependencies, current executed duration changes, and one shared inspector. Compute the stated lexicographic optimum or determine that no complete schedule is feasible. Return all requested facts and supported baseline/deadline findings.",
+  "documents": [
+    {
+      "id": "PLAN-POLICY",
+      "title": "Executed calendar and optimization contract",
+      "path": "evidence/PLAN-POLICY.json"
+    },
+    {
+      "id": "PLAN-CALENDAR",
+      "title": "Global inspector calendar and tie-break hub order",
+      "path": "evidence/PLAN-CALENDAR.json"
+    },
+    {
+      "id": "HARBOR-TASKS",
+      "title": "harbor signed dependency and deadline register",
+      "path": "evidence/HARBOR-TASKS.json"
+    },
+    {
+      "id": "HARBOR-CHANGES",
+      "title": "harbor executed and proposed duration register",
+      "path": "evidence/HARBOR-CHANGES.json"
+    },
+    {
+      "id": "HARBOR-ACCESS",
+      "title": "harbor inspector access window",
+      "path": "evidence/HARBOR-ACCESS.json"
+    },
+    {
+      "id": "HARBOR-BASELINE",
+      "title": "harbor obsolete planning estimate",
+      "path": "evidence/HARBOR-BASELINE.json"
+    },
+    {
+      "id": "INDIGO-TASKS",
+      "title": "indigo signed dependency and deadline register",
+      "path": "evidence/INDIGO-TASKS.json"
+    },
+    {
+      "id": "INDIGO-CHANGES",
+      "title": "indigo executed and proposed duration register",
+      "path": "evidence/INDIGO-CHANGES.json"
+    },
+    {
+      "id": "INDIGO-ACCESS",
+      "title": "indigo inspector access window",
+      "path": "evidence/INDIGO-ACCESS.json"
+    },
+    {
+      "id": "INDIGO-BASELINE",
+      "title": "indigo obsolete planning estimate",
+      "path": "evidence/INDIGO-BASELINE.json"
+    },
+    {
+      "id": "JASPER-TASKS",
+      "title": "jasper signed dependency and deadline register",
+      "path": "evidence/JASPER-TASKS.json"
+    },
+    {
+      "id": "JASPER-CHANGES",
+      "title": "jasper executed and proposed duration register",
+      "path": "evidence/JASPER-CHANGES.json"
+    },
+    {
+      "id": "JASPER-ACCESS",
+      "title": "jasper inspector access window",
+      "path": "evidence/JASPER-ACCESS.json"
+    },
+    {
+      "id": "JASPER-BASELINE",
+      "title": "jasper obsolete planning estimate",
+      "path": "evidence/JASPER-BASELINE.json"
+    }
+  ],
+  "requested_fact_names": [
+    "harbor.earliest_inspection_start",
+    "harbor.unconstrained_completion",
+    "harbor.inspection_start",
+    "harbor.completion_day",
+    "harbor.deadline_slack",
+    "harbor.deadline_met",
+    "indigo.earliest_inspection_start",
+    "indigo.unconstrained_completion",
+    "indigo.inspection_start",
+    "indigo.completion_day",
+    "indigo.deadline_slack",
+    "indigo.deadline_met",
+    "jasper.earliest_inspection_start",
+    "jasper.unconstrained_completion",
+    "jasper.inspection_start",
+    "jasper.completion_day",
+    "jasper.deadline_slack",
+    "jasper.deadline_met",
+    "all.makespan",
+    "all.sum_completion_days",
+    "all.open_all_on_time"
+  ],
+  "finding_key_format": "Allowed keys <hub>.stale_duration, <hub>.baseline_precedence_violation, <hub>.deadline_miss, shared.baseline_inspection_collision, shared.no_feasible_schedule. No other keys."
+}

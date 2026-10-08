@@ -1,0 +1,634 @@
+{
+  "id": "FORD-LEDGER",
+  "title": "ford posted settlement feed",
+  "branch": "ford",
+  "complete": true,
+  "invoices": [
+    {
+      "invoice_id": "ford-101-i1",
+      "order_id": "ford-101",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 18689
+    },
+    {
+      "invoice_id": "ford-101-i1",
+      "order_id": "ford-101",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 18689
+    },
+    {
+      "invoice_id": "ford-101-future",
+      "order_id": "ford-101",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-101-draft",
+      "order_id": "ford-101",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-102-i1",
+      "order_id": "ford-102",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 4655
+    },
+    {
+      "invoice_id": "ford-102-future",
+      "order_id": "ford-102",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-102-draft",
+      "order_id": "ford-102",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-103-i1",
+      "order_id": "ford-103",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 13400
+    },
+    {
+      "invoice_id": "ford-103-future",
+      "order_id": "ford-103",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-103-draft",
+      "order_id": "ford-103",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-104-i1",
+      "order_id": "ford-104",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 14345
+    },
+    {
+      "invoice_id": "ford-104-future",
+      "order_id": "ford-104",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-104-draft",
+      "order_id": "ford-104",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-105-i1",
+      "order_id": "ford-105",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 3378
+    },
+    {
+      "invoice_id": "ford-105-future",
+      "order_id": "ford-105",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-105-draft",
+      "order_id": "ford-105",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-106-i1",
+      "order_id": "ford-106",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 9025
+    },
+    {
+      "invoice_id": "ford-106-i2",
+      "order_id": "ford-106",
+      "day": 35,
+      "status": "posted",
+      "amount_minor": 9025
+    },
+    {
+      "invoice_id": "ford-106-i2",
+      "order_id": "ford-106",
+      "day": 35,
+      "status": "posted",
+      "amount_minor": 9025
+    },
+    {
+      "invoice_id": "ford-106-future",
+      "order_id": "ford-106",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-106-draft",
+      "order_id": "ford-106",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-107-i1",
+      "order_id": "ford-107",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 10091
+    },
+    {
+      "invoice_id": "ford-107-future",
+      "order_id": "ford-107",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-107-draft",
+      "order_id": "ford-107",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-108-p1",
+      "order_id": "ford-108",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 4356
+    },
+    {
+      "invoice_id": "ford-108-p2",
+      "order_id": "ford-108",
+      "day": 35,
+      "status": "posted",
+      "amount_minor": 4356
+    },
+    {
+      "invoice_id": "ford-108-future",
+      "order_id": "ford-108",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-108-draft",
+      "order_id": "ford-108",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-109-i1",
+      "order_id": "ford-109",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 8268
+    },
+    {
+      "invoice_id": "ford-109-future",
+      "order_id": "ford-109",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-109-draft",
+      "order_id": "ford-109",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-110-i1",
+      "order_id": "ford-110",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 3861
+    },
+    {
+      "invoice_id": "ford-110-future",
+      "order_id": "ford-110",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-110-draft",
+      "order_id": "ford-110",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-111-i1",
+      "order_id": "ford-111",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 10390
+    },
+    {
+      "invoice_id": "ford-111-i1",
+      "order_id": "ford-111",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 10390
+    },
+    {
+      "invoice_id": "ford-111-future",
+      "order_id": "ford-111",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-111-draft",
+      "order_id": "ford-111",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-112-i1",
+      "order_id": "ford-112",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 4452
+    },
+    {
+      "invoice_id": "ford-112-future",
+      "order_id": "ford-112",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-112-draft",
+      "order_id": "ford-112",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-113-i1",
+      "order_id": "ford-113",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 8615
+    },
+    {
+      "invoice_id": "ford-113-future",
+      "order_id": "ford-113",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-113-draft",
+      "order_id": "ford-113",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-114-i1",
+      "order_id": "ford-114",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 8120
+    },
+    {
+      "invoice_id": "ford-114-future",
+      "order_id": "ford-114",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-114-draft",
+      "order_id": "ford-114",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-115-i1",
+      "order_id": "ford-115",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 8235
+    },
+    {
+      "invoice_id": "ford-115-future",
+      "order_id": "ford-115",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-115-draft",
+      "order_id": "ford-115",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-116-p1",
+      "order_id": "ford-116",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 3762
+    },
+    {
+      "invoice_id": "ford-116-p2",
+      "order_id": "ford-116",
+      "day": 35,
+      "status": "posted",
+      "amount_minor": 3762
+    },
+    {
+      "invoice_id": "ford-116-p2",
+      "order_id": "ford-116",
+      "day": 35,
+      "status": "posted",
+      "amount_minor": 3762
+    },
+    {
+      "invoice_id": "ford-116-future",
+      "order_id": "ford-116",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-116-draft",
+      "order_id": "ford-116",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-117-i1",
+      "order_id": "ford-117",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 7171
+    },
+    {
+      "invoice_id": "ford-117-future",
+      "order_id": "ford-117",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-117-draft",
+      "order_id": "ford-117",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-118-i1",
+      "order_id": "ford-118",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 21240
+    },
+    {
+      "invoice_id": "ford-118-future",
+      "order_id": "ford-118",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-118-draft",
+      "order_id": "ford-118",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-119-i1",
+      "order_id": "ford-119",
+      "day": 34,
+      "status": "posted",
+      "amount_minor": 11862
+    },
+    {
+      "invoice_id": "ford-119-future",
+      "order_id": "ford-119",
+      "day": 38,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "ford-119-draft",
+      "order_id": "ford-119",
+      "day": 34,
+      "status": "draft",
+      "amount_minor": 99999
+    }
+  ],
+  "credits": [
+    {
+      "credit_id": "ford-101-unapproved",
+      "order_id": "ford-101",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1759
+    },
+    {
+      "credit_id": "ford-101-approved",
+      "order_id": "ford-101",
+      "day": 35,
+      "status": "posted",
+      "approved": true,
+      "amount_minor": 879
+    },
+    {
+      "credit_id": "ford-102-unapproved",
+      "order_id": "ford-102",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 931
+    },
+    {
+      "credit_id": "ford-103-unapproved",
+      "order_id": "ford-103",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1675
+    },
+    {
+      "credit_id": "ford-104-unapproved",
+      "order_id": "ford-104",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1510
+    },
+    {
+      "credit_id": "ford-105-unapproved",
+      "order_id": "ford-105",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 429
+    },
+    {
+      "credit_id": "ford-106-unapproved",
+      "order_id": "ford-106",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1805
+    },
+    {
+      "credit_id": "ford-107-unapproved",
+      "order_id": "ford-107",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1484
+    },
+    {
+      "credit_id": "ford-108-unapproved",
+      "order_id": "ford-108",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1310
+    },
+    {
+      "credit_id": "ford-109-unapproved",
+      "order_id": "ford-109",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 848
+    },
+    {
+      "credit_id": "ford-109-approved",
+      "order_id": "ford-109",
+      "day": 35,
+      "status": "posted",
+      "approved": true,
+      "amount_minor": 424
+    },
+    {
+      "credit_id": "ford-110-unapproved",
+      "order_id": "ford-110",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 429
+    },
+    {
+      "credit_id": "ford-111-unapproved",
+      "order_id": "ford-111",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1776
+    },
+    {
+      "credit_id": "ford-112-unapproved",
+      "order_id": "ford-112",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 426
+    },
+    {
+      "credit_id": "ford-113-unapproved",
+      "order_id": "ford-113",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1641
+    },
+    {
+      "credit_id": "ford-114-unapproved",
+      "order_id": "ford-114",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 812
+    },
+    {
+      "credit_id": "ford-115-unapproved",
+      "order_id": "ford-115",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1211
+    },
+    {
+      "credit_id": "ford-116-unapproved",
+      "order_id": "ford-116",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 880
+    },
+    {
+      "credit_id": "ford-117-unapproved",
+      "order_id": "ford-117",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 808
+    },
+    {
+      "credit_id": "ford-117-approved",
+      "order_id": "ford-117",
+      "day": 35,
+      "status": "posted",
+      "approved": true,
+      "amount_minor": 404
+    },
+    {
+      "credit_id": "ford-118-unapproved",
+      "order_id": "ford-118",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1770
+    },
+    {
+      "credit_id": "ford-119-unapproved",
+      "order_id": "ford-119",
+      "day": 35,
+      "status": "posted",
+      "approved": false,
+      "amount_minor": 1738
+    }
+  ]
+}

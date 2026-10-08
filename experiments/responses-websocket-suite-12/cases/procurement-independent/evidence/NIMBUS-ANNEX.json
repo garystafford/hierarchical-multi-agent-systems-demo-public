@@ -1,0 +1,11 @@
+{
+  "id": "NIMBUS-ANNEX",
+  "title": "nimbus signed operating annex",
+  "vendor": "nimbus",
+  "status": "signed",
+  "eu_only": false,
+  "uptime_bps": 9990,
+  "capacity": 5300,
+  "delivery_weeks": 7,
+  "contractual_rto_minutes": 35
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PRAXIS-ANNEX",
+  "title": "praxis signed operating annex",
+  "vendor": "praxis",
+  "status": "signed",
+  "eu_only": true,
+  "uptime_bps": 9997,
+  "capacity": 5300,
+  "delivery_weeks": 7,
+  "contractual_rto_minutes": 35
+}

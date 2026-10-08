@@ -1,0 +1,30 @@
+{
+  "id": "LUMEN-AMENDMENTS",
+  "title": "lumen effective-date amendment register",
+  "vendor": "lumen",
+  "amendments": [
+    {
+      "effective_day": 28,
+      "status": "executed",
+      "fields": {
+        "capacity": 4700
+      }
+    },
+    {
+      "effective_day": 37,
+      "status": "executed",
+      "fields": {
+        "capacity": 5000
+      }
+    },
+    {
+      "effective_day": 42,
+      "status": "executed",
+      "fields": {
+        "eu_only": true,
+        "delivery_weeks": 5,
+        "contractual_rto_minutes": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "agent_visible_files": [
+    "index.json",
+    "evidence/PLAN-POLICY.json",
+    "evidence/PLAN-CALENDAR.json",
+    "evidence/HARBOR-TASKS.json",
+    "evidence/HARBOR-CHANGES.json",
+    "evidence/HARBOR-ACCESS.json",
+    "evidence/HARBOR-BASELINE.json",
+    "evidence/INDIGO-TASKS.json",
+    "evidence/INDIGO-CHANGES.json",
+    "evidence/INDIGO-ACCESS.json",
+    "evidence/INDIGO-BASELINE.json",
+    "evidence/JASPER-TASKS.json",
+    "evidence/JASPER-CHANGES.json",
+    "evidence/JASPER-ACCESS.json",
+    "evidence/JASPER-BASELINE.json"
+  ],
+  "agent_visible_sha256": {
+    "index.json": "a1abc71931ec5d95674e95e51cfb793071e6e7be7d66131522880b31b43191f1",
+    "evidence/PLAN-POLICY.json": "771f19cc0c3fb7ff371b49f0fdf12539a00948047452c4cc2a65bbbb8d490c9a",
+    "evidence/PLAN-CALENDAR.json": "1a8a61179ae5fdd750c968b831e301e91a9215ea45ebc43cca39b16e0728c057",
+    "evidence/HARBOR-TASKS.json": "3bbc7ab55c76d7c0051e36f58c7652790cdde8701885bb08d335b4c1b0036eb3",
+    "evidence/HARBOR-CHANGES.json": "da4f1a4394f4523c9288671b810d6ba6d9430219d5aca7bf7671d5f56dd93819",
+    "evidence/HARBOR-ACCESS.json": "f2e9317bd47dd406d77ca4bddbaab2d53cd86a43c53f8f105688932ceed38f17",
+    "evidence/HARBOR-BASELINE.json": "5be708d6e46ae718aa858633faed0c25549e6a3c21b10795498fb6352a1ed3aa",
+    "evidence/INDIGO-TASKS.json": "8bd19c18f5d419d14a4c67e106421df42bec3e91ffba146aeafd3c12004c39c5",
+    "evidence/INDIGO-CHANGES.json": "0fb9e5dacaa4f3d7b03f44736ccdfd831c390497f0890c68dd84d4f251fa34a7",
+    "evidence/INDIGO-ACCESS.json": "5235c85a04ace0a787dfacc57ed7bead312b862ca08eec258002238f2cf5aeaa",
+    "evidence/INDIGO-BASELINE.json": "17ddb93900b7e09d038e3d2cd6bc8468bb9650993c7605e214ba2ebd73eb5a79",
+    "evidence/JASPER-TASKS.json": "e01bc088d7e00fbfe92d504fef06f82d2d5a58d0c8ace11da46d66942b18f216",
+    "evidence/JASPER-CHANGES.json": "24d44238a220b6ee13909d51f949d441405337194af0b2920a91dfdf66b0fddf",
+    "evidence/JASPER-ACCESS.json": "3f27c2be6913540a5fd145e68feed9559fc8aedd22066143e4efc4e1694071e2",
+    "evidence/JASPER-BASELINE.json": "11609c9be406e53c88ff2f2bd3ae5d954574d43cdc99c116966665b83c41e173"
+  }
+}

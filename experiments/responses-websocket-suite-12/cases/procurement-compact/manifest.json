@@ -1,0 +1,24 @@
+{
+  "agent_visible_files": [
+    "index.json",
+    "evidence/BUY-POLICY.json",
+    "evidence/BUY-DEMAND.json",
+    "evidence/LUMEN-ANNEX.json",
+    "evidence/LUMEN-FEES.json",
+    "evidence/LUMEN-AMENDMENTS.json",
+    "evidence/MORROW-ANNEX.json",
+    "evidence/MORROW-FEES.json",
+    "evidence/MORROW-AMENDMENTS.json"
+  ],
+  "agent_visible_sha256": {
+    "index.json": "a60742c7e44f133fcd41539620e2caa71b4f0a14a5aa2fd386a24d005b34a44c",
+    "evidence/BUY-POLICY.json": "5b4f97c5e171263b449338d97515a2c3511c1241b65d4cba99c98cf9a6527cef",
+    "evidence/BUY-DEMAND.json": "fd631a97bab0a84e82574bfd2d33b9e5f26dea464d91fb44bca8d16963604ccd",
+    "evidence/LUMEN-ANNEX.json": "2b637c063fd98c22d18a80a4902d603a7e6612117e0fc6a27d0b0ce0de88023d",
+    "evidence/LUMEN-FEES.json": "a126e3da3ababccdb9125e43bac9e828c869a33ca49d0332236fa14a0487264c",
+    "evidence/LUMEN-AMENDMENTS.json": "7771a7d4f3cc6bce737976fcf52ac6b7eb52aeba4334c8012a261c99f32f3131",
+    "evidence/MORROW-ANNEX.json": "b5f41e67be448752da3abcbf4d18a61204e5dbc164a93574f68df6b878f657a8",
+    "evidence/MORROW-FEES.json": "5b8c2f5d16ccf8bc8fe6f7ee29ad6c6fe85b2d50c3f3de3c479ec2099292af61",
+    "evidence/MORROW-AMENDMENTS.json": "cfbd66e905af9200a73cb84a65e2ce5e7c2e8b880af2365fb4684875fc5e9830"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "QUARTZ-ANNEX",
+  "title": "quartz signed operating annex",
+  "vendor": "quartz",
+  "status": "signed",
+  "eu_only": false,
+  "uptime_bps": 9990,
+  "capacity": 5700,
+  "delivery_weeks": 7,
+  "contractual_rto_minutes": 35
+}

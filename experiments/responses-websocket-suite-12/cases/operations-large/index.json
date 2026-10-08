@@ -1,0 +1,134 @@
+{
+  "case_id": "operations-large",
+  "domain": "operations",
+  "profile": "large",
+  "title": "4-branch settlement at cutoff 35",
+  "task": "Reconcile settlement for elm, ford, glen, haven at the signed policy cutoff. Compute all requested branch and USD facts, summarize supported branch-level issues, and decide whether billing must be held. Respect incomplete feeds and source authority.",
+  "documents": [
+    {
+      "id": "OPS-POLICY",
+      "title": "Executed settlement policy",
+      "path": "evidence/OPS-POLICY.json"
+    },
+    {
+      "id": "ELM-ORDERS",
+      "title": "elm signed order ledger",
+      "path": "evidence/ELM-ORDERS.json"
+    },
+    {
+      "id": "ELM-FULFILLMENT",
+      "title": "elm raw fulfillment export",
+      "path": "evidence/ELM-FULFILLMENT.json"
+    },
+    {
+      "id": "ELM-LEDGER",
+      "title": "elm posted settlement feed",
+      "path": "evidence/ELM-LEDGER.json"
+    },
+    {
+      "id": "ELM-SUMMARY",
+      "title": "elm provisional management dashboard",
+      "path": "evidence/ELM-SUMMARY.json"
+    },
+    {
+      "id": "FORD-ORDERS",
+      "title": "ford signed order ledger",
+      "path": "evidence/FORD-ORDERS.json"
+    },
+    {
+      "id": "FORD-FULFILLMENT",
+      "title": "ford raw fulfillment export",
+      "path": "evidence/FORD-FULFILLMENT.json"
+    },
+    {
+      "id": "FORD-LEDGER",
+      "title": "ford posted settlement feed",
+      "path": "evidence/FORD-LEDGER.json"
+    },
+    {
+      "id": "FORD-SUMMARY",
+      "title": "ford provisional management dashboard",
+      "path": "evidence/FORD-SUMMARY.json"
+    },
+    {
+      "id": "GLEN-ORDERS",
+      "title": "glen signed order ledger",
+      "path": "evidence/GLEN-ORDERS.json"
+    },
+    {
+      "id": "GLEN-FULFILLMENT",
+      "title": "glen raw fulfillment export",
+      "path": "evidence/GLEN-FULFILLMENT.json"
+    },
+    {
+      "id": "GLEN-LEDGER",
+      "title": "glen posted settlement feed",
+      "path": "evidence/GLEN-LEDGER.json"
+    },
+    {
+      "id": "GLEN-SUMMARY",
+      "title": "glen provisional management dashboard",
+      "path": "evidence/GLEN-SUMMARY.json"
+    },
+    {
+      "id": "HAVEN-ORDERS",
+      "title": "haven signed order ledger",
+      "path": "evidence/HAVEN-ORDERS.json"
+    },
+    {
+      "id": "HAVEN-FULFILLMENT",
+      "title": "haven raw fulfillment export",
+      "path": "evidence/HAVEN-FULFILLMENT.json"
+    },
+    {
+      "id": "HAVEN-LEDGER",
+      "title": "haven posted settlement feed",
+      "path": "evidence/HAVEN-LEDGER.json"
+    },
+    {
+      "id": "HAVEN-SUMMARY",
+      "title": "haven provisional management dashboard",
+      "path": "evidence/HAVEN-SUMMARY.json"
+    }
+  ],
+  "requested_fact_names": [
+    "elm.expected_local_minor",
+    "elm.actual_local_minor",
+    "elm.overbilled_local_minor",
+    "elm.underbilled_local_minor",
+    "elm.overbilled_orders",
+    "elm.underbilled_orders",
+    "elm.cancelled_billed_orders",
+    "elm.duplicate_invoice_orders",
+    "ford.expected_local_minor",
+    "ford.actual_local_minor",
+    "ford.overbilled_local_minor",
+    "ford.underbilled_local_minor",
+    "ford.overbilled_orders",
+    "ford.underbilled_orders",
+    "ford.cancelled_billed_orders",
+    "ford.duplicate_invoice_orders",
+    "glen.expected_local_minor",
+    "glen.actual_local_minor",
+    "glen.overbilled_local_minor",
+    "glen.underbilled_local_minor",
+    "glen.overbilled_orders",
+    "glen.underbilled_orders",
+    "glen.cancelled_billed_orders",
+    "glen.duplicate_invoice_orders",
+    "haven.expected_local_minor",
+    "haven.actual_local_minor",
+    "haven.overbilled_local_minor",
+    "haven.underbilled_local_minor",
+    "haven.overbilled_orders",
+    "haven.underbilled_orders",
+    "haven.cancelled_billed_orders",
+    "haven.duplicate_invoice_orders",
+    "all.expected_usd_cents",
+    "all.actual_usd_cents",
+    "all.overbilled_usd_cents",
+    "all.underbilled_usd_cents",
+    "all.hold_billing"
+  ],
+  "finding_key_format": "Branch-level keys only: <branch>.overbilled, <branch>.underbilled, <branch>.cancelled_billed, <branch>.duplicate_invoices, <branch>.incomplete_ledger. No order-level keys or other findings."
+}

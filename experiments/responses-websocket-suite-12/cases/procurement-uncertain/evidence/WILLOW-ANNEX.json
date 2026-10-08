@@ -1,0 +1,11 @@
+{
+  "id": "WILLOW-ANNEX",
+  "title": "willow signed operating annex",
+  "vendor": "willow",
+  "status": "signed",
+  "eu_only": true,
+  "uptime_bps": 9997,
+  "capacity": 6100,
+  "delivery_weeks": 7,
+  "contractual_rto_minutes": null
+}

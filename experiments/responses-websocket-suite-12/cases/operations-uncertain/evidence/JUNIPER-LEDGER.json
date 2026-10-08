@@ -1,0 +1,37 @@
+{
+  "id": "JUNIPER-LEDGER",
+  "title": "juniper posted settlement feed",
+  "branch": "juniper",
+  "complete": false,
+  "invoices": [
+    {
+      "invoice_id": "juniper-101-i1",
+      "order_id": "juniper-101",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 4072
+    },
+    {
+      "invoice_id": "juniper-101-future",
+      "order_id": "juniper-101",
+      "day": 29,
+      "status": "posted",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "juniper-101-draft",
+      "order_id": "juniper-101",
+      "day": 25,
+      "status": "draft",
+      "amount_minor": 99999
+    },
+    {
+      "invoice_id": "juniper-102-i1",
+      "order_id": "juniper-102",
+      "day": 25,
+      "status": "posted",
+      "amount_minor": 1454
+    }
+  ],
+  "credits": []
+}

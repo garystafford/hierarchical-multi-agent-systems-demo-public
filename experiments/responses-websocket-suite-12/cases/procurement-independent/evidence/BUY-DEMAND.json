@@ -1,0 +1,186 @@
+{
+  "id": "BUY-DEMAND",
+  "title": "Frozen buyer monthly seats and usage",
+  "months": [
+    {
+      "month": 1,
+      "seats": 132,
+      "units": 9790
+    },
+    {
+      "month": 2,
+      "seats": 132,
+      "units": 8730
+    },
+    {
+      "month": 3,
+      "seats": 132,
+      "units": 14560
+    },
+    {
+      "month": 4,
+      "seats": 132,
+      "units": 13500
+    },
+    {
+      "month": 5,
+      "seats": 132,
+      "units": 12440
+    },
+    {
+      "month": 6,
+      "seats": 132,
+      "units": 11380
+    },
+    {
+      "month": 7,
+      "seats": 132,
+      "units": 10320
+    },
+    {
+      "month": 8,
+      "seats": 132,
+      "units": 9260
+    },
+    {
+      "month": 9,
+      "seats": 132,
+      "units": 8200
+    },
+    {
+      "month": 10,
+      "seats": 132,
+      "units": 14030
+    },
+    {
+      "month": 11,
+      "seats": 132,
+      "units": 12970
+    },
+    {
+      "month": 12,
+      "seats": 132,
+      "units": 11910
+    },
+    {
+      "month": 13,
+      "seats": 132,
+      "units": 10850
+    },
+    {
+      "month": 14,
+      "seats": 132,
+      "units": 9790
+    },
+    {
+      "month": 15,
+      "seats": 132,
+      "units": 8730
+    },
+    {
+      "month": 16,
+      "seats": 132,
+      "units": 14560
+    },
+    {
+      "month": 17,
+      "seats": 132,
+      "units": 13500
+    },
+    {
+      "month": 18,
+      "seats": 132,
+      "units": 12440
+    },
+    {
+      "month": 19,
+      "seats": 132,
+      "units": 11380
+    },
+    {
+      "month": 20,
+      "seats": 132,
+      "units": 10320
+    },
+    {
+      "month": 21,
+      "seats": 132,
+      "units": 9260
+    },
+    {
+      "month": 22,
+      "seats": 132,
+      "units": 8200
+    },
+    {
+      "month": 23,
+      "seats": 132,
+      "units": 14030
+    },
+    {
+      "month": 24,
+      "seats": 132,
+      "units": 12970
+    },
+    {
+      "month": 25,
+      "seats": 132,
+      "units": 11910
+    },
+    {
+      "month": 26,
+      "seats": 132,
+      "units": 10850
+    },
+    {
+      "month": 27,
+      "seats": 132,
+      "units": 9790
+    },
+    {
+      "month": 28,
+      "seats": 132,
+      "units": 8730
+    },
+    {
+      "month": 29,
+      "seats": 132,
+      "units": 14560
+    },
+    {
+      "month": 30,
+      "seats": 132,
+      "units": 13500
+    },
+    {
+      "month": 31,
+      "seats": 132,
+      "units": 12440
+    },
+    {
+      "month": 32,
+      "seats": 132,
+      "units": 11380
+    },
+    {
+      "month": 33,
+      "seats": 132,
+      "units": 10320
+    },
+    {
+      "month": 34,
+      "seats": 132,
+      "units": 9260
+    },
+    {
+      "month": 35,
+      "seats": 132,
+      "units": 8200
+    },
+    {
+      "month": 36,
+      "seats": 132,
+      "units": 14030
+    }
+  ]
+}

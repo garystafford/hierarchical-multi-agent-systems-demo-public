@@ -1,0 +1,311 @@
+{
+  "id": "KESTREL-FULFILLMENT",
+  "title": "kestrel raw fulfillment export",
+  "branch": "kestrel",
+  "shipments": [
+    {
+      "shipment_id": "kestrel-102-a",
+      "order_id": "kestrel-102",
+      "day": 18,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "kestrel-102-b",
+      "order_id": "kestrel-102",
+      "day": 24,
+      "quantity": 7
+    },
+    {
+      "shipment_id": "kestrel-103-a",
+      "order_id": "kestrel-103",
+      "day": 18,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "kestrel-103-b",
+      "order_id": "kestrel-103",
+      "day": 24,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "kestrel-104-a",
+      "order_id": "kestrel-104",
+      "day": 18,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "kestrel-104-b",
+      "order_id": "kestrel-104",
+      "day": 24,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "kestrel-105-a",
+      "order_id": "kestrel-105",
+      "day": 18,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "kestrel-105-b",
+      "order_id": "kestrel-105",
+      "day": 24,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "kestrel-106-a",
+      "order_id": "kestrel-106",
+      "day": 18,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "kestrel-106-b",
+      "order_id": "kestrel-106",
+      "day": 24,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "kestrel-107-a",
+      "order_id": "kestrel-107",
+      "day": 18,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "kestrel-107-b",
+      "order_id": "kestrel-107",
+      "day": 24,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "kestrel-108-a",
+      "order_id": "kestrel-108",
+      "day": 18,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "kestrel-108-b",
+      "order_id": "kestrel-108",
+      "day": 24,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "kestrel-109-a",
+      "order_id": "kestrel-109",
+      "day": 18,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "kestrel-109-b",
+      "order_id": "kestrel-109",
+      "day": 24,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "kestrel-110-a",
+      "order_id": "kestrel-110",
+      "day": 18,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "kestrel-110-b",
+      "order_id": "kestrel-110",
+      "day": 24,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "kestrel-111-a",
+      "order_id": "kestrel-111",
+      "day": 18,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "kestrel-111-b",
+      "order_id": "kestrel-111",
+      "day": 24,
+      "quantity": 5
+    }
+  ],
+  "returns": [
+    {
+      "return_id": "kestrel-101-r2",
+      "order_id": "kestrel-101",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-101-r3",
+      "order_id": "kestrel-101",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "kestrel-102-r2",
+      "order_id": "kestrel-102",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-102-r3",
+      "order_id": "kestrel-102",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "kestrel-103-r2",
+      "order_id": "kestrel-103",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-103-r3",
+      "order_id": "kestrel-103",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "kestrel-104-r1",
+      "order_id": "kestrel-104",
+      "day": 25,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-104-r2",
+      "order_id": "kestrel-104",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-104-r3",
+      "order_id": "kestrel-104",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "kestrel-105-r2",
+      "order_id": "kestrel-105",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-105-r3",
+      "order_id": "kestrel-105",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "kestrel-106-r2",
+      "order_id": "kestrel-106",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-106-r3",
+      "order_id": "kestrel-106",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "kestrel-107-r2",
+      "order_id": "kestrel-107",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-107-r3",
+      "order_id": "kestrel-107",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "kestrel-108-r2",
+      "order_id": "kestrel-108",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-108-r3",
+      "order_id": "kestrel-108",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "kestrel-109-r2",
+      "order_id": "kestrel-109",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-109-r3",
+      "order_id": "kestrel-109",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "kestrel-110-r1",
+      "order_id": "kestrel-110",
+      "day": 25,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-110-r2",
+      "order_id": "kestrel-110",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-110-r3",
+      "order_id": "kestrel-110",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "kestrel-111-r2",
+      "order_id": "kestrel-111",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-111-r3",
+      "order_id": "kestrel-111",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "kestrel-112-r2",
+      "order_id": "kestrel-112",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "kestrel-112-r3",
+      "order_id": "kestrel-112",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    }
+  ]
+}

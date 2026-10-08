@@ -1,0 +1,232 @@
+{
+  "facts": {
+    "harbor.earliest_inspection_start": 13,
+    "harbor.unconstrained_completion": 18,
+    "indigo.earliest_inspection_start": 14,
+    "indigo.unconstrained_completion": 19,
+    "jasper.earliest_inspection_start": 15,
+    "jasper.unconstrained_completion": 21,
+    "harbor.inspection_start": null,
+    "harbor.completion_day": null,
+    "harbor.deadline_slack": null,
+    "harbor.deadline_met": null,
+    "indigo.inspection_start": null,
+    "indigo.completion_day": null,
+    "indigo.deadline_slack": null,
+    "indigo.deadline_met": null,
+    "jasper.inspection_start": null,
+    "jasper.completion_day": null,
+    "jasper.deadline_slack": null,
+    "jasper.deadline_met": null,
+    "all.makespan": null,
+    "all.sum_completion_days": null,
+    "all.open_all_on_time": false
+  },
+  "required_sources": {
+    "harbor.earliest_inspection_start": [
+      "PLAN-POLICY",
+      "HARBOR-TASKS",
+      "HARBOR-CHANGES"
+    ],
+    "harbor.unconstrained_completion": [
+      "PLAN-POLICY",
+      "HARBOR-TASKS",
+      "HARBOR-CHANGES"
+    ],
+    "indigo.earliest_inspection_start": [
+      "PLAN-POLICY",
+      "INDIGO-TASKS",
+      "INDIGO-CHANGES"
+    ],
+    "indigo.unconstrained_completion": [
+      "PLAN-POLICY",
+      "INDIGO-TASKS",
+      "INDIGO-CHANGES"
+    ],
+    "jasper.earliest_inspection_start": [
+      "PLAN-POLICY",
+      "JASPER-TASKS",
+      "JASPER-CHANGES"
+    ],
+    "jasper.unconstrained_completion": [
+      "PLAN-POLICY",
+      "JASPER-TASKS",
+      "JASPER-CHANGES"
+    ],
+    "harbor.inspection_start": [
+      "PLAN-POLICY",
+      "HARBOR-TASKS",
+      "HARBOR-CHANGES",
+      "PLAN-CALENDAR",
+      "HARBOR-ACCESS"
+    ],
+    "harbor.completion_day": [
+      "PLAN-POLICY",
+      "HARBOR-TASKS",
+      "HARBOR-CHANGES",
+      "PLAN-CALENDAR",
+      "HARBOR-ACCESS"
+    ],
+    "harbor.deadline_slack": [
+      "PLAN-POLICY",
+      "HARBOR-TASKS",
+      "HARBOR-CHANGES",
+      "PLAN-CALENDAR",
+      "HARBOR-ACCESS"
+    ],
+    "harbor.deadline_met": [
+      "PLAN-POLICY",
+      "HARBOR-TASKS",
+      "HARBOR-CHANGES",
+      "PLAN-CALENDAR",
+      "HARBOR-ACCESS"
+    ],
+    "indigo.inspection_start": [
+      "PLAN-POLICY",
+      "INDIGO-TASKS",
+      "INDIGO-CHANGES",
+      "PLAN-CALENDAR",
+      "INDIGO-ACCESS"
+    ],
+    "indigo.completion_day": [
+      "PLAN-POLICY",
+      "INDIGO-TASKS",
+      "INDIGO-CHANGES",
+      "PLAN-CALENDAR",
+      "INDIGO-ACCESS"
+    ],
+    "indigo.deadline_slack": [
+      "PLAN-POLICY",
+      "INDIGO-TASKS",
+      "INDIGO-CHANGES",
+      "PLAN-CALENDAR",
+      "INDIGO-ACCESS"
+    ],
+    "indigo.deadline_met": [
+      "PLAN-POLICY",
+      "INDIGO-TASKS",
+      "INDIGO-CHANGES",
+      "PLAN-CALENDAR",
+      "INDIGO-ACCESS"
+    ],
+    "jasper.inspection_start": [
+      "PLAN-POLICY",
+      "JASPER-TASKS",
+      "JASPER-CHANGES",
+      "PLAN-CALENDAR",
+      "JASPER-ACCESS"
+    ],
+    "jasper.completion_day": [
+      "PLAN-POLICY",
+      "JASPER-TASKS",
+      "JASPER-CHANGES",
+      "PLAN-CALENDAR",
+      "JASPER-ACCESS"
+    ],
+    "jasper.deadline_slack": [
+      "PLAN-POLICY",
+      "JASPER-TASKS",
+      "JASPER-CHANGES",
+      "PLAN-CALENDAR",
+      "JASPER-ACCESS"
+    ],
+    "jasper.deadline_met": [
+      "PLAN-POLICY",
+      "JASPER-TASKS",
+      "JASPER-CHANGES",
+      "PLAN-CALENDAR",
+      "JASPER-ACCESS"
+    ],
+    "all.makespan": [
+      "PLAN-POLICY",
+      "PLAN-CALENDAR"
+    ],
+    "all.sum_completion_days": [
+      "PLAN-POLICY",
+      "PLAN-CALENDAR"
+    ],
+    "all.open_all_on_time": [
+      "PLAN-POLICY",
+      "PLAN-CALENDAR"
+    ]
+  },
+  "findings": [
+    "harbor.baseline_precedence_violation",
+    "harbor.stale_duration",
+    "indigo.baseline_precedence_violation",
+    "indigo.stale_duration",
+    "jasper.baseline_precedence_violation",
+    "jasper.stale_duration",
+    "shared.baseline_inspection_collision",
+    "shared.no_feasible_schedule"
+  ],
+  "finding_sources": {
+    "harbor.stale_duration": [
+      "PLAN-POLICY",
+      "HARBOR-TASKS",
+      "HARBOR-CHANGES",
+      "HARBOR-BASELINE"
+    ],
+    "harbor.baseline_precedence_violation": [
+      "PLAN-POLICY",
+      "HARBOR-TASKS",
+      "HARBOR-CHANGES",
+      "HARBOR-BASELINE"
+    ],
+    "indigo.stale_duration": [
+      "PLAN-POLICY",
+      "INDIGO-TASKS",
+      "INDIGO-CHANGES",
+      "INDIGO-BASELINE"
+    ],
+    "indigo.baseline_precedence_violation": [
+      "PLAN-POLICY",
+      "INDIGO-TASKS",
+      "INDIGO-CHANGES",
+      "INDIGO-BASELINE"
+    ],
+    "jasper.stale_duration": [
+      "PLAN-POLICY",
+      "JASPER-TASKS",
+      "JASPER-CHANGES",
+      "JASPER-BASELINE"
+    ],
+    "jasper.baseline_precedence_violation": [
+      "PLAN-POLICY",
+      "JASPER-TASKS",
+      "JASPER-CHANGES",
+      "JASPER-BASELINE"
+    ],
+    "shared.baseline_inspection_collision": [
+      "PLAN-POLICY",
+      "HARBOR-BASELINE",
+      "INDIGO-BASELINE",
+      "JASPER-BASELINE"
+    ],
+    "shared.no_feasible_schedule": [
+      "PLAN-POLICY",
+      "PLAN-CALENDAR",
+      "HARBOR-ACCESS",
+      "INDIGO-ACCESS",
+      "JASPER-ACCESS"
+    ]
+  },
+  "diagnostic": {
+    "feasible_schedule_count": 0,
+    "best": null,
+    "choices": {
+      "harbor": [
+        17,
+        18
+      ],
+      "indigo": [
+        17,
+        18
+      ],
+      "jasper": [
+        17,
+        18
+      ]
+    }
+  }
+}

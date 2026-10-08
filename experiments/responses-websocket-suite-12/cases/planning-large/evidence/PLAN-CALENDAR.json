@@ -1,0 +1,25 @@
+{
+  "id": "PLAN-CALENDAR",
+  "title": "Global inspector calendar and tie-break hub order",
+  "hub_order": [
+    "drift",
+    "ember",
+    "fable",
+    "granite"
+  ],
+  "available_starts": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ]
+}

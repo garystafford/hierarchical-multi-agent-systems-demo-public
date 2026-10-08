@@ -1,0 +1,36 @@
+{
+  "agent_visible_files": [
+    "index.json",
+    "evidence/BUY-POLICY.json",
+    "evidence/BUY-DEMAND.json",
+    "evidence/NIMBUS-ANNEX.json",
+    "evidence/NIMBUS-FEES.json",
+    "evidence/NIMBUS-AMENDMENTS.json",
+    "evidence/NIMBUS-PROPOSAL.json",
+    "evidence/ORION-ANNEX.json",
+    "evidence/ORION-FEES.json",
+    "evidence/ORION-AMENDMENTS.json",
+    "evidence/ORION-PROPOSAL.json",
+    "evidence/PRAXIS-ANNEX.json",
+    "evidence/PRAXIS-FEES.json",
+    "evidence/PRAXIS-AMENDMENTS.json",
+    "evidence/PRAXIS-PROPOSAL.json"
+  ],
+  "agent_visible_sha256": {
+    "index.json": "ef1ff09cddb3ac630351452ffa47638749959be4fd897895db013bd78588569b",
+    "evidence/BUY-POLICY.json": "3cbfe11c6fdf215c8fd257917c24c12ca7520edc43d122cea2fb5abe5f7b3b0d",
+    "evidence/BUY-DEMAND.json": "893ad83036dce94bcbd0bcab674735ca21d246bf9987f880d59e77bc8cccfcb9",
+    "evidence/NIMBUS-ANNEX.json": "8838b68175cb8d42c6441ec849fb35975d08ce62d2d58ec7f3cb61110ebddac2",
+    "evidence/NIMBUS-FEES.json": "38cbfdbc55354cf3abd58b70935948c709c963c627b9c22d6e20637ae6b66843",
+    "evidence/NIMBUS-AMENDMENTS.json": "cb959e140d362b2d77cf7ac98b3ec9d32a1c1b4b59825445eed0a58bb671daa2",
+    "evidence/NIMBUS-PROPOSAL.json": "0341ad4aa5790afa12ef23b3dae992d07051f63fd581013b53ca696f340c0e69",
+    "evidence/ORION-ANNEX.json": "b1b69caebd02c1234ea8ce51030cacda1f979233b754fef84a3d54519b6725c9",
+    "evidence/ORION-FEES.json": "5d5c700096aa4e50e857f3fd509b2212b37cba956c4f3f48911728e364e32538",
+    "evidence/ORION-AMENDMENTS.json": "1fde2d9f4e40e1d67237344afb38e99d0a3516c167d0efbb3a8557ff68426f51",
+    "evidence/ORION-PROPOSAL.json": "01450d5f84c19722348964ddc04a68fe172f1999c9a93c73fbf0c0044d6f9338",
+    "evidence/PRAXIS-ANNEX.json": "2e8b5f5bbe4deb4ec284028c66cd7b35b5a90471a49197902a8decf76a496648",
+    "evidence/PRAXIS-FEES.json": "260e6b5d8bfdb6278926411d69547ec45da147b9dd4f1f1b9053e3ca75553234",
+    "evidence/PRAXIS-AMENDMENTS.json": "257a9246ff978f21f496c3a6974404a08c4488ea7d82f7722bb283c6c3004329",
+    "evidence/PRAXIS-PROPOSAL.json": "a0f5c70f7b178be2692ba31a9f47243ae9d8ae67dc4044b1fa0ccedb993ca444"
+  }
+}

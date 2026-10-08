@@ -1,0 +1,185 @@
+{
+  "case_id": "procurement-large",
+  "domain": "procurement",
+  "profile": "large",
+  "title": "5-vendor contractual selection over 4 years",
+  "task": "Assess vendors quartz, radian, sable, tandem, umbra against the buyer's mandatory requirements at cutoff. Apply only effective executed amendments, compute full-horizon costs, and select the cheapest eligible vendor or explicitly decline selection. Distinguish contractual unknowns from marketing claims.",
+  "documents": [
+    {
+      "id": "BUY-POLICY",
+      "title": "Executed buyer requirements and pricing method",
+      "path": "evidence/BUY-POLICY.json"
+    },
+    {
+      "id": "BUY-DEMAND",
+      "title": "Frozen buyer monthly seats and usage",
+      "path": "evidence/BUY-DEMAND.json"
+    },
+    {
+      "id": "QUARTZ-ANNEX",
+      "title": "quartz signed operating annex",
+      "path": "evidence/QUARTZ-ANNEX.json"
+    },
+    {
+      "id": "QUARTZ-FEES",
+      "title": "quartz signed price schedule",
+      "path": "evidence/QUARTZ-FEES.json"
+    },
+    {
+      "id": "QUARTZ-AMENDMENTS",
+      "title": "quartz effective-date amendment register",
+      "path": "evidence/QUARTZ-AMENDMENTS.json"
+    },
+    {
+      "id": "QUARTZ-PROPOSAL",
+      "title": "quartz draft price and recovery simulation",
+      "path": "evidence/QUARTZ-PROPOSAL.json"
+    },
+    {
+      "id": "RADIAN-ANNEX",
+      "title": "radian signed operating annex",
+      "path": "evidence/RADIAN-ANNEX.json"
+    },
+    {
+      "id": "RADIAN-FEES",
+      "title": "radian signed price schedule",
+      "path": "evidence/RADIAN-FEES.json"
+    },
+    {
+      "id": "RADIAN-AMENDMENTS",
+      "title": "radian effective-date amendment register",
+      "path": "evidence/RADIAN-AMENDMENTS.json"
+    },
+    {
+      "id": "RADIAN-PROPOSAL",
+      "title": "radian draft price and recovery simulation",
+      "path": "evidence/RADIAN-PROPOSAL.json"
+    },
+    {
+      "id": "SABLE-ANNEX",
+      "title": "sable signed operating annex",
+      "path": "evidence/SABLE-ANNEX.json"
+    },
+    {
+      "id": "SABLE-FEES",
+      "title": "sable signed price schedule",
+      "path": "evidence/SABLE-FEES.json"
+    },
+    {
+      "id": "SABLE-AMENDMENTS",
+      "title": "sable effective-date amendment register",
+      "path": "evidence/SABLE-AMENDMENTS.json"
+    },
+    {
+      "id": "SABLE-PROPOSAL",
+      "title": "sable draft price and recovery simulation",
+      "path": "evidence/SABLE-PROPOSAL.json"
+    },
+    {
+      "id": "TANDEM-ANNEX",
+      "title": "tandem signed operating annex",
+      "path": "evidence/TANDEM-ANNEX.json"
+    },
+    {
+      "id": "TANDEM-FEES",
+      "title": "tandem signed price schedule",
+      "path": "evidence/TANDEM-FEES.json"
+    },
+    {
+      "id": "TANDEM-AMENDMENTS",
+      "title": "tandem effective-date amendment register",
+      "path": "evidence/TANDEM-AMENDMENTS.json"
+    },
+    {
+      "id": "TANDEM-PROPOSAL",
+      "title": "tandem draft price and recovery simulation",
+      "path": "evidence/TANDEM-PROPOSAL.json"
+    },
+    {
+      "id": "UMBRA-ANNEX",
+      "title": "umbra signed operating annex",
+      "path": "evidence/UMBRA-ANNEX.json"
+    },
+    {
+      "id": "UMBRA-FEES",
+      "title": "umbra signed price schedule",
+      "path": "evidence/UMBRA-FEES.json"
+    },
+    {
+      "id": "UMBRA-AMENDMENTS",
+      "title": "umbra effective-date amendment register",
+      "path": "evidence/UMBRA-AMENDMENTS.json"
+    },
+    {
+      "id": "UMBRA-PROPOSAL",
+      "title": "umbra draft price and recovery simulation",
+      "path": "evidence/UMBRA-PROPOSAL.json"
+    }
+  ],
+  "requested_fact_names": [
+    "quartz.eu_processing_pass",
+    "quartz.uptime_pass",
+    "quartz.capacity_pass",
+    "quartz.delivery_pass",
+    "quartz.contractual_rto_pass",
+    "quartz.eligibility",
+    "quartz.hardware_cents",
+    "quartz.setup_cents",
+    "quartz.subscription_cents",
+    "quartz.support_cents",
+    "quartz.usage_cents",
+    "quartz.tco_cents",
+    "radian.eu_processing_pass",
+    "radian.uptime_pass",
+    "radian.capacity_pass",
+    "radian.delivery_pass",
+    "radian.contractual_rto_pass",
+    "radian.eligibility",
+    "radian.hardware_cents",
+    "radian.setup_cents",
+    "radian.subscription_cents",
+    "radian.support_cents",
+    "radian.usage_cents",
+    "radian.tco_cents",
+    "sable.eu_processing_pass",
+    "sable.uptime_pass",
+    "sable.capacity_pass",
+    "sable.delivery_pass",
+    "sable.contractual_rto_pass",
+    "sable.eligibility",
+    "sable.hardware_cents",
+    "sable.setup_cents",
+    "sable.subscription_cents",
+    "sable.support_cents",
+    "sable.usage_cents",
+    "sable.tco_cents",
+    "tandem.eu_processing_pass",
+    "tandem.uptime_pass",
+    "tandem.capacity_pass",
+    "tandem.delivery_pass",
+    "tandem.contractual_rto_pass",
+    "tandem.eligibility",
+    "tandem.hardware_cents",
+    "tandem.setup_cents",
+    "tandem.subscription_cents",
+    "tandem.support_cents",
+    "tandem.usage_cents",
+    "tandem.tco_cents",
+    "umbra.eu_processing_pass",
+    "umbra.uptime_pass",
+    "umbra.capacity_pass",
+    "umbra.delivery_pass",
+    "umbra.contractual_rto_pass",
+    "umbra.eligibility",
+    "umbra.hardware_cents",
+    "umbra.setup_cents",
+    "umbra.subscription_cents",
+    "umbra.support_cents",
+    "umbra.usage_cents",
+    "umbra.tco_cents",
+    "all.selected_vendor",
+    "all.selected_tco_cents",
+    "all.eligible_count"
+  ],
+  "finding_key_format": "For each mandatory failure/unknown: <vendor>.<requirement>.fail or .unknown. Requirements eu_processing, uptime, capacity, delivery, contractual_rto. No passing requirements or other keys."
+}

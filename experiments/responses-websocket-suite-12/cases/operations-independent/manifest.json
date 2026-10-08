@@ -1,0 +1,34 @@
+{
+  "agent_visible_files": [
+    "index.json",
+    "evidence/OPS-POLICY.json",
+    "evidence/BAYSIDE-ORDERS.json",
+    "evidence/BAYSIDE-FULFILLMENT.json",
+    "evidence/BAYSIDE-LEDGER.json",
+    "evidence/BAYSIDE-SUMMARY.json",
+    "evidence/CANYON-ORDERS.json",
+    "evidence/CANYON-FULFILLMENT.json",
+    "evidence/CANYON-LEDGER.json",
+    "evidence/CANYON-SUMMARY.json",
+    "evidence/DELTA-ORDERS.json",
+    "evidence/DELTA-FULFILLMENT.json",
+    "evidence/DELTA-LEDGER.json",
+    "evidence/DELTA-SUMMARY.json"
+  ],
+  "agent_visible_sha256": {
+    "index.json": "d7fd2d3ffa07aa1a6704a000b4cd0442f8c6c946149c86f2d19b3dc53f0ef829",
+    "evidence/OPS-POLICY.json": "737d307ef092e8e5d9776d3d8b00885a7f54fcbe47d385504efee85e699221f8",
+    "evidence/BAYSIDE-ORDERS.json": "4ec3f1549819f09e2d8f22d3afef19021e3e22bfac4d72427b492c866fb3f118",
+    "evidence/BAYSIDE-FULFILLMENT.json": "23b8cc748d2bd785c0accd3c64f86b9284caf8e09b4b27c1e4ac3b6a7321c6d3",
+    "evidence/BAYSIDE-LEDGER.json": "6ff45c2713f3038b0515fe54d29eab6af7ee4070bfa551d5d967a362a1c16201",
+    "evidence/BAYSIDE-SUMMARY.json": "93a2b800abeef7b68bb995162cc8350c9b4dc76d42e2a9092f002162ef359473",
+    "evidence/CANYON-ORDERS.json": "d5ffd7d3891df16cfea127b708de3ef260a8f324b6b11b0667c4287415b399af",
+    "evidence/CANYON-FULFILLMENT.json": "be9f1b6d52d438e663164d3ab69ced8fe5a38009cf54c24a7109e345f14c4325",
+    "evidence/CANYON-LEDGER.json": "71b8af58d6a4eefeb00ceb0794606054c0ab5b36234749a39e33eb6687251eba",
+    "evidence/CANYON-SUMMARY.json": "52501f43c0db03641e71f64b139b3875c0500be8a94485726cf1c62168d75f14",
+    "evidence/DELTA-ORDERS.json": "d0ed8ea15a3bce02cc30582fcc404dbeddbf183a931223d7d4b959efef57e089",
+    "evidence/DELTA-FULFILLMENT.json": "a05c8411d487fe3292e79ca9e69f1f88f20acd990980aeb1c7f42f2f4eda3ce4",
+    "evidence/DELTA-LEDGER.json": "ee9b0d5cf23f85002aeb66b690dc8f3fc24cecdeb5f74cca139f5357798edab6",
+    "evidence/DELTA-SUMMARY.json": "9396c35ddb61d2832caa5bb96338af1587fb4e94c6fd56ca48d778df2c69ff10"
+  }
+}

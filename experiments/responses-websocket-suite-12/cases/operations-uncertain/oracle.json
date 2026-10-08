@@ -1,0 +1,532 @@
+{
+  "facts": {
+    "iris.expected_local_minor": 128354,
+    "iris.actual_local_minor": 148885,
+    "iris.overbilled_local_minor": 22355,
+    "iris.underbilled_local_minor": 1824,
+    "iris.overbilled_orders": 4,
+    "iris.underbilled_orders": 1,
+    "iris.cancelled_billed_orders": 1,
+    "iris.duplicate_invoice_orders": 1,
+    "juniper.expected_local_minor": 83195,
+    "juniper.actual_local_minor": null,
+    "juniper.overbilled_local_minor": null,
+    "juniper.underbilled_local_minor": null,
+    "juniper.overbilled_orders": null,
+    "juniper.underbilled_orders": null,
+    "juniper.cancelled_billed_orders": null,
+    "juniper.duplicate_invoice_orders": null,
+    "kestrel.expected_local_minor": 104139,
+    "kestrel.actual_local_minor": 128587,
+    "kestrel.overbilled_local_minor": 26189,
+    "kestrel.underbilled_local_minor": 1741,
+    "kestrel.overbilled_orders": 4,
+    "kestrel.underbilled_orders": 1,
+    "kestrel.cancelled_billed_orders": 2,
+    "kestrel.duplicate_invoice_orders": 1,
+    "all.expected_usd_cents": 360035,
+    "all.actual_usd_cents": null,
+    "all.overbilled_usd_cents": null,
+    "all.underbilled_usd_cents": null,
+    "all.hold_billing": true
+  },
+  "required_sources": {
+    "iris.expected_local_minor": [
+      "OPS-POLICY",
+      "IRIS-ORDERS",
+      "IRIS-FULFILLMENT"
+    ],
+    "iris.actual_local_minor": [
+      "OPS-POLICY",
+      "IRIS-LEDGER"
+    ],
+    "iris.overbilled_local_minor": [
+      "OPS-POLICY",
+      "IRIS-ORDERS",
+      "IRIS-FULFILLMENT",
+      "IRIS-LEDGER"
+    ],
+    "iris.underbilled_local_minor": [
+      "OPS-POLICY",
+      "IRIS-ORDERS",
+      "IRIS-FULFILLMENT",
+      "IRIS-LEDGER"
+    ],
+    "iris.overbilled_orders": [
+      "OPS-POLICY",
+      "IRIS-ORDERS",
+      "IRIS-FULFILLMENT",
+      "IRIS-LEDGER"
+    ],
+    "iris.underbilled_orders": [
+      "OPS-POLICY",
+      "IRIS-ORDERS",
+      "IRIS-FULFILLMENT",
+      "IRIS-LEDGER"
+    ],
+    "iris.cancelled_billed_orders": [
+      "OPS-POLICY",
+      "IRIS-ORDERS",
+      "IRIS-FULFILLMENT",
+      "IRIS-LEDGER"
+    ],
+    "iris.duplicate_invoice_orders": [
+      "OPS-POLICY",
+      "IRIS-ORDERS",
+      "IRIS-FULFILLMENT",
+      "IRIS-LEDGER"
+    ],
+    "juniper.expected_local_minor": [
+      "OPS-POLICY",
+      "JUNIPER-ORDERS",
+      "JUNIPER-FULFILLMENT"
+    ],
+    "juniper.actual_local_minor": [
+      "OPS-POLICY",
+      "JUNIPER-LEDGER"
+    ],
+    "juniper.overbilled_local_minor": [
+      "OPS-POLICY",
+      "JUNIPER-LEDGER"
+    ],
+    "juniper.underbilled_local_minor": [
+      "OPS-POLICY",
+      "JUNIPER-LEDGER"
+    ],
+    "juniper.overbilled_orders": [
+      "OPS-POLICY",
+      "JUNIPER-LEDGER"
+    ],
+    "juniper.underbilled_orders": [
+      "OPS-POLICY",
+      "JUNIPER-LEDGER"
+    ],
+    "juniper.cancelled_billed_orders": [
+      "OPS-POLICY",
+      "JUNIPER-LEDGER"
+    ],
+    "juniper.duplicate_invoice_orders": [
+      "OPS-POLICY",
+      "JUNIPER-LEDGER"
+    ],
+    "kestrel.expected_local_minor": [
+      "OPS-POLICY",
+      "KESTREL-ORDERS",
+      "KESTREL-FULFILLMENT"
+    ],
+    "kestrel.actual_local_minor": [
+      "OPS-POLICY",
+      "KESTREL-LEDGER"
+    ],
+    "kestrel.overbilled_local_minor": [
+      "OPS-POLICY",
+      "KESTREL-ORDERS",
+      "KESTREL-FULFILLMENT",
+      "KESTREL-LEDGER"
+    ],
+    "kestrel.underbilled_local_minor": [
+      "OPS-POLICY",
+      "KESTREL-ORDERS",
+      "KESTREL-FULFILLMENT",
+      "KESTREL-LEDGER"
+    ],
+    "kestrel.overbilled_orders": [
+      "OPS-POLICY",
+      "KESTREL-ORDERS",
+      "KESTREL-FULFILLMENT",
+      "KESTREL-LEDGER"
+    ],
+    "kestrel.underbilled_orders": [
+      "OPS-POLICY",
+      "KESTREL-ORDERS",
+      "KESTREL-FULFILLMENT",
+      "KESTREL-LEDGER"
+    ],
+    "kestrel.cancelled_billed_orders": [
+      "OPS-POLICY",
+      "KESTREL-ORDERS",
+      "KESTREL-FULFILLMENT",
+      "KESTREL-LEDGER"
+    ],
+    "kestrel.duplicate_invoice_orders": [
+      "OPS-POLICY",
+      "KESTREL-ORDERS",
+      "KESTREL-FULFILLMENT",
+      "KESTREL-LEDGER"
+    ],
+    "all.expected_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.actual_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.overbilled_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.underbilled_usd_cents": [
+      "OPS-POLICY"
+    ],
+    "all.hold_billing": [
+      "OPS-POLICY"
+    ]
+  },
+  "findings": [
+    "iris.cancelled_billed",
+    "iris.duplicate_invoices",
+    "iris.overbilled",
+    "iris.underbilled",
+    "juniper.incomplete_ledger",
+    "kestrel.cancelled_billed",
+    "kestrel.duplicate_invoices",
+    "kestrel.overbilled",
+    "kestrel.underbilled"
+  ],
+  "finding_sources": {
+    "iris.overbilled": [
+      "OPS-POLICY",
+      "IRIS-ORDERS",
+      "IRIS-FULFILLMENT",
+      "IRIS-LEDGER"
+    ],
+    "iris.underbilled": [
+      "OPS-POLICY",
+      "IRIS-ORDERS",
+      "IRIS-FULFILLMENT",
+      "IRIS-LEDGER"
+    ],
+    "iris.cancelled_billed": [
+      "OPS-POLICY",
+      "IRIS-ORDERS",
+      "IRIS-FULFILLMENT",
+      "IRIS-LEDGER"
+    ],
+    "iris.duplicate_invoices": [
+      "OPS-POLICY",
+      "IRIS-ORDERS",
+      "IRIS-FULFILLMENT",
+      "IRIS-LEDGER"
+    ],
+    "juniper.incomplete_ledger": [
+      "OPS-POLICY",
+      "JUNIPER-LEDGER"
+    ],
+    "kestrel.overbilled": [
+      "OPS-POLICY",
+      "KESTREL-ORDERS",
+      "KESTREL-FULFILLMENT",
+      "KESTREL-LEDGER"
+    ],
+    "kestrel.underbilled": [
+      "OPS-POLICY",
+      "KESTREL-ORDERS",
+      "KESTREL-FULFILLMENT",
+      "KESTREL-LEDGER"
+    ],
+    "kestrel.cancelled_billed": [
+      "OPS-POLICY",
+      "KESTREL-ORDERS",
+      "KESTREL-FULFILLMENT",
+      "KESTREL-LEDGER"
+    ],
+    "kestrel.duplicate_invoices": [
+      "OPS-POLICY",
+      "KESTREL-ORDERS",
+      "KESTREL-FULFILLMENT",
+      "KESTREL-LEDGER"
+    ]
+  },
+  "diagnostic": {
+    "per_order": [
+      {
+        "order_id": "iris-101",
+        "net_fulfilled_qty": 8,
+        "expected": 11130,
+        "actual": 11925,
+        "overbilled": 795,
+        "underbilled": 0
+      },
+      {
+        "order_id": "iris-102",
+        "net_fulfilled_qty": 9,
+        "expected": 11943,
+        "actual": 11943,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "iris-103",
+        "net_fulfilled_qty": 8,
+        "expected": 8580,
+        "actual": 8580,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "iris-104",
+        "net_fulfilled_qty": 7,
+        "expected": 7900,
+        "actual": 7900,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "iris-105",
+        "net_fulfilled_qty": 0,
+        "expected": 0,
+        "actual": 10352,
+        "overbilled": 10352,
+        "underbilled": 0
+      },
+      {
+        "order_id": "iris-106",
+        "net_fulfilled_qty": 8,
+        "expected": 10496,
+        "actual": 20992,
+        "overbilled": 10496,
+        "underbilled": 0
+      },
+      {
+        "order_id": "iris-107",
+        "net_fulfilled_qty": 6,
+        "expected": 10670,
+        "actual": 8846,
+        "overbilled": 0,
+        "underbilled": 1824
+      },
+      {
+        "order_id": "iris-108",
+        "net_fulfilled_qty": 11,
+        "expected": 19071,
+        "actual": 19071,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "iris-109",
+        "net_fulfilled_qty": 12,
+        "expected": 14952,
+        "actual": 15664,
+        "overbilled": 712,
+        "underbilled": 0
+      },
+      {
+        "order_id": "iris-110",
+        "net_fulfilled_qty": 3,
+        "expected": 5163,
+        "actual": 5163,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "iris-111",
+        "net_fulfilled_qty": 11,
+        "expected": 19755,
+        "actual": 19755,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "iris-112",
+        "net_fulfilled_qty": 13,
+        "expected": 8694,
+        "actual": 8694,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "juniper-101",
+        "net_fulfilled_qty": 8,
+        "expected": 4072,
+        "actual": null,
+        "overbilled": null,
+        "underbilled": null
+      },
+      {
+        "order_id": "juniper-102",
+        "net_fulfilled_qty": 3,
+        "expected": 1454,
+        "actual": null,
+        "overbilled": null,
+        "underbilled": null
+      },
+      {
+        "order_id": "juniper-103",
+        "net_fulfilled_qty": 0,
+        "expected": 0,
+        "actual": null,
+        "overbilled": null,
+        "underbilled": null
+      },
+      {
+        "order_id": "juniper-104",
+        "net_fulfilled_qty": 10,
+        "expected": 11603,
+        "actual": null,
+        "overbilled": null,
+        "underbilled": null
+      },
+      {
+        "order_id": "juniper-105",
+        "net_fulfilled_qty": 8,
+        "expected": 13528,
+        "actual": null,
+        "overbilled": null,
+        "underbilled": null
+      },
+      {
+        "order_id": "juniper-106",
+        "net_fulfilled_qty": 7,
+        "expected": 9152,
+        "actual": null,
+        "overbilled": null,
+        "underbilled": null
+      },
+      {
+        "order_id": "juniper-107",
+        "net_fulfilled_qty": 4,
+        "expected": 5457,
+        "actual": null,
+        "overbilled": null,
+        "underbilled": null
+      },
+      {
+        "order_id": "juniper-108",
+        "net_fulfilled_qty": 10,
+        "expected": 11498,
+        "actual": null,
+        "overbilled": null,
+        "underbilled": null
+      },
+      {
+        "order_id": "juniper-109",
+        "net_fulfilled_qty": 10,
+        "expected": 7770,
+        "actual": null,
+        "overbilled": null,
+        "underbilled": null
+      },
+      {
+        "order_id": "juniper-110",
+        "net_fulfilled_qty": 6,
+        "expected": 8237,
+        "actual": null,
+        "overbilled": null,
+        "underbilled": null
+      },
+      {
+        "order_id": "juniper-111",
+        "net_fulfilled_qty": 4,
+        "expected": 1938,
+        "actual": null,
+        "overbilled": null,
+        "underbilled": null
+      },
+      {
+        "order_id": "juniper-112",
+        "net_fulfilled_qty": 13,
+        "expected": 8486,
+        "actual": null,
+        "overbilled": null,
+        "underbilled": null
+      },
+      {
+        "order_id": "kestrel-101",
+        "net_fulfilled_qty": 0,
+        "expected": 0,
+        "actual": 3656,
+        "overbilled": 3656,
+        "underbilled": 0
+      },
+      {
+        "order_id": "kestrel-102",
+        "net_fulfilled_qty": 13,
+        "expected": 11955,
+        "actual": 11955,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "kestrel-103",
+        "net_fulfilled_qty": 8,
+        "expected": 10150,
+        "actual": 10150,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "kestrel-104",
+        "net_fulfilled_qty": 9,
+        "expected": 16083,
+        "actual": 32166,
+        "overbilled": 16083,
+        "underbilled": 0
+      },
+      {
+        "order_id": "kestrel-105",
+        "net_fulfilled_qty": 9,
+        "expected": 15277,
+        "actual": 13536,
+        "overbilled": 0,
+        "underbilled": 1741
+      },
+      {
+        "order_id": "kestrel-106",
+        "net_fulfilled_qty": 9,
+        "expected": 13937,
+        "actual": 13937,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "kestrel-107",
+        "net_fulfilled_qty": 10,
+        "expected": 8015,
+        "actual": 8473,
+        "overbilled": 458,
+        "underbilled": 0
+      },
+      {
+        "order_id": "kestrel-108",
+        "net_fulfilled_qty": 9,
+        "expected": 6579,
+        "actual": 6579,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "kestrel-109",
+        "net_fulfilled_qty": 11,
+        "expected": 8054,
+        "actual": 8054,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "kestrel-110",
+        "net_fulfilled_qty": 10,
+        "expected": 8009,
+        "actual": 8009,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "kestrel-111",
+        "net_fulfilled_qty": 9,
+        "expected": 6080,
+        "actual": 6080,
+        "overbilled": 0,
+        "underbilled": 0
+      },
+      {
+        "order_id": "kestrel-112",
+        "net_fulfilled_qty": 0,
+        "expected": 0,
+        "actual": 5992,
+        "overbilled": 5992,
+        "underbilled": 0
+      }
+    ],
+    "known_over_usd": 57185,
+    "known_cancel": 3
+  }
+}

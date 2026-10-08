@@ -1,0 +1,153 @@
+{
+  "case_id": "procurement-uncertain",
+  "domain": "procurement",
+  "profile": "uncertain",
+  "title": "4-vendor contractual selection over 3 years",
+  "task": "Assess vendors vector, willow, xenon, yarrow against the buyer's mandatory requirements at cutoff. Apply only effective executed amendments, compute full-horizon costs, and select the cheapest eligible vendor or explicitly decline selection. Distinguish contractual unknowns from marketing claims.",
+  "documents": [
+    {
+      "id": "BUY-POLICY",
+      "title": "Executed buyer requirements and pricing method",
+      "path": "evidence/BUY-POLICY.json"
+    },
+    {
+      "id": "BUY-DEMAND",
+      "title": "Frozen buyer monthly seats and usage",
+      "path": "evidence/BUY-DEMAND.json"
+    },
+    {
+      "id": "VECTOR-ANNEX",
+      "title": "vector signed operating annex",
+      "path": "evidence/VECTOR-ANNEX.json"
+    },
+    {
+      "id": "VECTOR-FEES",
+      "title": "vector signed price schedule",
+      "path": "evidence/VECTOR-FEES.json"
+    },
+    {
+      "id": "VECTOR-AMENDMENTS",
+      "title": "vector effective-date amendment register",
+      "path": "evidence/VECTOR-AMENDMENTS.json"
+    },
+    {
+      "id": "VECTOR-PROPOSAL",
+      "title": "vector draft price and recovery simulation",
+      "path": "evidence/VECTOR-PROPOSAL.json"
+    },
+    {
+      "id": "WILLOW-ANNEX",
+      "title": "willow signed operating annex",
+      "path": "evidence/WILLOW-ANNEX.json"
+    },
+    {
+      "id": "WILLOW-FEES",
+      "title": "willow signed price schedule",
+      "path": "evidence/WILLOW-FEES.json"
+    },
+    {
+      "id": "WILLOW-AMENDMENTS",
+      "title": "willow effective-date amendment register",
+      "path": "evidence/WILLOW-AMENDMENTS.json"
+    },
+    {
+      "id": "WILLOW-PROPOSAL",
+      "title": "willow draft price and recovery simulation",
+      "path": "evidence/WILLOW-PROPOSAL.json"
+    },
+    {
+      "id": "XENON-ANNEX",
+      "title": "xenon signed operating annex",
+      "path": "evidence/XENON-ANNEX.json"
+    },
+    {
+      "id": "XENON-FEES",
+      "title": "xenon signed price schedule",
+      "path": "evidence/XENON-FEES.json"
+    },
+    {
+      "id": "XENON-AMENDMENTS",
+      "title": "xenon effective-date amendment register",
+      "path": "evidence/XENON-AMENDMENTS.json"
+    },
+    {
+      "id": "XENON-PROPOSAL",
+      "title": "xenon draft price and recovery simulation",
+      "path": "evidence/XENON-PROPOSAL.json"
+    },
+    {
+      "id": "YARROW-ANNEX",
+      "title": "yarrow signed operating annex",
+      "path": "evidence/YARROW-ANNEX.json"
+    },
+    {
+      "id": "YARROW-FEES",
+      "title": "yarrow signed price schedule",
+      "path": "evidence/YARROW-FEES.json"
+    },
+    {
+      "id": "YARROW-AMENDMENTS",
+      "title": "yarrow effective-date amendment register",
+      "path": "evidence/YARROW-AMENDMENTS.json"
+    },
+    {
+      "id": "YARROW-PROPOSAL",
+      "title": "yarrow draft price and recovery simulation",
+      "path": "evidence/YARROW-PROPOSAL.json"
+    }
+  ],
+  "requested_fact_names": [
+    "vector.eu_processing_pass",
+    "vector.uptime_pass",
+    "vector.capacity_pass",
+    "vector.delivery_pass",
+    "vector.contractual_rto_pass",
+    "vector.eligibility",
+    "vector.hardware_cents",
+    "vector.setup_cents",
+    "vector.subscription_cents",
+    "vector.support_cents",
+    "vector.usage_cents",
+    "vector.tco_cents",
+    "willow.eu_processing_pass",
+    "willow.uptime_pass",
+    "willow.capacity_pass",
+    "willow.delivery_pass",
+    "willow.contractual_rto_pass",
+    "willow.eligibility",
+    "willow.hardware_cents",
+    "willow.setup_cents",
+    "willow.subscription_cents",
+    "willow.support_cents",
+    "willow.usage_cents",
+    "willow.tco_cents",
+    "xenon.eu_processing_pass",
+    "xenon.uptime_pass",
+    "xenon.capacity_pass",
+    "xenon.delivery_pass",
+    "xenon.contractual_rto_pass",
+    "xenon.eligibility",
+    "xenon.hardware_cents",
+    "xenon.setup_cents",
+    "xenon.subscription_cents",
+    "xenon.support_cents",
+    "xenon.usage_cents",
+    "xenon.tco_cents",
+    "yarrow.eu_processing_pass",
+    "yarrow.uptime_pass",
+    "yarrow.capacity_pass",
+    "yarrow.delivery_pass",
+    "yarrow.contractual_rto_pass",
+    "yarrow.eligibility",
+    "yarrow.hardware_cents",
+    "yarrow.setup_cents",
+    "yarrow.subscription_cents",
+    "yarrow.support_cents",
+    "yarrow.usage_cents",
+    "yarrow.tco_cents",
+    "all.selected_vendor",
+    "all.selected_tco_cents",
+    "all.eligible_count"
+  ],
+  "finding_key_format": "For each mandatory failure/unknown: <vendor>.<requirement>.fail or .unknown. Requirements eu_processing, uptime, capacity, delivery, contractual_rto. No passing requirements or other keys."
+}

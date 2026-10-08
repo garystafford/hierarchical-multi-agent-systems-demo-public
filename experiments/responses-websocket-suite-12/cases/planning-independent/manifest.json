@@ -1,0 +1,36 @@
+{
+  "agent_visible_files": [
+    "index.json",
+    "evidence/PLAN-POLICY.json",
+    "evidence/PLAN-CALENDAR.json",
+    "evidence/AURORA-TASKS.json",
+    "evidence/AURORA-CHANGES.json",
+    "evidence/AURORA-ACCESS.json",
+    "evidence/AURORA-BASELINE.json",
+    "evidence/BRISTOL-TASKS.json",
+    "evidence/BRISTOL-CHANGES.json",
+    "evidence/BRISTOL-ACCESS.json",
+    "evidence/BRISTOL-BASELINE.json",
+    "evidence/COBALT-TASKS.json",
+    "evidence/COBALT-CHANGES.json",
+    "evidence/COBALT-ACCESS.json",
+    "evidence/COBALT-BASELINE.json"
+  ],
+  "agent_visible_sha256": {
+    "index.json": "073fce4c3db2fa5f2a9087bd69e5bbd6ca7681a73c40c9bd8f806f1c9f2fca1d",
+    "evidence/PLAN-POLICY.json": "771f19cc0c3fb7ff371b49f0fdf12539a00948047452c4cc2a65bbbb8d490c9a",
+    "evidence/PLAN-CALENDAR.json": "bf60955a039f76533e3fbe3566b97d9f783a21355708d7aac0d73e3ce6621345",
+    "evidence/AURORA-TASKS.json": "03c06f42c8e13b6649e14a19d3582cc8cf6e41f02dbef9feb35954e9d48ec3a0",
+    "evidence/AURORA-CHANGES.json": "44509625d4b577ceb0267af289f561171214fa65e88b0e86347f6b43aa7438bc",
+    "evidence/AURORA-ACCESS.json": "8c0abecf3845ad8cab812062f638f2bd51107dc3603224a132d8737ee4c436b4",
+    "evidence/AURORA-BASELINE.json": "9360126a6d99b8e5ad75a87a110193438a8cacb4b1bee9b611f28257f39f3b37",
+    "evidence/BRISTOL-TASKS.json": "ece01e1c6547eb2d4656db6a471fc557f777b3926300366bf3eb7957325a51ff",
+    "evidence/BRISTOL-CHANGES.json": "86cea5ed57a8c4f94b2db234eb005ebf42d591b2df682722b7e01eca138a287f",
+    "evidence/BRISTOL-ACCESS.json": "82fc185b7d9897403b82da3b7141aea7081af2bdf53b2f714f79734bbe3c1d2a",
+    "evidence/BRISTOL-BASELINE.json": "538e305734033c29bc01bd4341efc20598579a229808c2f477ba0e2a3d5def60",
+    "evidence/COBALT-TASKS.json": "e95bce3baf1953d36e92a50b35b963ba05c737b561442efc82c18ea9cc9ce079",
+    "evidence/COBALT-CHANGES.json": "353be361d4ac7f287ad1ebc0648d2bd625c7fddf5a0ba8843ac1fab72d4a7783",
+    "evidence/COBALT-ACCESS.json": "cbbe0d641d8225aeb42e1e8b252fb9c969d35402e932b6f225ac5a06159ca643",
+    "evidence/COBALT-BASELINE.json": "6ac7fb088920b0b7f7c4dc8a7bec10d14f76fe0e6ec0f4c074910bffdc5bfa2d"
+  }
+}

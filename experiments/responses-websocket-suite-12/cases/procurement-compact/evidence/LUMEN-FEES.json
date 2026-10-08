@@ -1,0 +1,22 @@
+{
+  "id": "LUMEN-FEES",
+  "title": "lumen signed price schedule",
+  "vendor": "lumen",
+  "status": "signed",
+  "hardware_cents": 950000,
+  "volume_discount_bps": 700,
+  "promo_discount_bps": 250,
+  "integration_cents": {
+    "ERP": 75000,
+    "WMS": 64000,
+    "analytics": 430000
+  },
+  "implementation_cents": 150000,
+  "seat_monthly_cents_by_year": [
+    358,
+    287
+  ],
+  "support_basis_points": 650,
+  "free_units_per_month": 9000,
+  "overage_cents_per_unit": 2
+}

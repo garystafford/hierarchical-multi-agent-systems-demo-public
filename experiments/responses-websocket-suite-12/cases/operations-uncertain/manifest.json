@@ -1,0 +1,34 @@
+{
+  "agent_visible_files": [
+    "index.json",
+    "evidence/OPS-POLICY.json",
+    "evidence/IRIS-ORDERS.json",
+    "evidence/IRIS-FULFILLMENT.json",
+    "evidence/IRIS-LEDGER.json",
+    "evidence/IRIS-SUMMARY.json",
+    "evidence/JUNIPER-ORDERS.json",
+    "evidence/JUNIPER-FULFILLMENT.json",
+    "evidence/JUNIPER-LEDGER.json",
+    "evidence/JUNIPER-SUMMARY.json",
+    "evidence/KESTREL-ORDERS.json",
+    "evidence/KESTREL-FULFILLMENT.json",
+    "evidence/KESTREL-LEDGER.json",
+    "evidence/KESTREL-SUMMARY.json"
+  ],
+  "agent_visible_sha256": {
+    "index.json": "a67cae888f1b4bf8e2ae05560a23d4f872ba0295b63ea43dbf8e3e3963191acb",
+    "evidence/OPS-POLICY.json": "6190d9ff33db6f11b638dd40ad602a85ede2ec13cb64dac3d16531df893cfa60",
+    "evidence/IRIS-ORDERS.json": "d1b450c31628e0dc93d6cc332ecaabbd9ee8047981e95c1d84e1d9822f366059",
+    "evidence/IRIS-FULFILLMENT.json": "7fdfdf6a8c1e79940b945b317700e6ee4ef3b163e135361c90e6633fc8519c48",
+    "evidence/IRIS-LEDGER.json": "67e5b1bb95bab252ec609cc59acd0403be5cb564476532b24a647bd42e3dce6c",
+    "evidence/IRIS-SUMMARY.json": "bef79f2ce0c2ce502db7485273003879618caf8019e3f9b2494925938cb86a76",
+    "evidence/JUNIPER-ORDERS.json": "eedff49a95135cc810260983e1bde8e93b7bdbd381b4d0c108173f948a06ce40",
+    "evidence/JUNIPER-FULFILLMENT.json": "006d3b29c4119be5d89e81db8910e2cb893fed64332be7ccf7c16dbb93ebd436",
+    "evidence/JUNIPER-LEDGER.json": "f46b18034c04e0e8427394b08fbf7f28b9637bfe52a1765b0fc22efab586bf5d",
+    "evidence/JUNIPER-SUMMARY.json": "d6d2f29481447701a8f24e4a31c5232ece9d6e60b9e579f57a31f04f7ffcf9c7",
+    "evidence/KESTREL-ORDERS.json": "87444132b3a8f1dbb8b1f8dacde56a6060c86eacca415b4ec5ad26bd896f9d65",
+    "evidence/KESTREL-FULFILLMENT.json": "5c94099410b79ba752bcf326a687cc5b9478ef0d5069be1ae13f527fd1fef18d",
+    "evidence/KESTREL-LEDGER.json": "646552d089e838ff05a7872609d14a96bfe7621f0a05f5a4460c31866d0e9b3e",
+    "evidence/KESTREL-SUMMARY.json": "f7d24063090df455ca87b116c2cd6064388e8de5bb812c32a29670fc195e7d9c"
+  }
+}

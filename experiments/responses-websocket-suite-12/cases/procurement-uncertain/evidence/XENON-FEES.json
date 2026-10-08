@@ -1,0 +1,23 @@
+{
+  "id": "XENON-FEES",
+  "title": "xenon signed price schedule",
+  "vendor": "xenon",
+  "status": "signed",
+  "hardware_cents": 1399000,
+  "volume_discount_bps": 900,
+  "promo_discount_bps": 500,
+  "integration_cents": {
+    "ERP": 85000,
+    "WMS": 81000,
+    "analytics": 430000
+  },
+  "implementation_cents": 182000,
+  "seat_monthly_cents_by_year": [
+    303,
+    372,
+    364
+  ],
+  "support_basis_points": 750,
+  "free_units_per_month": 9750,
+  "overage_cents_per_unit": 4
+}

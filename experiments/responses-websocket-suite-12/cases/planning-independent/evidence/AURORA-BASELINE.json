@@ -1,0 +1,21 @@
+{
+  "id": "AURORA-BASELINE",
+  "title": "aurora obsolete planning estimate",
+  "status": "unexecuted estimate",
+  "inspection_start": 8,
+  "durations": {
+    "survey": 2,
+    "permits": 3,
+    "supplies": 4,
+    "electrical": 2,
+    "network": 2,
+    "delivery": 1,
+    "install": 3,
+    "integration": 1,
+    "inspection": 1,
+    "remediation": 1,
+    "training": 2,
+    "open": 2
+  },
+  "estimated_open_day": 11
+}

@@ -1,0 +1,106 @@
+{
+  "case_id": "operations-independent",
+  "domain": "operations",
+  "profile": "independent",
+  "title": "3-branch settlement at cutoff 28",
+  "task": "Reconcile settlement for bayside, canyon, delta at the signed policy cutoff. Compute all requested branch and USD facts, summarize supported branch-level issues, and decide whether billing must be held. Respect incomplete feeds and source authority.",
+  "documents": [
+    {
+      "id": "OPS-POLICY",
+      "title": "Executed settlement policy",
+      "path": "evidence/OPS-POLICY.json"
+    },
+    {
+      "id": "BAYSIDE-ORDERS",
+      "title": "bayside signed order ledger",
+      "path": "evidence/BAYSIDE-ORDERS.json"
+    },
+    {
+      "id": "BAYSIDE-FULFILLMENT",
+      "title": "bayside raw fulfillment export",
+      "path": "evidence/BAYSIDE-FULFILLMENT.json"
+    },
+    {
+      "id": "BAYSIDE-LEDGER",
+      "title": "bayside posted settlement feed",
+      "path": "evidence/BAYSIDE-LEDGER.json"
+    },
+    {
+      "id": "BAYSIDE-SUMMARY",
+      "title": "bayside provisional management dashboard",
+      "path": "evidence/BAYSIDE-SUMMARY.json"
+    },
+    {
+      "id": "CANYON-ORDERS",
+      "title": "canyon signed order ledger",
+      "path": "evidence/CANYON-ORDERS.json"
+    },
+    {
+      "id": "CANYON-FULFILLMENT",
+      "title": "canyon raw fulfillment export",
+      "path": "evidence/CANYON-FULFILLMENT.json"
+    },
+    {
+      "id": "CANYON-LEDGER",
+      "title": "canyon posted settlement feed",
+      "path": "evidence/CANYON-LEDGER.json"
+    },
+    {
+      "id": "CANYON-SUMMARY",
+      "title": "canyon provisional management dashboard",
+      "path": "evidence/CANYON-SUMMARY.json"
+    },
+    {
+      "id": "DELTA-ORDERS",
+      "title": "delta signed order ledger",
+      "path": "evidence/DELTA-ORDERS.json"
+    },
+    {
+      "id": "DELTA-FULFILLMENT",
+      "title": "delta raw fulfillment export",
+      "path": "evidence/DELTA-FULFILLMENT.json"
+    },
+    {
+      "id": "DELTA-LEDGER",
+      "title": "delta posted settlement feed",
+      "path": "evidence/DELTA-LEDGER.json"
+    },
+    {
+      "id": "DELTA-SUMMARY",
+      "title": "delta provisional management dashboard",
+      "path": "evidence/DELTA-SUMMARY.json"
+    }
+  ],
+  "requested_fact_names": [
+    "bayside.expected_local_minor",
+    "bayside.actual_local_minor",
+    "bayside.overbilled_local_minor",
+    "bayside.underbilled_local_minor",
+    "bayside.overbilled_orders",
+    "bayside.underbilled_orders",
+    "bayside.cancelled_billed_orders",
+    "bayside.duplicate_invoice_orders",
+    "canyon.expected_local_minor",
+    "canyon.actual_local_minor",
+    "canyon.overbilled_local_minor",
+    "canyon.underbilled_local_minor",
+    "canyon.overbilled_orders",
+    "canyon.underbilled_orders",
+    "canyon.cancelled_billed_orders",
+    "canyon.duplicate_invoice_orders",
+    "delta.expected_local_minor",
+    "delta.actual_local_minor",
+    "delta.overbilled_local_minor",
+    "delta.underbilled_local_minor",
+    "delta.overbilled_orders",
+    "delta.underbilled_orders",
+    "delta.cancelled_billed_orders",
+    "delta.duplicate_invoice_orders",
+    "all.expected_usd_cents",
+    "all.actual_usd_cents",
+    "all.overbilled_usd_cents",
+    "all.underbilled_usd_cents",
+    "all.hold_billing"
+  ],
+  "finding_key_format": "Branch-level keys only: <branch>.overbilled, <branch>.underbilled, <branch>.cancelled_billed, <branch>.duplicate_invoices, <branch>.incomplete_ledger. No order-level keys or other findings."
+}

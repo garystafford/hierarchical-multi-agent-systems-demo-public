@@ -1,0 +1,9 @@
+{
+  "id": "HARBOR-ACCESS",
+  "title": "harbor inspector access window",
+  "hub": "harbor",
+  "available_starts": [
+    17,
+    18
+  ]
+}

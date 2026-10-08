@@ -1,0 +1,143 @@
+{
+  "id": "BAYSIDE-FULFILLMENT",
+  "title": "bayside raw fulfillment export",
+  "branch": "bayside",
+  "shipments": [
+    {
+      "shipment_id": "bayside-101-a",
+      "order_id": "bayside-101",
+      "day": 20,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "bayside-101-b",
+      "order_id": "bayside-101",
+      "day": 26,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "bayside-102-a",
+      "order_id": "bayside-102",
+      "day": 20,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "bayside-102-b",
+      "order_id": "bayside-102",
+      "day": 26,
+      "quantity": 7
+    },
+    {
+      "shipment_id": "bayside-103-a",
+      "order_id": "bayside-103",
+      "day": 20,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "bayside-103-b",
+      "order_id": "bayside-103",
+      "day": 26,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "bayside-104-a",
+      "order_id": "bayside-104",
+      "day": 20,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "bayside-104-b",
+      "order_id": "bayside-104",
+      "day": 26,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "bayside-106-a",
+      "order_id": "bayside-106",
+      "day": 20,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "bayside-106-b",
+      "order_id": "bayside-106",
+      "day": 26,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "bayside-107-a",
+      "order_id": "bayside-107",
+      "day": 20,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "bayside-107-b",
+      "order_id": "bayside-107",
+      "day": 26,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "bayside-108-a",
+      "order_id": "bayside-108",
+      "day": 20,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "bayside-108-b",
+      "order_id": "bayside-108",
+      "day": 26,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "bayside-109-a",
+      "order_id": "bayside-109",
+      "day": 20,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "bayside-109-b",
+      "order_id": "bayside-109",
+      "day": 26,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "bayside-110-a",
+      "order_id": "bayside-110",
+      "day": 20,
+      "quantity": 1
+    },
+    {
+      "shipment_id": "bayside-110-b",
+      "order_id": "bayside-110",
+      "day": 26,
+      "quantity": 1
+    },
+    {
+      "shipment_id": "bayside-111-a",
+      "order_id": "bayside-111",
+      "day": 20,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "bayside-111-b",
+      "order_id": "bayside-111",
+      "day": 26,
+      "quantity": 2
+    }
+  ],
+  "returns": [
+    {
+      "return_id": "bayside-104-r1",
+      "order_id": "bayside-104",
+      "day": 27,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "bayside-110-r1",
+      "order_id": "bayside-110",
+      "day": 27,
+      "quantity": 1,
+      "status": "accepted"
+    }
+  ]
+}

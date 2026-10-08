@@ -1,0 +1,323 @@
+{
+  "id": "IRIS-FULFILLMENT",
+  "title": "iris raw fulfillment export",
+  "branch": "iris",
+  "shipments": [
+    {
+      "shipment_id": "iris-101-a",
+      "order_id": "iris-101",
+      "day": 18,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "iris-101-b",
+      "order_id": "iris-101",
+      "day": 24,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "iris-102-a",
+      "order_id": "iris-102",
+      "day": 18,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "iris-102-b",
+      "order_id": "iris-102",
+      "day": 24,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "iris-103-a",
+      "order_id": "iris-103",
+      "day": 18,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "iris-103-b",
+      "order_id": "iris-103",
+      "day": 24,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "iris-104-a",
+      "order_id": "iris-104",
+      "day": 18,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "iris-104-b",
+      "order_id": "iris-104",
+      "day": 24,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "iris-106-a",
+      "order_id": "iris-106",
+      "day": 18,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "iris-106-b",
+      "order_id": "iris-106",
+      "day": 24,
+      "quantity": 4
+    },
+    {
+      "shipment_id": "iris-107-a",
+      "order_id": "iris-107",
+      "day": 18,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "iris-107-b",
+      "order_id": "iris-107",
+      "day": 24,
+      "quantity": 3
+    },
+    {
+      "shipment_id": "iris-108-a",
+      "order_id": "iris-108",
+      "day": 18,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "iris-108-b",
+      "order_id": "iris-108",
+      "day": 24,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "iris-109-a",
+      "order_id": "iris-109",
+      "day": 18,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "iris-109-b",
+      "order_id": "iris-109",
+      "day": 24,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "iris-110-a",
+      "order_id": "iris-110",
+      "day": 18,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "iris-110-b",
+      "order_id": "iris-110",
+      "day": 24,
+      "quantity": 2
+    },
+    {
+      "shipment_id": "iris-111-a",
+      "order_id": "iris-111",
+      "day": 18,
+      "quantity": 5
+    },
+    {
+      "shipment_id": "iris-111-b",
+      "order_id": "iris-111",
+      "day": 24,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "iris-112-a",
+      "order_id": "iris-112",
+      "day": 18,
+      "quantity": 6
+    },
+    {
+      "shipment_id": "iris-112-b",
+      "order_id": "iris-112",
+      "day": 24,
+      "quantity": 7
+    }
+  ],
+  "returns": [
+    {
+      "return_id": "iris-101-r2",
+      "order_id": "iris-101",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-101-r3",
+      "order_id": "iris-101",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "iris-102-r2",
+      "order_id": "iris-102",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-102-r3",
+      "order_id": "iris-102",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "iris-103-r2",
+      "order_id": "iris-103",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-103-r3",
+      "order_id": "iris-103",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "iris-104-r1",
+      "order_id": "iris-104",
+      "day": 25,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-104-r2",
+      "order_id": "iris-104",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-104-r3",
+      "order_id": "iris-104",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "iris-105-r2",
+      "order_id": "iris-105",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-105-r3",
+      "order_id": "iris-105",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "iris-106-r2",
+      "order_id": "iris-106",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-106-r3",
+      "order_id": "iris-106",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "iris-107-r2",
+      "order_id": "iris-107",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-107-r3",
+      "order_id": "iris-107",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "iris-108-r2",
+      "order_id": "iris-108",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-108-r3",
+      "order_id": "iris-108",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "iris-109-r2",
+      "order_id": "iris-109",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-109-r3",
+      "order_id": "iris-109",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "iris-110-r1",
+      "order_id": "iris-110",
+      "day": 25,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-110-r2",
+      "order_id": "iris-110",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-110-r3",
+      "order_id": "iris-110",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "iris-111-r2",
+      "order_id": "iris-111",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-111-r3",
+      "order_id": "iris-111",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    },
+    {
+      "return_id": "iris-112-r2",
+      "order_id": "iris-112",
+      "day": 28,
+      "quantity": 1,
+      "status": "accepted"
+    },
+    {
+      "return_id": "iris-112-r3",
+      "order_id": "iris-112",
+      "day": 25,
+      "quantity": 1,
+      "status": "rejected"
+    }
+  ]
+}
