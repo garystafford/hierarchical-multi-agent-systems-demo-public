@@ -6,6 +6,14 @@ The model decides whether to delegate, what to assign, and how many subagents an
 
 This repository contains the implementation, twelve demo tasks, scoring and offline tests. Executing the study generates fresh local results. Saved results and figures from the article are not bundled.
 
+## Delegation previews
+
+These conceptual illustrations show optional delegation, rather than an observed study run or a prescribed team.
+
+![Animated overview of a root agent delegating work to subagents and synthesizing their results](assets/diagram_01.gif)
+
+![Conceptual delegation hierarchy showing the root agent owning the final report, three subagents and an optional nested verifier](assets/diagram_02.png)
+
 ## Setup
 
 Use Python 3.12 or later. From the repository root:
